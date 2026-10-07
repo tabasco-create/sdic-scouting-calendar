@@ -670,10 +670,10 @@ URL:https://www.sdicscouting.org/events/american-red-cross-lifeguard-class
  -2026
 END:VEVENT
 BEGIN:VEVENT
-UID:nylt-save-the-date-winter-course@sdicscouting.org
+UID:nylt-save-the-date-winter-course-20261228@sdicscouting.org
 DTSTAMP:20261228T000000Z
 DTSTART;VALUE=DATE:20261228
-DTEND;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20261231
 SUMMARY:NYLT - Winter Course
 DESCRIPTION:NYLT - Winter Course\nNYLT\n2 Weekends: December 28-30\, 2026
   & January 16-18\, 2027 (Must Attend Both Weekends)\nNational Youth Lead
@@ -710,25 +710,6 @@ DESCRIPTION:Mataguay Scout Ranch Work Party\nCasitas - Painting\nParticipa
   and Painting\n\nhttps://www.sdicscouting.org/events/msr-work-party-jan
 URL:https://www.sdicscouting.org/events/msr-work-party-jan
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
-END:VEVENT
-BEGIN:VEVENT
-UID:wilderness-and-remote-first-aid-june-2027@sdicscouting.org
-DTSTAMP:20270105T000000Z
-DTSTART;VALUE=DATE:20270105
-DTEND;VALUE=DATE:20270607
-SUMMARY:Wilderness and Remote First Aid
-DESCRIPTION:Wilderness and Remote First Aid\nSave the Date - Required for 
- all High Adventure Treks\nWilderness First Aid (WFA) is the assessment of
-  and treatment given to an ill or injured person in a remote environment 
- where definitive care by a physician and/or rapid transport is not readil
- y available.\nA current basic level certificate in First Aid/CPR/AED cert
- ification is required to participate in the WRFA Course.\nPrice:\n$100\n\
- nhttps://www.sdicscouting.org/events/wilderness-and-remote-first-aid-june
- -2027
-URL:https://www.sdicscouting.org/events/wilderness-and-remote-first-aid-ju
- ne-2027
-LOCATION:San Diego-Imperial Council\, Boy Scouts of America\, 1207 Upas St
- \, San Diego\, CA 92103\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:cope-weekend-2027-1@sdicscouting.org
@@ -2052,21 +2033,6 @@ LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
  o\, CA 92114
 END:VEVENT
 BEGIN:VEVENT
-UID:2027-tiwahe-lodge-fellowship@sdicscouting.org
-DTSTAMP:20271112T000000Z
-DTSTART;VALUE=DATE:20271112
-DTEND;VALUE=DATE:20271115
-SUMMARY:2027 Tiwahe Lodge Fellowship
-DESCRIPTION:2027 Tiwahe Lodge Fellowship\nLodge Fellowship is an annual ev
- ent for all Arrowmen of Tiwahe Lodge. We hold an annual Fall Fellowship\,
-  this year’s agenda is packed with fun activities and training.\n2027 T
- iwahe Lodge Fellowship will be held November 12-14 at Camp Balboa. Join u
- s for Training\, Activities\, and Fellowship!\n\nhttps://www.sdicscouting
- .org/events/2027-tiwahe-lodge-fellowship
-URL:https://www.sdicscouting.org/events/2027-tiwahe-lodge-fellowship
-LOCATION:Camp Balboa\, 1207 Upas Street\, San Diego\, CA 92103
-END:VEVENT
-BEGIN:VEVENT
 UID:cope-weekend-2027-11@sdicscouting.org
 DTSTAMP:20271112T000000Z
 DTSTART;VALUE=DATE:20271112
@@ -2081,6 +2047,21 @@ DESCRIPTION:Project C.O.P.E.\nChallenging Outdoor Personal Experience\nC.O
  s needs.\n\nhttps://www.sdicscouting.org/events/cope-weekend-2027-11
 URL:https://www.sdicscouting.org/events/cope-weekend-2027-11
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-tiwahe-lodge-fellowship@sdicscouting.org
+DTSTAMP:20271112T000000Z
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271115
+SUMMARY:2027 Tiwahe Lodge Fellowship
+DESCRIPTION:2027 Tiwahe Lodge Fellowship\nLodge Fellowship is an annual ev
+ ent for all Arrowmen of Tiwahe Lodge. We hold an annual Fall Fellowship\,
+  this year’s agenda is packed with fun activities and training.\n2027 T
+ iwahe Lodge Fellowship will be held November 12-14 at Camp Balboa. Join u
+ s for Training\, Activities\, and Fellowship!\n\nhttps://www.sdicscouting
+ .org/events/2027-tiwahe-lodge-fellowship
+URL:https://www.sdicscouting.org/events/2027-tiwahe-lodge-fellowship
+LOCATION:Camp Balboa\, 1207 Upas Street\, San Diego\, CA 92103
 END:VEVENT
 BEGIN:VEVENT
 UID:haltt-recert-2-2027@sdicscouting.org
