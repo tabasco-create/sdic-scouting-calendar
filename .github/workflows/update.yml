@@ -17,7 +17,8 @@ jobs:
       - run: python sdic_events_to_ics.py -o docs/sdic_events.ics
       - name: Commit if changed
         run: |
+          date -u +"Last checked: %Y-%m-%d %H:%M UTC" > docs/last-checked.txt
           git config user.name "calendar-bot"
           git config user.email "calendar-bot@users.noreply.github.com"
-          git add docs/sdic_events.ics
+          git add docs/sdic_events.ics docs/last-checked.txt
           git diff --staged --quiet || (git commit -m "Update events" && git push)
