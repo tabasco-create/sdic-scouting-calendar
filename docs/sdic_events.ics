@@ -278,11 +278,11 @@ URL:https://www.sdicscouting.org/events/fall-family-fun
 LOCATION:Mataguay Scout Ranch\, Mataguay Rd\, Santa Ysabel\, CA 92070
 END:VEVENT
 BEGIN:VEVENT
-UID:personal-management-merit-badge-workshop@sdicscouting.org
+UID:personal-management-merit-badge-workshop-20261028@sdicscouting.org
 DTSTAMP:20261028T000000Z
-DTSTART;VALUE=DATE:20261028
-DTEND;VALUE=DATE:20270211
-SUMMARY:Personal Management Merit Badge Workshop
+DTSTART;TZID=America/Los_Angeles:20261028T160000
+DTEND;TZID=America/Los_Angeles:20261028T193000
+SUMMARY:Personal Management Merit Badge Workshop (1/4)
 DESCRIPTION:Personal Management Merit Badge Workshop\nJA Merit Badge\nScou
  ts map their future financial goals and how to achieve them through perso
  nal finance. After completing all three sessions\, scouts will earn their
@@ -608,6 +608,25 @@ LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
  o\, CA 92109
 END:VEVENT
 BEGIN:VEVENT
+UID:personal-management-merit-badge-workshop-20261209@sdicscouting.org
+DTSTAMP:20261209T000000Z
+DTSTART;TZID=America/Los_Angeles:20261209T160000
+DTEND;TZID=America/Los_Angeles:20261209T193000
+SUMMARY:Personal Management Merit Badge Workshop (2/4)
+DESCRIPTION:Personal Management Merit Badge Workshop\nJA Merit Badge\nScou
+ ts map their future financial goals and how to achieve them through perso
+ nal finance. After completing all three sessions\, scouts will earn their
+  Personal Management Merit Badge!\nWORKSHOP SESSION DATES\nSession 1: Wor
+ kbook\nWed\, October 28\, 2026 from 4:00-7:30 PM\nSession 2: Simulation\n
+ Wed\, December 9\, 2026 from 4:00-7:30 PM\nSession 3: Testing\nScouts wil
+ l select a 1-hour timeslot for their testing\nsession from the following 
+ time windows:\nTues\, February 9\, 2027 from 3:00-6:00 PM\nWed\, February
+  10\, 2027 10 from 3:00-6:00 PM\n‍\n‍\n\nhttps://www.sdicscouting.org
+ /events/personal-management-merit-badge-workshop
+URL:https://www.sdicscouting.org/events/personal-management-merit-badge-wo
+ rkshop
+END:VEVENT
+BEGIN:VEVENT
 UID:cope-weekend-2026-9@sdicscouting.org
 DTSTAMP:20261211T000000Z
 DTSTART;VALUE=DATE:20261211
@@ -855,6 +874,44 @@ DESCRIPTION:HALTT Session II\nThis 40-hour course prepares unit leaders fo
 URL:https://www.sdicscouting.org/events/haltt-session-2-feb-2027
 LOCATION:Northminster Presbyterian Church\, 4324 Clairemont Mesa Blvd\, Sa
  n Diego\, CA 92122
+END:VEVENT
+BEGIN:VEVENT
+UID:personal-management-merit-badge-workshop-20270209@sdicscouting.org
+DTSTAMP:20270209T000000Z
+DTSTART;TZID=America/Los_Angeles:20270209T150000
+DTEND;TZID=America/Los_Angeles:20270209T180000
+SUMMARY:Personal Management Merit Badge Workshop (3/4)
+DESCRIPTION:Personal Management Merit Badge Workshop\nJA Merit Badge\nScou
+ ts map their future financial goals and how to achieve them through perso
+ nal finance. After completing all three sessions\, scouts will earn their
+  Personal Management Merit Badge!\nWORKSHOP SESSION DATES\nSession 1: Wor
+ kbook\nWed\, October 28\, 2026 from 4:00-7:30 PM\nSession 2: Simulation\n
+ Wed\, December 9\, 2026 from 4:00-7:30 PM\nSession 3: Testing\nScouts wil
+ l select a 1-hour timeslot for their testing\nsession from the following 
+ time windows:\nTues\, February 9\, 2027 from 3:00-6:00 PM\nWed\, February
+  10\, 2027 10 from 3:00-6:00 PM\n‍\n‍\n\nhttps://www.sdicscouting.org
+ /events/personal-management-merit-badge-workshop
+URL:https://www.sdicscouting.org/events/personal-management-merit-badge-wo
+ rkshop
+END:VEVENT
+BEGIN:VEVENT
+UID:personal-management-merit-badge-workshop-20270210@sdicscouting.org
+DTSTAMP:20270210T000000Z
+DTSTART;TZID=America/Los_Angeles:20270210T150000
+DTEND;TZID=America/Los_Angeles:20270210T180000
+SUMMARY:Personal Management Merit Badge Workshop (4/4)
+DESCRIPTION:Personal Management Merit Badge Workshop\nJA Merit Badge\nScou
+ ts map their future financial goals and how to achieve them through perso
+ nal finance. After completing all three sessions\, scouts will earn their
+  Personal Management Merit Badge!\nWORKSHOP SESSION DATES\nSession 1: Wor
+ kbook\nWed\, October 28\, 2026 from 4:00-7:30 PM\nSession 2: Simulation\n
+ Wed\, December 9\, 2026 from 4:00-7:30 PM\nSession 3: Testing\nScouts wil
+ l select a 1-hour timeslot for their testing\nsession from the following 
+ time windows:\nTues\, February 9\, 2027 from 3:00-6:00 PM\nWed\, February
+  10\, 2027 10 from 3:00-6:00 PM\n‍\n‍\n\nhttps://www.sdicscouting.org
+ /events/personal-management-merit-badge-workshop
+URL:https://www.sdicscouting.org/events/personal-management-merit-badge-wo
+ rkshop
 END:VEVENT
 BEGIN:VEVENT
 UID:cope-weekend-2027-2@sdicscouting.org
@@ -1810,23 +1867,6 @@ URL:https://www.sdicscouting.org/events/paddle-craft-and-safe-water-rescue
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
 END:VEVENT
 BEGIN:VEVENT
-UID:haltt-session-3-sept-2027@sdicscouting.org
-DTSTAMP:20270925T000000Z
-DTSTART;VALUE=DATE:20270925
-DTEND;VALUE=DATE:20270927
-SUMMARY:HALTT Session III
-DESCRIPTION:HALTT Session III\nThis 40-hour course prepares unit leaders f
- or backpacking trips.\nThis 40-hour course prepares unit leaders for basi
- c backpacking and wilderness camping trips. Topics include: leadership\, 
- trek planning\, equipment\, food\, health and safety\, map and compass\, 
- awards\, and conservation. Leaders completing sessions I\, II\, and III r
- eceive a patch and numbered card.\n\nhttps://www.sdicscouting.org/events/
- haltt-session-3-sept-2027
-URL:https://www.sdicscouting.org/events/haltt-session-3-sept-2027
-LOCATION:Mataguay Scout Ranch\, Mataguay Rd\, Santa Ysabel\, CA 92070\, US
- A
-END:VEVENT
-BEGIN:VEVENT
 UID:community-adventure-day-6@sdicscouting.org
 DTSTAMP:20270925T000000Z
 DTSTART;VALUE=DATE:20270925
@@ -1842,6 +1882,23 @@ DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
  .sdicscouting.org/events/community-adventure-day-6
 URL:https://www.sdicscouting.org/events/community-adventure-day-6
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
+END:VEVENT
+BEGIN:VEVENT
+UID:haltt-session-3-sept-2027@sdicscouting.org
+DTSTAMP:20270925T000000Z
+DTSTART;VALUE=DATE:20270925
+DTEND;VALUE=DATE:20270927
+SUMMARY:HALTT Session III
+DESCRIPTION:HALTT Session III\nThis 40-hour course prepares unit leaders f
+ or backpacking trips.\nThis 40-hour course prepares unit leaders for basi
+ c backpacking and wilderness camping trips. Topics include: leadership\, 
+ trek planning\, equipment\, food\, health and safety\, map and compass\, 
+ awards\, and conservation. Leaders completing sessions I\, II\, and III r
+ eceive a patch and numbered card.\n\nhttps://www.sdicscouting.org/events/
+ haltt-session-3-sept-2027
+URL:https://www.sdicscouting.org/events/haltt-session-3-sept-2027
+LOCATION:Mataguay Scout Ranch\, Mataguay Rd\, Santa Ysabel\, CA 92070\, US
+ A
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-tiwahe-lodge-vigil-celebration@sdicscouting.org
@@ -1907,6 +1964,24 @@ URL:https://www.sdicscouting.org/events/2027-oct-unit-backpacking
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92081
 END:VEVENT
 BEGIN:VEVENT
+UID:community-adventure-day-7@sdicscouting.org
+DTSTAMP:20271016T000000Z
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
+SUMMARY:Community Adventure Day
+DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
+ se style for you and your family to enjoy on your schedule. You may arriv
+ e anytime before noon and leave when you wish.\nAll activities designed f
+ or ages 5-17 (and their adults)\nActivities include crafts\, canoeing\, k
+ ayaking\, and a nature activity.\nExperience the great outdoors and enjoy
+  the day at Mataguay Scout Ranch.\nFamilies must pre-register. NO WALK-IN
+ 'S.\nPlease no dogs allowed at the Community Adventure Day\n\nhttps://www
+ .sdicscouting.org/events/community-adventure-day-7
+URL:https://www.sdicscouting.org/events/community-adventure-day-7
+LOCATION:Camp Bashor at Otay Lakes County Park\, 2270 Wueste Rd\, Chula Vi
+ sta\, CA 91915
+END:VEVENT
+BEGIN:VEVENT
 UID:first-aid-adult-cpr-and-aed-oct-2027@sdicscouting.org
 DTSTAMP:20271016T000000Z
 DTSTART;VALUE=DATE:20271016
@@ -1928,24 +2003,6 @@ DESCRIPTION:First Aid\, Adult CPR\, and AED\nSave the Date\nTopics include
  https://www.sdicscouting.org/events/first-aid-adult-cpr-and-aed-oct-2027
 URL:https://www.sdicscouting.org/events/first-aid-adult-cpr-and-aed-oct-20
  27
-END:VEVENT
-BEGIN:VEVENT
-UID:community-adventure-day-7@sdicscouting.org
-DTSTAMP:20271016T000000Z
-DTSTART;VALUE=DATE:20271016
-DTEND;VALUE=DATE:20271017
-SUMMARY:Community Adventure Day
-DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
- se style for you and your family to enjoy on your schedule. You may arriv
- e anytime before noon and leave when you wish.\nAll activities designed f
- or ages 5-17 (and their adults)\nActivities include crafts\, canoeing\, k
- ayaking\, and a nature activity.\nExperience the great outdoors and enjoy
-  the day at Mataguay Scout Ranch.\nFamilies must pre-register. NO WALK-IN
- 'S.\nPlease no dogs allowed at the Community Adventure Day\n\nhttps://www
- .sdicscouting.org/events/community-adventure-day-7
-URL:https://www.sdicscouting.org/events/community-adventure-day-7
-LOCATION:Camp Bashor at Otay Lakes County Park\, 2270 Wueste Rd\, Chula Vi
- sta\, CA 91915
 END:VEVENT
 BEGIN:VEVENT
 UID:wilderness-and-remote-first-aid-oct-2027@sdicscouting.org
@@ -1995,6 +2052,21 @@ LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
  o\, CA 92114
 END:VEVENT
 BEGIN:VEVENT
+UID:2027-tiwahe-lodge-fellowship@sdicscouting.org
+DTSTAMP:20271112T000000Z
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271115
+SUMMARY:2027 Tiwahe Lodge Fellowship
+DESCRIPTION:2027 Tiwahe Lodge Fellowship\nLodge Fellowship is an annual ev
+ ent for all Arrowmen of Tiwahe Lodge. We hold an annual Fall Fellowship\,
+  this year’s agenda is packed with fun activities and training.\n2027 T
+ iwahe Lodge Fellowship will be held November 12-14 at Camp Balboa. Join u
+ s for Training\, Activities\, and Fellowship!\n\nhttps://www.sdicscouting
+ .org/events/2027-tiwahe-lodge-fellowship
+URL:https://www.sdicscouting.org/events/2027-tiwahe-lodge-fellowship
+LOCATION:Camp Balboa\, 1207 Upas Street\, San Diego\, CA 92103
+END:VEVENT
+BEGIN:VEVENT
 UID:cope-weekend-2027-11@sdicscouting.org
 DTSTAMP:20271112T000000Z
 DTSTART;VALUE=DATE:20271112
@@ -2009,21 +2081,6 @@ DESCRIPTION:Project C.O.P.E.\nChallenging Outdoor Personal Experience\nC.O
  s needs.\n\nhttps://www.sdicscouting.org/events/cope-weekend-2027-11
 URL:https://www.sdicscouting.org/events/cope-weekend-2027-11
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
-END:VEVENT
-BEGIN:VEVENT
-UID:2027-tiwahe-lodge-fellowship@sdicscouting.org
-DTSTAMP:20271112T000000Z
-DTSTART;VALUE=DATE:20271112
-DTEND;VALUE=DATE:20271115
-SUMMARY:2027 Tiwahe Lodge Fellowship
-DESCRIPTION:2027 Tiwahe Lodge Fellowship\nLodge Fellowship is an annual ev
- ent for all Arrowmen of Tiwahe Lodge. We hold an annual Fall Fellowship\,
-  this year’s agenda is packed with fun activities and training.\n2027 T
- iwahe Lodge Fellowship will be held November 12-14 at Camp Balboa. Join u
- s for Training\, Activities\, and Fellowship!\n\nhttps://www.sdicscouting
- .org/events/2027-tiwahe-lodge-fellowship
-URL:https://www.sdicscouting.org/events/2027-tiwahe-lodge-fellowship
-LOCATION:Camp Balboa\, 1207 Upas Street\, San Diego\, CA 92103
 END:VEVENT
 BEGIN:VEVENT
 UID:haltt-recert-2-2027@sdicscouting.org
