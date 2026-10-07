@@ -34,6 +34,10 @@ SLUG_RE = re.compile(r"^/events/[^/?#]+$")
 US_DATE_RE = re.compile(r"^\d{1,2}/\d{1,2}/\d{4}$")
 LONG_DATE_RE = re.compile(r"^[A-Z][a-z]+ \d{1,2}, \d{4}$")
 ADDRESS_RE = re.compile(r"\bCA\s+\d{5}\b")
+SESSION_DATE_RE = re.compile(r"([A-Z][a-z]+) (\d{1,2}), (\d{4})")
+TIME_RANGE_RE = re.compile(
+    r"(\d{1,2})(?::(\d{2}))?\s*(AM|PM)?\s*(?:-|\u2013|\u2014|to)\s*(\d{1,2})(?::(\d{2}))?\s*(AM|PM)", re.I)
+LONG_SPAN_DAYS = 14   # longer than this -> try to split into the individual sessions
 
 
 def get(url):
@@ -115,7 +119,7 @@ def parse_detail(url):
     soup = get(url)
     h1 = soup.find("h1")
     out = {"title": h1.get_text(strip=True) if h1 else "", "location": "",
-           "description": "", "dates": []}
+           "description": "", "dates": [], "lines": []}
     if not h1:
         return out
 
@@ -129,6 +133,8 @@ def parse_detail(url):
                 lines.append(t)
         elif isinstance(node, Tag) and node.name == "a" and ADDRESS_RE.search(node.get_text()):
             out["location"] = node.get_text(strip=True)
+
+    out["lines"] = lines
 
     # header date sits just above the <h1>
     header = h1.find_previous(string=LONG_DATE_RE)
@@ -150,6 +156,38 @@ def parse_detail(url):
     return out
 
 
+# ---------- splitting long ranges into sessions ----------
+
+def to_time(h, m, ap):
+    return dt.time(int(h) % 12 + (12 if ap.upper() == "PM" else 0), int(m or 0))
+
+
+def extract_sessions(lines, start, end):
+    """Dated sessions (with optional times) mentioned in the page text, inside [start, end]."""
+    seen, sessions = set(), []
+    for line in lines:
+        if LONG_DATE_RE.match(line):          # bare registration-range dates, not sessions
+            continue
+        for m in SESSION_DATE_RE.finditer(line):
+            try:
+                d = dt.datetime.strptime(m.group(0), "%B %d, %Y").date()
+            except ValueError:
+                continue
+            if not (start <= d <= end) or d in seen:
+                continue
+            seen.add(d)
+            times = None
+            t = TIME_RANGE_RE.search(line[m.end():])
+            if t:
+                t2 = to_time(t.group(4), t.group(5), t.group(6))
+                t1 = to_time(t.group(1), t.group(2), t.group(3) or t.group(6))
+                if not t.group(3) and t1 >= t2:   # e.g. "10-2 PM" means 10 AM
+                    t1 = to_time(t.group(1), t.group(2), "AM")
+                times = (t1, t2)
+            sessions.append({"date": d, "times": times})
+    return sorted(sessions, key=lambda x: x["date"])
+
+
 # ---------- ICS output ----------
 
 def esc(s):
@@ -168,19 +206,28 @@ def fold(line):
     return "\r\n".join(out)
 
 
+def timing_lines(e):
+    if e.get("times"):
+        t1, t2 = e["times"]
+        tz = "TZID=America/Los_Angeles"
+        return [f"DTSTART;{tz}:{e['start']:%Y%m%d}T{t1:%H%M%S}",
+                f"DTEND;{tz}:{e['start']:%Y%m%d}T{t2:%H%M%S}"]
+    return [f"DTSTART;VALUE=DATE:{e['start']:%Y%m%d}",
+            f"DTEND;VALUE=DATE:{(e['end'] + dt.timedelta(days=1)):%Y%m%d}"]  # exclusive
+
+
 def build_ics(events):
     lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//SDIC scouting scraper//EN",
              "CALSCALE:GREGORIAN", "X-WR-CALNAME:SDIC Scouting Events",
              "X-WR-TIMEZONE:America/Los_Angeles"]
     for e in events:
-        slug = e["url"].rsplit("/", 1)[-1]
+        slug = e.get("uid") or e["url"].rsplit("/", 1)[-1]
         desc = (e["description"] + "\n\n" if e["description"] else "") + e["url"]
         lines += [
             "BEGIN:VEVENT",
             f"UID:{slug}@sdicscouting.org",
             f"DTSTAMP:{e['start']:%Y%m%d}T000000Z",  # stable, so unchanged events don't churn the file
-            f"DTSTART;VALUE=DATE:{e['start']:%Y%m%d}",
-            f"DTEND;VALUE=DATE:{(e['end'] + dt.timedelta(days=1)):%Y%m%d}",  # exclusive
+            *timing_lines(e),
             f"SUMMARY:{esc(e['title'])}",
             f"DESCRIPTION:{esc(desc)}",
             f"URL:{e['url']}",
@@ -217,11 +264,26 @@ def main():
         start, end = min(dates), max(dates)
         if not args.all and end < today:
             continue
-        if (end - start).days > 21:
-            print(f"  ? {d['title'] or base['title']}: spans {(end - start).days + 1} days - check the source")
-        final.append({"url": url, "title": d["title"] or base["title"], "start": start,
-                      "end": end, "location": d["location"], "description": d["description"]})
-        print(f"  [{i}/{len(listing)}] {start} {final[-1]['title']}")
+        title = d["title"] or base["title"]
+        common = {"url": url, "title": title, "location": d["location"],
+                  "description": d["description"]}
+        sessions = []
+        if (end - start).days > LONG_SPAN_DAYS:
+            sessions = extract_sessions(d["lines"], start, end)
+        if len(sessions) >= 2:
+            slug = url.rsplit("/", 1)[-1]
+            print(f"  * {title}: {start} to {end} split into {len(sessions)} sessions")
+            for n, sess in enumerate(sessions, 1):
+                if not args.all and sess["date"] < today:
+                    continue
+                final.append({**common, "title": f"{title} ({n}/{len(sessions)})",
+                              "uid": f"{slug}-{sess['date']:%Y%m%d}",
+                              "start": sess["date"], "end": sess["date"], "times": sess["times"]})
+        else:
+            if (end - start).days > LONG_SPAN_DAYS:
+                print(f"  ? {title}: spans {(end - start).days + 1} days, no sessions found - check the source")
+            final.append({**common, "start": start, "end": end})
+        print(f"  [{i}/{len(listing)}] {start} {title}")
         time.sleep(0.3)
 
     final.sort(key=lambda e: e["start"])
