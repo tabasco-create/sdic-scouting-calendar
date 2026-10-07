@@ -35,9 +35,10 @@ US_DATE_RE = re.compile(r"^\d{1,2}/\d{1,2}/\d{4}$")
 LONG_DATE_RE = re.compile(r"^[A-Z][a-z]+ \d{1,2}, \d{4}$")
 ADDRESS_RE = re.compile(r"\bCA\s+\d{5}\b")
 SESSION_DATE_RE = re.compile(r"([A-Z][a-z]+) (\d{1,2}), (\d{4})")
+RANGE_RE = re.compile(r"([A-Z][a-z]+) (\d{1,2})\s*[-\u2013\u2014]\s*(?:([A-Z][a-z]+) )?(\d{1,2}),? (\d{4})")
 TIME_RANGE_RE = re.compile(
     r"(\d{1,2})(?::(\d{2}))?\s*(AM|PM)?\s*(?:-|\u2013|\u2014|to)\s*(\d{1,2})(?::(\d{2}))?\s*(AM|PM)", re.I)
-LONG_SPAN_DAYS = 14   # longer than this -> try to split into the individual sessions
+SUSPECT_SPAN_DAYS = 6  # more than 7 calendar days (inclusive) is suspect: split into sessions or skip
 
 
 def get(url):
@@ -162,30 +163,82 @@ def to_time(h, m, ap):
     return dt.time(int(h) % 12 + (12 if ap.upper() == "PM" else 0), int(m or 0))
 
 
+def parse_month(name):
+    for fmt in ("%B", "%b"):
+        try:
+            return dt.datetime.strptime(name, fmt).month
+        except ValueError:
+            pass
+    return None
+
+
+def parse_times(text):
+    t = TIME_RANGE_RE.search(text)
+    if not t:
+        return None
+    t2 = to_time(t.group(4), t.group(5), t.group(6))
+    t1 = to_time(t.group(1), t.group(2), t.group(3) or t.group(6))
+    if not t.group(3) and t1 >= t2:       # e.g. "10-2 PM" means 10 AM
+        t1 = to_time(t.group(1), t.group(2), "AM")
+    return (t1, t2)
+
+
 def extract_sessions(lines, start, end):
-    """Dated sessions (with optional times) mentioned in the page text, inside [start, end]."""
+    """Dated sessions mentioned in the page text, inside [start, end].
+    Understands "October 28, 2026 from 4:00-7:30 PM" and "December 28-30, 2026" style ranges."""
     seen, sessions = set(), []
+
+    def add(s, e, tail):
+        if not (start <= s <= e <= end) or (s, e) in seen:
+            return
+        seen.add((s, e))
+        sessions.append({"start": s, "end": e, "times": parse_times(tail) if s == e else None})
+
     for line in lines:
         if LONG_DATE_RE.match(line):          # bare registration-range dates, not sessions
             continue
-        for m in SESSION_DATE_RE.finditer(line):
+        spans = []
+        for m in RANGE_RE.finditer(line):
+            m1 = parse_month(m.group(1))
+            m2 = parse_month(m.group(3)) if m.group(3) else m1
+            if not (m1 and m2):
+                continue
             try:
-                d = dt.datetime.strptime(m.group(0), "%B %d, %Y").date()
+                s_ = dt.date(int(m.group(5)), m1, int(m.group(2)))
+                e_ = dt.date(int(m.group(5)), m2, int(m.group(4)))
             except ValueError:
                 continue
-            if not (start <= d <= end) or d in seen:
+            spans.append(m.span())
+            add(s_, e_, line[m.end():])
+        for m in SESSION_DATE_RE.finditer(line):
+            if any(x <= m.start() < y for x, y in spans):
                 continue
-            seen.add(d)
-            times = None
-            t = TIME_RANGE_RE.search(line[m.end():])
-            if t:
-                t2 = to_time(t.group(4), t.group(5), t.group(6))
-                t1 = to_time(t.group(1), t.group(2), t.group(3) or t.group(6))
-                if not t.group(3) and t1 >= t2:   # e.g. "10-2 PM" means 10 AM
-                    t1 = to_time(t.group(1), t.group(2), "AM")
-                times = (t1, t2)
-            sessions.append({"date": d, "times": times})
-    return sorted(sessions, key=lambda x: x["date"])
+            m1 = parse_month(m.group(1))
+            if not m1:
+                continue
+            try:
+                d = dt.date(int(m.group(3)), m1, int(m.group(2)))
+            except ValueError:
+                continue
+            add(d, d, line[m.end():])
+    return sorted(sessions, key=lambda x: (x["start"], x["end"]))
+
+
+STOPWORDS = {"the", "and", "for", "with"}
+
+
+def title_words(title):
+    return {w for w in re.findall(r"[a-z0-9]+", title.lower()) if len(w) > 2 and w not in STOPWORDS}
+
+
+def listed_separately(url, title, s, e, listing):
+    """True if another event in the listing has the same dates and a similar title."""
+    mine = title_words(title)
+    for u, o in listing.items():
+        if u != url and o["dates"] and (min(o["dates"]), max(o["dates"])) == (s, e) \
+                and len(mine & title_words(o["title"])) >= 2:
+            return True
+    return False
 
 
 # ---------- ICS output ----------
@@ -262,26 +315,35 @@ def main():
             print(f"  ! no dates for {url}")
             continue
         start, end = min(dates), max(dates)
+        slug = url.rsplit("/", 1)[-1]
         if not args.all and end < today:
             continue
         title = d["title"] or base["title"]
         common = {"url": url, "title": title, "location": d["location"],
                   "description": d["description"]}
         sessions = []
-        if (end - start).days > LONG_SPAN_DAYS:
+        if (end - start).days > SUSPECT_SPAN_DAYS:
             sessions = extract_sessions(d["lines"], start, end)
         if len(sessions) >= 2:
-            slug = url.rsplit("/", 1)[-1]
-            print(f"  * {title}: {start} to {end} split into {len(sessions)} sessions")
-            for n, sess in enumerate(sessions, 1):
-                if not args.all and sess["date"] < today:
+            fresh = [x for x in sessions
+                     if not listed_separately(url, title, x["start"], x["end"], listing)]
+            dup = len(sessions) - len(fresh)
+            print(f"  * {title}: {start} to {end} split into {len(sessions)} sessions"
+                  + (f" ({dup} already listed as its own event)" if dup else ""))
+            for n, sess in enumerate(fresh, 1):
+                if not args.all and sess["end"] < today:
                     continue
-                final.append({**common, "title": f"{title} ({n}/{len(sessions)})",
-                              "uid": f"{slug}-{sess['date']:%Y%m%d}",
-                              "start": sess["date"], "end": sess["date"], "times": sess["times"]})
+                label = f"{title} ({n}/{len(fresh)})" if len(fresh) > 1 else title
+                final.append({**common, "title": label,
+                              "uid": f"{slug}-{sess['start']:%Y%m%d}",
+                              "start": sess["start"], "end": sess["end"], "times": sess["times"]})
+        elif (end - start).days > SUSPECT_SPAN_DAYS:
+            # Over a week with no session dates: almost always a registration window or
+            # "save the date" placeholder, not a real multi-day event. Leave it off the calendar.
+            print(f"  - SKIPPED {title}: listed {start} to {end} ({(end - start).days + 1} days), "
+                  f"no session dates found")
+            continue
         else:
-            if (end - start).days > LONG_SPAN_DAYS:
-                print(f"  ? {title}: spans {(end - start).days + 1} days, no sessions found - check the source")
             final.append({**common, "start": start, "end": end})
         print(f"  [{i}/{len(listing)}] {start} {title}")
         time.sleep(0.3)
