@@ -1848,6 +1848,23 @@ URL:https://www.sdicscouting.org/events/paddle-craft-and-safe-water-rescue
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
 END:VEVENT
 BEGIN:VEVENT
+UID:community-adventure-day-6@sdicscouting.org
+DTSTAMP:20270925T000000Z
+DTSTART;VALUE=DATE:20270925
+DTEND;VALUE=DATE:20270926
+SUMMARY:Community Adventure Day
+DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
+ se style for you and your family to enjoy on your schedule. You may arriv
+ e anytime before noon and leave when you wish.\nAll activities designed f
+ or ages 5-17 (and their adults)\nActivities include crafts\, canoeing\, k
+ ayaking\, and a nature activity.\nExperience the great outdoors and enjoy
+  the day at Mataguay Scout Ranch.\nFamilies must pre-register. NO WALK-IN
+ 'S.\nPlease no dogs allowed at the Community Adventure Day\n\nhttps://www
+ .sdicscouting.org/events/community-adventure-day-6
+URL:https://www.sdicscouting.org/events/community-adventure-day-6
+LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
+END:VEVENT
+BEGIN:VEVENT
 UID:2027-tiwahe-lodge-vigil-celebration@sdicscouting.org
 DTSTAMP:20270925T000000Z
 DTSTART;VALUE=DATE:20270925
@@ -1885,23 +1902,6 @@ DESCRIPTION:HALTT Session III\nThis 40-hour course prepares unit leaders f
 URL:https://www.sdicscouting.org/events/haltt-session-3-sept-2027
 LOCATION:Mataguay Scout Ranch\, Mataguay Rd\, Santa Ysabel\, CA 92070\, US
  A
-END:VEVENT
-BEGIN:VEVENT
-UID:community-adventure-day-6@sdicscouting.org
-DTSTAMP:20270925T000000Z
-DTSTART;VALUE=DATE:20270925
-DTEND;VALUE=DATE:20270926
-SUMMARY:Community Adventure Day
-DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
- se style for you and your family to enjoy on your schedule. You may arriv
- e anytime before noon and leave when you wish.\nAll activities designed f
- or ages 5-17 (and their adults)\nActivities include crafts\, canoeing\, k
- ayaking\, and a nature activity.\nExperience the great outdoors and enjoy
-  the day at Mataguay Scout Ranch.\nFamilies must pre-register. NO WALK-IN
- 'S.\nPlease no dogs allowed at the Community Adventure Day\n\nhttps://www
- .sdicscouting.org/events/community-adventure-day-6
-URL:https://www.sdicscouting.org/events/community-adventure-day-6
-LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
 END:VEVENT
 BEGIN:VEVENT
 UID:cope-weekend-2027-10@sdicscouting.org
