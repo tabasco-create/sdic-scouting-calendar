@@ -1,0 +1,1069 @@
+{
+ "checked_at": "2026-10-08T00:46:56Z",
+ "updated_at": "2026-10-08T00:46:56Z",
+ "tracking_since": "2026-10-08T00:46:56Z",
+ "events": [
+  {
+   "uid": "cope-weekend-2026-7",
+   "title": "Project C.O.P.E.",
+   "start": "2026-10-09",
+   "end": "2026-10-11",
+   "time": null,
+   "location": "Mataguay Scout Ranch, Mataguay Rd, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/cope-weekend-2026-7"
+  },
+  {
+   "uid": "coastal-sage-camporee",
+   "title": "Sweetwater/Coastal Sage Camporee",
+   "start": "2026-10-09",
+   "end": "2026-10-11",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92070",
+   "url": "https://www.sdicscouting.org/events/coastal-sage-camporee"
+  },
+  {
+   "uid": "basic-chainsaw-training-oct-2026",
+   "title": "Basic Chainsaw Training",
+   "start": "2026-10-10",
+   "end": "2026-10-10",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92070",
+   "url": "https://www.sdicscouting.org/events/basic-chainsaw-training-oct-2026"
+  },
+  {
+   "uid": "2026-october-unit-backpacking",
+   "title": "Unit Backpack Training",
+   "start": "2026-10-10",
+   "end": "2026-10-11",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/2026-october-unit-backpacking"
+  },
+  {
+   "uid": "gathering-of-the-eagles",
+   "title": "Gathering of Eagles",
+   "start": "2026-10-14",
+   "end": "2026-10-14",
+   "time": null,
+   "location": "Admiral Baker Golf Course Clubhouse, 2400 Admiral Baker Road, San Diego, CA 92120",
+   "url": "https://www.sdicscouting.org/events/gathering-of-the-eagles"
+  },
+  {
+   "uid": "jamboree-on-the-air",
+   "title": "Jamboree-on-the-Air",
+   "start": "2026-10-16",
+   "end": "2026-10-17",
+   "time": null,
+   "location": "Camp Balboa, WB6BSA Amateur Radio Station, 1207 Upas Street, San Diego, CA 92103",
+   "url": "https://www.sdicscouting.org/events/jamboree-on-the-air"
+  },
+  {
+   "uid": "palomar-rslr-webelos-woods",
+   "title": "Palomar/RSLR Webelos Woods",
+   "start": "2026-10-16",
+   "end": "2026-10-18",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/palomar-rslr-webelos-woods"
+  },
+  {
+   "uid": "kayaking-merit-badge-day-2",
+   "title": "Kayaking Merit Badge Day",
+   "start": "2026-10-17",
+   "end": "2026-10-17",
+   "time": null,
+   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
+   "url": "https://www.sdicscouting.org/events/kayaking-merit-badge-day-2"
+  },
+  {
+   "uid": "honor-guard-training-october",
+   "title": "Honor Guard Training",
+   "start": "2026-10-18",
+   "end": "2026-10-18",
+   "time": null,
+   "location": "Camp Balboa, San Diego-Imperial Council, Scouting America, 1207 Upas St, San Diego, CA 92103, USA",
+   "url": "https://www.sdicscouting.org/events/honor-guard-training-october"
+  },
+  {
+   "uid": "life-to-eagle-workshop-5",
+   "title": "Life to Eagle Workshop",
+   "start": "2026-10-18",
+   "end": "2026-10-18",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/life-to-eagle-workshop-5"
+  },
+  {
+   "uid": "eagleprojectcounselor-training",
+   "title": "Eagle Project Counselor Training",
+   "start": "2026-10-19",
+   "end": "2026-10-19",
+   "time": null,
+   "location": "Camp Balboa, Atherton Hall – 1207 Upas Street, SD CA 92103",
+   "url": "https://www.sdicscouting.org/events/eagleprojectcounselor-training"
+  },
+  {
+   "uid": "fall-family-fun",
+   "title": "Fall Family Fun",
+   "start": "2026-10-23",
+   "end": "2026-10-25",
+   "time": null,
+   "location": "Mataguay Scout Ranch, Mataguay Rd, Santa Ysabel, CA 92070",
+   "url": "https://www.sdicscouting.org/events/fall-family-fun"
+  },
+  {
+   "uid": "personal-management-merit-badge-workshop-20261028",
+   "title": "Personal Management Merit Badge Workshop (1/4)",
+   "start": "2026-10-28",
+   "end": "2026-10-28",
+   "time": "4:00 PM – 7:30 PM",
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/personal-management-merit-badge-workshop"
+  },
+  {
+   "uid": "haunt-the-valley-scout-night",
+   "title": "Haunt the Valley Scout Night",
+   "start": "2026-10-31",
+   "end": "2026-10-31",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/haunt-the-valley-scout-night"
+  },
+  {
+   "uid": "foothills-webelos-woods-j9kxc",
+   "title": "Foothills Webelos Woods",
+   "start": "2026-11-06",
+   "end": "2026-11-08",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92070",
+   "url": "https://www.sdicscouting.org/events/foothills-webelos-woods-j9kxc"
+  },
+  {
+   "uid": "cub-scout-leader-training",
+   "title": "Cub Scout Leader Training",
+   "start": "2026-11-07",
+   "end": "2026-11-07",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/cub-scout-leader-training"
+  },
+  {
+   "uid": "haltt-session-4-nov-water-50613",
+   "title": "HALTT Session IV: Water Trek",
+   "start": "2026-11-07",
+   "end": "2026-11-08",
+   "time": null,
+   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92114",
+   "url": "https://www.sdicscouting.org/events/haltt-session-4-nov-water-50613"
+  },
+  {
+   "uid": "msr-work-party-nov",
+   "title": "Mataguay Scout Ranch Work Party",
+   "start": "2026-11-07",
+   "end": "2026-11-08",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/msr-work-party-nov"
+  },
+  {
+   "uid": "radio-merit-badge-on-uss-midway-november",
+   "title": "Radio Merit Badge",
+   "start": "2026-11-07",
+   "end": "2026-11-07",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/radio-merit-badge-on-uss-midway-november"
+  },
+  {
+   "uid": "lion-tiger-safari",
+   "title": "Lion & Tiger Safari",
+   "start": "2026-11-08",
+   "end": "2026-11-08",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/lion-tiger-safari"
+  },
+  {
+   "uid": "2026-tiwahe-lodge-fellowship",
+   "title": "2026 Tiwahe Lodge Fellowship",
+   "start": "2026-11-13",
+   "end": "2026-11-15",
+   "time": null,
+   "location": "Camp Balboa, 1207 Upas Street, San Diego, CA 92103",
+   "url": "https://www.sdicscouting.org/events/2026-tiwahe-lodge-fellowship"
+  },
+  {
+   "uid": "cope-weekend-2026-8",
+   "title": "Project C.O.P.E.",
+   "start": "2026-11-13",
+   "end": "2026-11-15",
+   "time": null,
+   "location": "Mataguay Scout Ranch, Mataguay Rd, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/cope-weekend-2026-8"
+  },
+  {
+   "uid": "canoeing-merit-badge-day",
+   "title": "Canoeing Merit Badge Day",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "time": null,
+   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
+   "url": "https://www.sdicscouting.org/events/canoeing-merit-badge-day"
+  },
+  {
+   "uid": "haltt-recert-2",
+   "title": "HALTT Recertification",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "time": null,
+   "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92122",
+   "url": "https://www.sdicscouting.org/events/haltt-recert-2"
+  },
+  {
+   "uid": "national-day-of-service",
+   "title": "National Day of Service",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/national-day-of-service"
+  },
+  {
+   "uid": "2026-november-unit-backpacking",
+   "title": "Unit Backpack Training",
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92077",
+   "url": "https://www.sdicscouting.org/events/2026-november-unit-backpacking"
+  },
+  {
+   "uid": "cub-scout-lock-in",
+   "title": "Cub Scout Lock-in",
+   "start": "2026-11-21",
+   "end": "2026-11-22",
+   "time": null,
+   "location": "Sea World San Diego, 500 Sea World Dr., San Diego, CA 92109",
+   "url": "https://www.sdicscouting.org/events/cub-scout-lock-in"
+  },
+  {
+   "uid": "holiday-at-the-bay-2026",
+   "title": "Holiday at the Bay",
+   "start": "2026-12-05",
+   "end": "2026-12-05",
+   "time": null,
+   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
+   "url": "https://www.sdicscouting.org/events/holiday-at-the-bay-2026"
+  },
+  {
+   "uid": "msr-work-party-dec",
+   "title": "Mataguay Scout Ranch Work Party",
+   "start": "2026-12-05",
+   "end": "2026-12-06",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/msr-work-party-dec"
+  },
+  {
+   "uid": "personal-management-merit-badge-workshop-20261209",
+   "title": "Personal Management Merit Badge Workshop (2/4)",
+   "start": "2026-12-09",
+   "end": "2026-12-09",
+   "time": "4:00 PM – 7:30 PM",
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/personal-management-merit-badge-workshop"
+  },
+  {
+   "uid": "cope-weekend-2026-9",
+   "title": "Project C.O.P.E.",
+   "start": "2026-12-11",
+   "end": "2026-12-13",
+   "time": null,
+   "location": "Mataguay Scout Ranch, Mataguay Rd, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/cope-weekend-2026-9"
+  },
+  {
+   "uid": "scout-night-with-gulls-hockey",
+   "title": "Scout Night with Gulls Hockey",
+   "start": "2026-12-19",
+   "end": "2026-12-19",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/scout-night-with-gulls-hockey"
+  },
+  {
+   "uid": "american-red-cross-lifeguard-class-2026",
+   "title": "American Red Cross Lifeguard Class",
+   "start": "2026-12-26",
+   "end": "2026-12-30",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/american-red-cross-lifeguard-class-2026"
+  },
+  {
+   "uid": "nylt-save-the-date-winter-course-20261228",
+   "title": "NYLT - Winter Course",
+   "start": "2026-12-28",
+   "end": "2026-12-30",
+   "time": null,
+   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
+   "url": "https://www.sdicscouting.org/events/nylt-save-the-date-winter-course"
+  },
+  {
+   "uid": "msr-work-party-jan",
+   "title": "Mataguay Scout Ranch Work Party",
+   "start": "2027-01-02",
+   "end": "2027-01-03",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/msr-work-party-jan"
+  },
+  {
+   "uid": "cope-weekend-2027-1",
+   "title": "Project C.O.P.E.",
+   "start": "2027-01-08",
+   "end": "2027-01-10",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/cope-weekend-2027-1"
+  },
+  {
+   "uid": "wilderness-and-remote-first-aid-jan-2027",
+   "title": "Wilderness and Remote First Aid",
+   "start": "2027-01-09",
+   "end": "2027-01-10",
+   "time": null,
+   "location": "San Diego-Imperial Council, Boy Scouts of America, 1207 Upas St, San Diego, CA 92103, USA",
+   "url": "https://www.sdicscouting.org/events/wilderness-and-remote-first-aid-jan-2027"
+  },
+  {
+   "uid": "national-youth-leadership-training---winter-course-weekend-2",
+   "title": "NYLT - Winter Course Weekend 2",
+   "start": "2027-01-16",
+   "end": "2027-01-18",
+   "time": null,
+   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
+   "url": "https://www.sdicscouting.org/events/national-youth-leadership-training---winter-course-weekend-2"
+  },
+  {
+   "uid": "search---rescue-merit-badge-weekend",
+   "title": "Search & Rescue Merit Badge Day",
+   "start": "2027-01-23",
+   "end": "2027-01-23",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/search---rescue-merit-badge-weekend"
+  },
+  {
+   "uid": "haltt-session-1-feb-2027",
+   "title": "HALTT Session I",
+   "start": "2027-02-03",
+   "end": "2027-02-03",
+   "time": null,
+   "location": "Atherton Hall, Scouting America, 1207 Upas St, San Diego, CA 92103, USA",
+   "url": "https://www.sdicscouting.org/events/haltt-session-1-feb-2027"
+  },
+  {
+   "uid": "haltt-session-2-feb-2027",
+   "title": "HALTT Session II",
+   "start": "2027-02-06",
+   "end": "2027-02-06",
+   "time": null,
+   "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92122",
+   "url": "https://www.sdicscouting.org/events/haltt-session-2-feb-2027"
+  },
+  {
+   "uid": "msr-work-party-feb",
+   "title": "Mataguay Scout Ranch Work Party",
+   "start": "2027-02-06",
+   "end": "2027-02-07",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/msr-work-party-feb"
+  },
+  {
+   "uid": "old-town-heritage-day",
+   "title": "Old Town Heritage Day",
+   "start": "2027-02-06",
+   "end": "2027-02-06",
+   "time": null,
+   "location": "Old Town San Diego State Historic Park, San Diego Avenue @ Twiggs Street, San Diego, CA 92110",
+   "url": "https://www.sdicscouting.org/events/old-town-heritage-day"
+  },
+  {
+   "uid": "personal-management-merit-badge-workshop-20270209",
+   "title": "Personal Management Merit Badge Workshop (3/4)",
+   "start": "2027-02-09",
+   "end": "2027-02-09",
+   "time": "3:00 PM – 6:00 PM",
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/personal-management-merit-badge-workshop"
+  },
+  {
+   "uid": "personal-management-merit-badge-workshop-20270210",
+   "title": "Personal Management Merit Badge Workshop (4/4)",
+   "start": "2027-02-10",
+   "end": "2027-02-10",
+   "time": "3:00 PM – 6:00 PM",
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/personal-management-merit-badge-workshop"
+  },
+  {
+   "uid": "cope-weekend-2027-2",
+   "title": "Project C.O.P.E.",
+   "start": "2027-02-12",
+   "end": "2027-02-14",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/cope-weekend-2027-2"
+  },
+  {
+   "uid": "2027-feb-unit-backpacking",
+   "title": "Unit Backpack Training",
+   "start": "2027-02-13",
+   "end": "2027-02-14",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92077",
+   "url": "https://www.sdicscouting.org/events/2027-feb-unit-backpacking"
+  },
+  {
+   "uid": "haltt-session-3-feb-2027",
+   "title": "HALTT Session III",
+   "start": "2027-02-20",
+   "end": "2027-02-21",
+   "time": null,
+   "location": "Mataguay Scout Ranch, Mataguay Rd, Santa Ysabel, CA 92070, USA",
+   "url": "https://www.sdicscouting.org/events/haltt-session-3-feb-2027"
+  },
+  {
+   "uid": "cub-scout-leaders-baloo-foothills",
+   "title": "BALOO",
+   "start": "2027-02-27",
+   "end": "2027-02-28",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/cub-scout-leaders-baloo-foothills"
+  },
+  {
+   "uid": "first-aid-adult-cpr-and-aed-feb-2027",
+   "title": "First Aid, Adult CPR, and AED",
+   "start": "2027-02-27",
+   "end": "2027-02-27",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/first-aid-adult-cpr-and-aed-feb-2027"
+  },
+  {
+   "uid": "muti-sport-merit-badge-day",
+   "title": "Muti-sport Merit Badge Day",
+   "start": "2027-02-27",
+   "end": "2027-02-27",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/muti-sport-merit-badge-day"
+  },
+  {
+   "uid": "haltt-session-4-mar-water-2027",
+   "title": "HALTT Session IV: Water Trek",
+   "start": "2027-03-03",
+   "end": "2027-03-07",
+   "time": null,
+   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92114",
+   "url": "https://www.sdicscouting.org/events/haltt-session-4-mar-water-2027"
+  },
+  {
+   "uid": "msr-work-party-march",
+   "title": "Mataguay Scout Ranch Work Party",
+   "start": "2027-03-06",
+   "end": "2027-03-07",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/msr-work-party-march"
+  },
+  {
+   "uid": "wilderness-and-remote-first-aid-mar-2027",
+   "title": "Wilderness and Remote First Aid",
+   "start": "2027-03-06",
+   "end": "2027-03-07",
+   "time": null,
+   "location": "San Diego-Imperial Council, Boy Scouts of America, 1207 Upas St, San Diego, CA 92103, USA",
+   "url": "https://www.sdicscouting.org/events/wilderness-and-remote-first-aid-mar-2027"
+  },
+  {
+   "uid": "cope-weekend-2027-3",
+   "title": "Project C.O.P.E.",
+   "start": "2027-03-12",
+   "end": "2027-03-14",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/cope-weekend-2027-3"
+  },
+  {
+   "uid": "ski-trip",
+   "title": "Ski Trip - Council Bus",
+   "start": "2027-03-13",
+   "end": "2027-03-14",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/ski-trip"
+  },
+  {
+   "uid": "2027-march-unit-backpacking",
+   "title": "Unit Backpack Training",
+   "start": "2027-03-13",
+   "end": "2027-03-14",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92078",
+   "url": "https://www.sdicscouting.org/events/2027-march-unit-backpacking"
+  },
+  {
+   "uid": "eagle-camp-week-1",
+   "title": "Eagle Camp",
+   "start": "2027-03-20",
+   "end": "2027-03-20",
+   "time": null,
+   "location": "Camp Balboa, 1207 Upas Street, San Diego, CA 92103",
+   "url": "https://www.sdicscouting.org/events/eagle-camp-week-1"
+  },
+  {
+   "uid": "trailblazer-camp-week-1",
+   "title": "Trailblazer Camp",
+   "start": "2027-03-20",
+   "end": "2027-03-20",
+   "time": null,
+   "location": "Camp Balboa, 1207 Upas Street, San Diego, CA 92103",
+   "url": "https://www.sdicscouting.org/events/trailblazer-camp-week-1"
+  },
+  {
+   "uid": "cub-day-camp",
+   "title": "Cub Day Camp",
+   "start": "2027-03-27",
+   "end": "2027-03-27",
+   "time": null,
+   "location": "Camp Balboa, 1207 Upas Street, San Diego, CA 92103",
+   "url": "https://www.sdicscouting.org/events/cub-day-camp"
+  },
+  {
+   "uid": "eagle-camp-week-2",
+   "title": "Eagle Camp",
+   "start": "2027-03-27",
+   "end": "2027-03-27",
+   "time": null,
+   "location": "Camp Balboa, 1207 Upas Street, San Diego, CA 92103",
+   "url": "https://www.sdicscouting.org/events/eagle-camp-week-2"
+  },
+  {
+   "uid": "trailblazer-camp-week-2",
+   "title": "Trailblazer Camp",
+   "start": "2027-03-27",
+   "end": "2027-03-27",
+   "time": null,
+   "location": "Camp Balboa, 1207 Upas Street, San Diego, CA 92103",
+   "url": "https://www.sdicscouting.org/events/trailblazer-camp-week-2"
+  },
+  {
+   "uid": "msr-work-party-apr",
+   "title": "Mataguay Scout Ranch Work Party",
+   "start": "2027-04-03",
+   "end": "2027-04-04",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/msr-work-party-apr"
+  },
+  {
+   "uid": "cope-weekend-2027-4",
+   "title": "Project C.O.P.E.",
+   "start": "2027-04-09",
+   "end": "2027-04-11",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/cope-weekend-2027-4"
+  },
+  {
+   "uid": "2027-apr-unit-backpacking",
+   "title": "Unit Backpack Training",
+   "start": "2027-04-11",
+   "end": "2027-04-12",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92079",
+   "url": "https://www.sdicscouting.org/events/2027-apr-unit-backpacking"
+  },
+  {
+   "uid": "oa-induction-weekend-1-2027",
+   "title": "OA Induction Weekend 1 - 2027",
+   "start": "2027-04-16",
+   "end": "2027-04-18",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92070",
+   "url": "https://www.sdicscouting.org/events/oa-induction-weekend-1-2027"
+  },
+  {
+   "uid": "spring-family-fun-2026",
+   "title": "Spring Family Fun",
+   "start": "2027-04-17",
+   "end": "2027-04-17",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/spring-family-fun-2026"
+  },
+  {
+   "uid": "haltt-session-1-apr-2027",
+   "title": "HALTT Session I",
+   "start": "2027-04-28",
+   "end": "2027-04-28",
+   "time": null,
+   "location": "Atherton Hall, Scouting America, 1207 Upas St, San Diego, CA 92103, USA",
+   "url": "https://www.sdicscouting.org/events/haltt-session-1-apr-2027"
+  },
+  {
+   "uid": "haltt-session-2-may-2027",
+   "title": "HALTT Session II",
+   "start": "2027-05-01",
+   "end": "2027-05-01",
+   "time": null,
+   "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92122",
+   "url": "https://www.sdicscouting.org/events/haltt-session-2-may-2027"
+  },
+  {
+   "uid": "msr-work-party-may",
+   "title": "Mataguay Scout Ranch Work Party",
+   "start": "2027-05-01",
+   "end": "2027-05-02",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/msr-work-party-may"
+  },
+  {
+   "uid": "2027-may-unit-backpacking",
+   "title": "Unit Backpack Training",
+   "start": "2027-05-02",
+   "end": "2027-05-03",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92080",
+   "url": "https://www.sdicscouting.org/events/2027-may-unit-backpacking"
+  },
+  {
+   "uid": "first-aid-adult-cpr-and-aed-may-2027",
+   "title": "First Aid, Adult CPR, and AED",
+   "start": "2027-05-08",
+   "end": "2027-05-08",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/first-aid-adult-cpr-and-aed-may-2027"
+  },
+  {
+   "uid": "trades-merit-badges-day",
+   "title": "Trades Merit Badges Day",
+   "start": "2027-05-08",
+   "end": "2027-05-08",
+   "time": null,
+   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
+   "url": "https://www.sdicscouting.org/events/trades-merit-badges-day"
+  },
+  {
+   "uid": "oa-lodge-encampment-2027",
+   "title": "OA Lodge Encampment - 2027",
+   "start": "2027-05-14",
+   "end": "2027-05-16",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92070",
+   "url": "https://www.sdicscouting.org/events/oa-lodge-encampment-2027"
+  },
+  {
+   "uid": "cope-weekend-2027-5",
+   "title": "Project C.O.P.E.",
+   "start": "2027-05-14",
+   "end": "2027-05-16",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/cope-weekend-2027-5"
+  },
+  {
+   "uid": "haltt-session-3-may-2027",
+   "title": "HALTT Session III",
+   "start": "2027-05-15",
+   "end": "2027-05-16",
+   "time": null,
+   "location": "Mataguay Scout Ranch, Mataguay Rd, Santa Ysabel, CA 92070, USA",
+   "url": "https://www.sdicscouting.org/events/haltt-session-3-may-2027"
+  },
+  {
+   "uid": "wilderness-and-remote-first-aid-may-2027",
+   "title": "Wilderness and Remote First Aid",
+   "start": "2027-05-15",
+   "end": "2027-05-16",
+   "time": null,
+   "location": "San Diego-Imperial Council, Boy Scouts of America, 1207 Upas St, San Diego, CA 92103, USA",
+   "url": "https://www.sdicscouting.org/events/wilderness-and-remote-first-aid-may-2027"
+  },
+  {
+   "uid": "international-camporee-2027",
+   "title": "International Camporee",
+   "start": "2027-05-21",
+   "end": "2027-05-23",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/international-camporee-2027"
+  },
+  {
+   "uid": "community-adventure-day-4",
+   "title": "Community Adventure Day",
+   "start": "2027-05-22",
+   "end": "2027-05-22",
+   "time": null,
+   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
+   "url": "https://www.sdicscouting.org/events/community-adventure-day-4"
+  },
+  {
+   "uid": "first-aid-adult-cpr-and-aed-may-22-2027",
+   "title": "First Aid, Adult CPR, and AED",
+   "start": "2027-05-22",
+   "end": "2027-05-22",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/first-aid-adult-cpr-and-aed-may-22-2027"
+  },
+  {
+   "uid": "haltt-session-4-jun-water-2027",
+   "title": "HALTT Session IV: Water Trek",
+   "start": "2027-06-02",
+   "end": "2027-06-06",
+   "time": null,
+   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92114",
+   "url": "https://www.sdicscouting.org/events/haltt-session-4-jun-water-2027"
+  },
+  {
+   "uid": "oa-induction-weekend-2-2027",
+   "title": "OA Induction Weekend 2 - 2027",
+   "start": "2027-06-04",
+   "end": "2027-06-06",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92070",
+   "url": "https://www.sdicscouting.org/events/oa-induction-weekend-2-2027"
+  },
+  {
+   "uid": "haltt-recert-1-2027",
+   "title": "HALTT Recertification",
+   "start": "2027-06-12",
+   "end": "2027-06-12",
+   "time": null,
+   "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92122",
+   "url": "https://www.sdicscouting.org/events/haltt-recert-1-2027"
+  },
+  {
+   "uid": "summer-camp-msr-week-1",
+   "title": "Summer Camp - MSR",
+   "start": "2027-06-13",
+   "end": "2027-06-19",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/summer-camp-msr-week-1"
+  },
+  {
+   "uid": "summer-camp-cfi-week-1",
+   "title": "Summer Camp - CFI",
+   "start": "2027-06-20",
+   "end": "2027-06-26",
+   "time": null,
+   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
+   "url": "https://www.sdicscouting.org/events/summer-camp-cfi-week-1"
+  },
+  {
+   "uid": "summer-camp-msr-week-2",
+   "title": "Summer Camp - MSR",
+   "start": "2027-06-20",
+   "end": "2027-06-26",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/summer-camp-msr-week-2"
+  },
+  {
+   "uid": "summer-camp-msr-week-3",
+   "title": "Summer Camp - MSR",
+   "start": "2027-06-27",
+   "end": "2027-07-03",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/summer-camp-msr-week-3"
+  },
+  {
+   "uid": "summer-camp-cfi-week-3",
+   "title": "Summer Camp - CFI",
+   "start": "2027-07-04",
+   "end": "2027-07-10",
+   "time": null,
+   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
+   "url": "https://www.sdicscouting.org/events/summer-camp-cfi-week-3"
+  },
+  {
+   "uid": "cub-scout-resident-camp",
+   "title": "Cub Scout Resident Camp",
+   "start": "2027-07-07",
+   "end": "2027-07-10",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/cub-scout-resident-camp"
+  },
+  {
+   "uid": "wilderness-and-remote-first-aid-july-2027",
+   "title": "Wilderness and Remote First Aid",
+   "start": "2027-07-10",
+   "end": "2027-07-11",
+   "time": null,
+   "location": "San Diego-Imperial Council, Boy Scouts of America, 1207 Upas St, San Diego, CA 92103, USA",
+   "url": "https://www.sdicscouting.org/events/wilderness-and-remote-first-aid-july-2027"
+  },
+  {
+   "uid": "summer-camp-cfi-week-4",
+   "title": "Summer Camp - CFI",
+   "start": "2027-07-11",
+   "end": "2027-07-17",
+   "time": null,
+   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
+   "url": "https://www.sdicscouting.org/events/summer-camp-cfi-week-4"
+  },
+  {
+   "uid": "summer-camp-cfi-week-5",
+   "title": "Summer Camp - CFI",
+   "start": "2027-07-18",
+   "end": "2027-07-24",
+   "time": null,
+   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
+   "url": "https://www.sdicscouting.org/events/summer-camp-cfi-week-5"
+  },
+  {
+   "uid": "summer-camp-cfi-week-6",
+   "title": "Summer Camp - CFI",
+   "start": "2027-07-25",
+   "end": "2027-07-31",
+   "time": null,
+   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
+   "url": "https://www.sdicscouting.org/events/summer-camp-cfi-week-6"
+  },
+  {
+   "uid": "summer-camp-cfi-webelos-aol-session-1",
+   "title": "Webelos and AOL Resident Camp",
+   "start": "2027-08-01",
+   "end": "2027-08-04",
+   "time": null,
+   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
+   "url": "https://www.sdicscouting.org/events/summer-camp-cfi-webelos-aol-session-1"
+  },
+  {
+   "uid": "summer-camp-cfi-webelos-aol-session-2",
+   "title": "Webelos and AOL Resident Camp",
+   "start": "2027-08-04",
+   "end": "2027-08-07",
+   "time": null,
+   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
+   "url": "https://www.sdicscouting.org/events/summer-camp-cfi-webelos-aol-session-2"
+  },
+  {
+   "uid": "sea-scout-weekend",
+   "title": "Sea Scout Weekend",
+   "start": "2027-08-13",
+   "end": "2027-08-15",
+   "time": null,
+   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
+   "url": "https://www.sdicscouting.org/events/sea-scout-weekend"
+  },
+  {
+   "uid": "community-adventure-day-5",
+   "title": "Community Adventure Day",
+   "start": "2027-08-28",
+   "end": "2027-08-28",
+   "time": null,
+   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
+   "url": "https://www.sdicscouting.org/events/community-adventure-day-5"
+  },
+  {
+   "uid": "oa-induction-weekend-3-2027",
+   "title": "OA Induction Weekend 3 - 2027",
+   "start": "2027-09-10",
+   "end": "2027-09-12",
+   "time": null,
+   "location": "Camp Balboa, 1207 Upas Street, San Diego, CA 92103",
+   "url": "https://www.sdicscouting.org/events/oa-induction-weekend-3-2027"
+  },
+  {
+   "uid": "cope-weekend-2027-9",
+   "title": "Project C.O.P.E.",
+   "start": "2027-09-10",
+   "end": "2027-09-12",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/cope-weekend-2027-9"
+  },
+  {
+   "uid": "paddle-craft-and-safe-water-rescue-clinic",
+   "title": "Paddle Craft and Safe Water Rescue Clinic",
+   "start": "2027-09-11",
+   "end": "2027-09-11",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/paddle-craft-and-safe-water-rescue-clinic"
+  },
+  {
+   "uid": "2027-tiwahe-lodge-vigil-celebration",
+   "title": "2027 Tiwahe Lodge Vigil Celebration",
+   "start": "2027-09-25",
+   "end": "2027-09-26",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92070",
+   "url": "https://www.sdicscouting.org/events/2027-tiwahe-lodge-vigil-celebration"
+  },
+  {
+   "uid": "community-adventure-day-6",
+   "title": "Community Adventure Day",
+   "start": "2027-09-25",
+   "end": "2027-09-25",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/community-adventure-day-6"
+  },
+  {
+   "uid": "haltt-session-3-sept-2027",
+   "title": "HALTT Session III",
+   "start": "2027-09-25",
+   "end": "2027-09-26",
+   "time": null,
+   "location": "Mataguay Scout Ranch, Mataguay Rd, Santa Ysabel, CA 92070, USA",
+   "url": "https://www.sdicscouting.org/events/haltt-session-3-sept-2027"
+  },
+  {
+   "uid": "cope-weekend-2027-10",
+   "title": "Project C.O.P.E.",
+   "start": "2027-10-08",
+   "end": "2027-10-10",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/cope-weekend-2027-10"
+  },
+  {
+   "uid": "2027-oct-unit-backpacking",
+   "title": "Unit Backpack Training",
+   "start": "2027-10-09",
+   "end": "2027-10-10",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92081",
+   "url": "https://www.sdicscouting.org/events/2027-oct-unit-backpacking"
+  },
+  {
+   "uid": "community-adventure-day-7",
+   "title": "Community Adventure Day",
+   "start": "2027-10-16",
+   "end": "2027-10-16",
+   "time": null,
+   "location": "Camp Bashor at Otay Lakes County Park, 2270 Wueste Rd, Chula Vista, CA 91915",
+   "url": "https://www.sdicscouting.org/events/community-adventure-day-7"
+  },
+  {
+   "uid": "first-aid-adult-cpr-and-aed-oct-2027",
+   "title": "First Aid, Adult CPR, and AED",
+   "start": "2027-10-16",
+   "end": "2027-10-16",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/first-aid-adult-cpr-and-aed-oct-2027"
+  },
+  {
+   "uid": "wilderness-and-remote-first-aid-oct-2027",
+   "title": "Wilderness and Remote First Aid",
+   "start": "2027-10-23",
+   "end": "2027-10-24",
+   "time": null,
+   "location": "San Diego-Imperial Council, Boy Scouts of America, 1207 Upas St, San Diego, CA 92103, USA",
+   "url": "https://www.sdicscouting.org/events/wilderness-and-remote-first-aid-oct-2027"
+  },
+  {
+   "uid": "fall-family-fun-2027",
+   "title": "Fall Family Fun",
+   "start": "2027-10-30",
+   "end": "2027-10-30",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/fall-family-fun-2027"
+  },
+  {
+   "uid": "haltt-session-4-nov-water-2027",
+   "title": "HALTT Session IV: Water Trek",
+   "start": "2027-11-03",
+   "end": "2027-11-07",
+   "time": null,
+   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92114",
+   "url": "https://www.sdicscouting.org/events/haltt-session-4-nov-water-2027"
+  },
+  {
+   "uid": "2027-tiwahe-lodge-fellowship",
+   "title": "2027 Tiwahe Lodge Fellowship",
+   "start": "2027-11-12",
+   "end": "2027-11-14",
+   "time": null,
+   "location": "Camp Balboa, 1207 Upas Street, San Diego, CA 92103",
+   "url": "https://www.sdicscouting.org/events/2027-tiwahe-lodge-fellowship"
+  },
+  {
+   "uid": "cope-weekend-2027-11",
+   "title": "Project C.O.P.E.",
+   "start": "2027-11-12",
+   "end": "2027-11-14",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/cope-weekend-2027-11"
+  },
+  {
+   "uid": "haltt-recert-2-2027",
+   "title": "HALTT Recertification",
+   "start": "2027-11-13",
+   "end": "2027-11-13",
+   "time": null,
+   "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92122",
+   "url": "https://www.sdicscouting.org/events/haltt-recert-2-2027"
+  },
+  {
+   "uid": "2027-nov-unit-backpacking",
+   "title": "Unit Backpack Training",
+   "start": "2027-11-14",
+   "end": "2027-11-15",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92082",
+   "url": "https://www.sdicscouting.org/events/2027-nov-unit-backpacking"
+  },
+  {
+   "uid": "dutch-oven-cooking-day",
+   "title": "Dutch Oven Cooking Day",
+   "start": "2027-11-20",
+   "end": "2027-11-20",
+   "time": null,
+   "location": "Camp Balboa, 1207 Upas Street, San Diego, CA 92103",
+   "url": "https://www.sdicscouting.org/events/dutch-oven-cooking-day"
+  },
+  {
+   "uid": "complete-angler-weekend",
+   "title": "Complete Angler - Weekend",
+   "start": "2027-12-03",
+   "end": "2027-12-05",
+   "time": null,
+   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
+   "url": "https://www.sdicscouting.org/events/complete-angler-weekend"
+  },
+  {
+   "uid": "cope-weekend-2027-12",
+   "title": "Project C.O.P.E.",
+   "start": "2027-12-10",
+   "end": "2027-12-12",
+   "time": null,
+   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+   "url": "https://www.sdicscouting.org/events/cope-weekend-2027-12"
+  },
+  {
+   "uid": "american-red-cross-lifeguard-class-2027",
+   "title": "American Red Cross Lifeguard Class",
+   "start": "2027-12-27",
+   "end": "2028-01-01",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/american-red-cross-lifeguard-class-2027"
+  }
+ ]
+}
