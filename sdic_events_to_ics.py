@@ -6,6 +6,8 @@ Setup:   pip install requests beautifulsoup4
 Run:     python sdic_events_to_ics.py                (upcoming events only)
          python sdic_events_to_ics.py --all          (include past events)
          python sdic_events_to_ics.py -o scouting.ics
+         python sdic_events_to_ics.py -o docs/sdic_events.ics --site-dir docs
+            (also writes docs/events.json + docs/changes.json for the web page)
 
 How it works:
   1. /events has a "Complete Events List" with title, link, start and end date for
@@ -13,11 +15,15 @@ How it works:
   2. It also walks the paginated cards (?3d3ef557_page=N) in case the complete list
      is ever truncated (Webflow caps collection lists at 100 items).
   3. Each event's detail page is fetched for location + description.
-  4. Events are written as all-day events with a stable UID, so re-importing an
-     updated file updates existing events instead of duplicating them.
+  4. Events are written with a stable UID, so re-importing an updated file updates
+     existing events instead of duplicating them.
+  5. With --site-dir, it also saves a snapshot of the events and compares it with the
+     previous snapshot, keeping a history of what was added, removed or changed.
 """
 import argparse
 import datetime as dt
+import json
+import os
 import re
 import time
 from urllib.parse import urljoin
@@ -42,9 +48,16 @@ SUSPECT_SPAN_DAYS = 6  # more than 7 calendar days (inclusive) is suspect: split
 
 
 def get(url):
-    r = requests.get(url, headers=HEADERS, timeout=30)
-    r.raise_for_status()
-    return BeautifulSoup(r.text, "html.parser")
+    for attempt in range(3):
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=30)
+            r.raise_for_status()
+            return BeautifulSoup(r.text, "html.parser")
+        except requests.RequestException as ex:
+            status = getattr(getattr(ex, "response", None), "status_code", None)
+            if status == 404 or attempt == 2:   # a 404 is an answer, not a hiccup
+                raise
+            time.sleep(2 * (attempt + 1))
 
 
 def event_href(tag):
@@ -292,23 +305,108 @@ def build_ics(events):
     return "\r\n".join(fold(l) for l in lines) + "\r\n"
 
 
+# ---------- site data: snapshot + change history ----------
+
+DIFF_FIELDS = ["title", "start", "end", "time", "location"]
+HISTORY_LIMIT = 40
+
+
+def clock(t):
+    return t.strftime("%I:%M %p").lstrip("0")
+
+
+def record(e):
+    t = e.get("times")
+    return {"uid": e.get("uid") or e["url"].rsplit("/", 1)[-1],
+            "title": e["title"], "start": e["start"].isoformat(), "end": e["end"].isoformat(),
+            "time": f"{clock(t[0])} \u2013 {clock(t[1])}" if t else None,
+            "location": e["location"], "url": e["url"]}
+
+
+def load_json(path, default):
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return default
+
+
+def diff_events(old, new, today):
+    old_by, new_by = {e["uid"]: e for e in old}, {e["uid"]: e for e in new}
+    added = [e for u, e in new_by.items() if u not in old_by]
+    # an event that simply ended and rolled off the list is not a "removal"
+    removed = [e for u, e in old_by.items() if u not in new_by and e["end"] >= today.isoformat()]
+    changed = []
+    for u, e in new_by.items():
+        o = old_by.get(u)
+        if o:
+            diffs = [{"field": f, "from": o.get(f), "to": e.get(f)}
+                     for f in DIFF_FIELDS if o.get(f) != e.get(f)]
+            if diffs:
+                changed.append({"event": e, "changes": diffs})
+    return added, removed, changed
+
+
+def update_site_data(events, site_dir, today, failed_slugs):
+    os.makedirs(site_dir, exist_ok=True)
+    ev_path, ch_path = os.path.join(site_dir, "events.json"), os.path.join(site_dir, "changes.json")
+    now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    old_doc = load_json(ev_path, {})
+    old = old_doc.get("events", [])
+    history = load_json(ch_path, {}).get("history", [])
+
+    new = [record(e) for e in events]
+    # events whose page failed to load this time keep their previous record, so a
+    # temporary website hiccup doesn't show up as "removed" and then "added".
+    have = {r["uid"] for r in new}
+    for o in old:
+        if o["uid"] not in have and any(
+                re.fullmatch(re.escape(sl) + r"(-\d{8})?", o["uid"]) for sl in failed_slugs):
+            new.append(o)
+    new.sort(key=lambda r: (r["start"], r["title"]))
+
+    updated_at = old_doc.get("updated_at") or now
+    if old_doc:
+        added, removed, changed = diff_events(old, new, today)
+        if added or removed or changed:
+            history.insert(0, {"at": now, "added": added, "removed": removed, "changed": changed})
+            updated_at = now
+            print(f"Changes since last update: {len(added)} added, {len(removed)} removed, "
+                  f"{len(changed)} changed")
+        else:
+            print("No changes since last update.")
+    else:
+        updated_at = now
+        print("No previous snapshot found: recorded the current list as the starting point.")
+
+    doc = {"checked_at": now, "updated_at": updated_at,
+           "tracking_since": old_doc.get("tracking_since") or now, "events": new}
+    for path, payload in ((ev_path, doc), (ch_path, {"history": history[:HISTORY_LIMIT]})):
+        with open(path, "w", encoding="utf-8", newline="\n") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=1)
+            f.write("\n")
+    print(f"Wrote {ev_path} and {ch_path}")
+
+
 # ---------- main ----------
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("-o", "--out", default="sdic_events.ics")
     ap.add_argument("--all", action="store_true", help="include events that already ended")
+    ap.add_argument("--site-dir", help="also write events.json + changes.json here (e.g. docs)")
     args = ap.parse_args()
 
     listing = collect_listing()
     print(f"Found {len(listing)} events. Fetching detail pages...")
 
-    final, today = [], dt.date.today()
+    final, today, failed = [], dt.date.today(), set()
     for i, (url, base) in enumerate(listing.items(), 1):
         try:
             d = parse_detail(url)
         except Exception as ex:
             print(f"  ! skipped {url}: {ex}")
+            failed.add(url.rsplit("/", 1)[-1])
             continue
         dates = base["dates"] or d["dates"]       # listing dates win; detail page is fallback
         if not dates:
@@ -352,7 +450,10 @@ def main():
     with open(args.out, "w", encoding="utf-8", newline="") as f:
         f.write(build_ics(final))
     print(f"\nWrote {len(final)} events to {args.out}")
-    print("Import: Google Calendar > Settings > Import & export > Import")
+    if args.site_dir:
+        update_site_data(final, args.site_dir, today, failed)
+    else:
+        print("Import: Google Calendar > Settings > Import & export > Import")
 
 
 if __name__ == "__main__":
