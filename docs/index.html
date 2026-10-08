@@ -3,12 +3,31 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Scouting America, SDIC Scouting Events Calendar</title>
+<title>SDIC Scouting Events Calendar</title>
 <style>
-  body{font-family:system-ui,sans-serif;max-width:640px;margin:3rem auto;padding:0 1rem;line-height:1.5;color:#222}
+  :root{--bg:#fff;--fg:#222;--muted:#666;--card:#f5f6f8;--line:#dde0e5;--accent:#1a4d8f;--add:#1b7a3d;--rem:#b3261e;--chg:#8a5a00}
+  @media (prefers-color-scheme:dark){:root{--bg:#15171a;--fg:#e8e9eb;--muted:#9aa0a6;--card:#202327;--line:#34383d;--accent:#6ea8ff;--add:#5fd08a;--rem:#ff8a80;--chg:#f2c46d}}
+  *{box-sizing:border-box}
+  body{font-family:system-ui,-apple-system,Segoe UI,sans-serif;max-width:760px;margin:2rem auto;padding:0 1rem 3rem;line-height:1.5;color:var(--fg);background:var(--bg)}
+  h1{margin-bottom:.25rem} h2{margin:2rem 0 .5rem;font-size:1.25rem}
+  a{color:var(--accent)}
   .btn{display:inline-block;margin:.25rem .5rem .25rem 0;padding:.7rem 1.1rem;border-radius:8px;background:#1a4d8f;color:#fff;text-decoration:none}
-  code{background:#eee;padding:.15rem .4rem;border-radius:4px;word-break:break-all}
-  small{color:#666}
+  code{background:var(--card);padding:.15rem .4rem;border-radius:4px;word-break:break-all}
+  small,.muted{color:var(--muted)}
+  .status{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.8rem 1rem;margin:1.2rem 0}
+  .status div{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;padding:.15rem 0}
+  .entry{border:1px solid var(--line);border-radius:10px;padding:.8rem 1rem;margin:.6rem 0}
+  .entry h3{margin:0 0 .4rem;font-size:1rem}
+  .tag{display:inline-block;font-size:.75rem;font-weight:600;border-radius:4px;padding:0 .4rem;margin-right:.4rem;border:1px solid currentColor}
+  .add{color:var(--add)} .rem{color:var(--rem)} .chg{color:var(--chg)}
+  ul.plain{list-style:none;margin:.2rem 0;padding:0}
+  ul.plain li{padding:.2rem 0}
+  .search{width:100%;padding:.6rem .8rem;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg);font-size:1rem;margin:.4rem 0 .8rem}
+  .month{margin:1.2rem 0 .3rem;font-weight:700;border-bottom:1px solid var(--line);padding-bottom:.2rem}
+  .ev{display:grid;grid-template-columns:9.5rem 1fr;gap:.2rem .8rem;padding:.4rem 0;border-bottom:1px dashed var(--line)}
+  .ev .when{color:var(--muted);font-variant-numeric:tabular-nums}
+  @media (max-width:520px){.ev{grid-template-columns:1fr}}
+  details summary{cursor:pointer;margin:.6rem 0}
 </style>
 </head>
 <body>
@@ -19,8 +38,166 @@
   <a class="btn" href="webcal://tabasco-create.github.io/sdic-scouting-calendar/sdic_events.ics">Apple / Outlook</a>
 </p>
 <p>Other apps: subscribe by URL with<br><code>https://tabasco-create.github.io/sdic-scouting-calendar/sdic_events.ics</code></p>
-<p><small>Events are all-day entries. Check each event's link for times, costs and registration. Updates can take several hours to appear in Google Calendar.
-This is an unofficial, Troop 24 parent-run feed built from the public events page at
+
+<div class="status" id="status" aria-live="polite">
+  <div><span>Loading status&hellip;</span></div>
+</div>
+
+<h2>What changed</h2>
+<div id="changes"><p class="muted">Loading&hellip;</p></div>
+
+<h2>All upcoming events <span class="muted" id="count"></span></h2>
+<input class="search" id="search" type="search" placeholder="Search events, places, dates&hellip;" aria-label="Search events">
+<div id="events"></div>
+<noscript><p>This list needs JavaScript. You can still subscribe with the buttons above.</p></noscript>
+
+<p><small>Events are all-day entries unless a time is shown. Check each event's link for times, costs and registration. Updates can take several hours to appear in Google Calendar.
+This is an unofficial, parent-run feed built from the public events page at
 <a href="https://www.sdicscouting.org/events">sdicscouting.org/events</a>. The council's website is always the source of truth.</small></p>
+
+<script>
+(function () {
+  var TZ = "America/Los_Angeles";
+  var MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  var FULL_MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  var DAYS = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+  var FIELD_LABEL = {title:"Title", start:"Start date", end:"End date", time:"Time", location:"Location"};
+
+  function el(tag, text, cls) {
+    var n = document.createElement(tag);
+    if (text != null) n.textContent = text;
+    if (cls) n.className = cls;
+    return n;
+  }
+  function parts(iso) { var p = iso.split("-"); return {y:+p[0], m:+p[1]-1, d:+p[2]}; }
+  function dateObj(iso) { var p = parts(iso); return new Date(p.y, p.m, p.d); }
+  function shortDate(iso) {
+    var p = parts(iso), dow = DAYS[dateObj(iso).getDay()];
+    return dow + ", " + MONTHS[p.m] + " " + p.d + ", " + p.y;
+  }
+  function range(a, b) {
+    var x = parts(a), y = parts(b);
+    if (a === b) return DAYS[dateObj(a).getDay()] + ", " + MONTHS[x.m] + " " + x.d;
+    if (x.y === y.y && x.m === y.m) return MONTHS[x.m] + " " + x.d + "\u2013" + y.d;
+    return MONTHS[x.m] + " " + x.d + " \u2013 " + MONTHS[y.m] + " " + y.d;
+  }
+  function stamp(iso) {
+    try {
+      return new Date(iso).toLocaleString("en-US", {timeZone: TZ, dateStyle: "medium", timeStyle: "short"});
+    } catch (e) { return iso; }
+  }
+  function safeLink(text, url) {
+    if (typeof url === "string" && url.indexOf("https://www.sdicscouting.org/") === 0) {
+      var a = el("a", text); a.href = url; a.target = "_blank"; a.rel = "noopener"; return a;
+    }
+    return el("span", text);
+  }
+  function fieldValue(field, v) {
+    if (v == null || v === "") return "(none)";
+    return (field === "start" || field === "end") ? shortDate(v) : String(v);
+  }
+  function eventLine(e) {
+    var li = el("li");
+    li.appendChild(safeLink(e.title, e.url));
+    li.appendChild(el("span", " \u2014 " + range(e.start, e.end) + (e.time ? ", " + e.time : ""), "muted"));
+    return li;
+  }
+  function section(tagText, cls, items, builder) {
+    if (!items || !items.length) return null;
+    var box = el("div");
+    var head = el("div"); head.appendChild(el("span", tagText, "tag " + cls));
+    head.appendChild(el("span", items.length + (items.length === 1 ? " event" : " events"), "muted"));
+    box.appendChild(head);
+    var ul = el("ul", null, "plain");
+    items.forEach(function (it) { ul.appendChild(builder(it)); });
+    box.appendChild(ul);
+    return box;
+  }
+  function entryNode(h, big) {
+    var box = el("div", null, "entry");
+    box.appendChild(el(big ? "h3" : "h4", "Update on " + stamp(h.at)));
+    var s1 = section("Added", "add", h.added, eventLine);
+    var s2 = section("Removed", "rem", h.removed, eventLine);
+    var s3 = section("Changed", "chg", h.changed, function (c) {
+      var li = eventLine(c.event);
+      var ul = el("ul", null, "plain");
+      c.changes.forEach(function (ch) {
+        ul.appendChild(el("li", FIELD_LABEL[ch.field] + ": " + fieldValue(ch.field, ch.from) +
+                          "  \u2192  " + fieldValue(ch.field, ch.to), "muted"));
+      });
+      li.appendChild(ul);
+      return li;
+    });
+    [s1, s2, s3].forEach(function (s) { if (s) box.appendChild(s); });
+    return box;
+  }
+
+  function renderStatus(doc) {
+    var st = document.getElementById("status");
+    st.textContent = "";
+    [["Last checked", stamp(doc.checked_at)],
+     ["Last updated (events changed)", stamp(doc.updated_at)],
+     ["Tracking since", stamp(doc.tracking_since)]].forEach(function (r) {
+      var row = el("div"); row.appendChild(el("span", r[0], "muted")); row.appendChild(el("strong", r[1]));
+      st.appendChild(row);
+    });
+  }
+  function renderChanges(doc, hist) {
+    var box = document.getElementById("changes"); box.textContent = "";
+    if (!hist.length) {
+      box.appendChild(el("p", "No changes recorded yet. Tracking started " + stamp(doc.tracking_since) +
+        ", and the list below is the starting point. Future additions, removals and date changes will appear here.", "muted"));
+      return;
+    }
+    box.appendChild(entryNode(hist[0], true));
+    if (hist.length > 1) {
+      var d = el("details"); d.appendChild(el("summary", "Earlier updates (" + (hist.length - 1) + ")"));
+      hist.slice(1).forEach(function (h) { d.appendChild(entryNode(h, false)); });
+      box.appendChild(d);
+    }
+  }
+  function renderEvents(list, q) {
+    var box = document.getElementById("events"); box.textContent = "";
+    q = (q || "").toLowerCase().trim();
+    var shown = list.filter(function (e) {
+      if (!q) return true;
+      var hay = [e.title, e.location || "", range(e.start, e.end), e.start,
+                 FULL_MONTHS[parts(e.start).m]].join(" ").toLowerCase();
+      return hay.indexOf(q) !== -1;
+    });
+    document.getElementById("count").textContent = "(" + shown.length + (q ? " of " + list.length : "") + ")";
+    if (!shown.length) { box.appendChild(el("p", "No matching events.", "muted")); return; }
+    var current = "";
+    shown.forEach(function (e) {
+      var p = parts(e.start), label = FULL_MONTHS[p.m] + " " + p.y;
+      if (label !== current) { current = label; box.appendChild(el("div", label, "month")); }
+      var row = el("div", null, "ev");
+      row.appendChild(el("div", range(e.start, e.end) + (e.time ? "\n" + e.time : ""), "when"));
+      row.lastChild.style.whiteSpace = "pre-line";
+      var right = el("div"); right.appendChild(safeLink(e.title, e.url));
+      if (e.location) right.appendChild(el("div", e.location, "muted"));
+      row.appendChild(right); box.appendChild(row);
+    });
+  }
+
+  function load(url) {
+    return fetch(url, {cache: "no-cache"}).then(function (r) {
+      if (!r.ok) throw new Error(url + " " + r.status);
+      return r.json();
+    });
+  }
+  Promise.all([load("events.json"), load("changes.json").catch(function () { return {history: []}; })])
+    .then(function (res) {
+      var doc = res[0], hist = res[1].history || [], list = doc.events || [];
+      renderStatus(doc); renderChanges(doc, hist); renderEvents(list, "");
+      document.getElementById("search").addEventListener("input", function (ev) { renderEvents(list, ev.target.value); });
+    })
+    .catch(function () {
+      document.getElementById("status").textContent = "The event list isn't available yet. You can still subscribe above.";
+      document.getElementById("changes").textContent = "";
+      document.getElementById("events").textContent = "";
+    });
+})();
+</script>
 </body>
 </html>
