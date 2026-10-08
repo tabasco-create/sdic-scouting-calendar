@@ -343,7 +343,7 @@ LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
  o\, CA 92114
 END:VEVENT
 BEGIN:VEVENT
-UID:radio-merit-badge-on-uss-midway--november@sdicscouting.org
+UID:radio-merit-badge-on-uss-midway-november@sdicscouting.org
 DTSTAMP:20261107T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
@@ -356,9 +356,9 @@ DESCRIPTION:Radio Merit Badge\nComplete your Radio Merit Badge aboard the\
  -led Midway Magic from\n12:00–5:00 PM\n. Cost is $20 per Scout\, which 
  includes a full day on the USS Midway.\nFor more information or to regist
  er\, contact Samantha Hunter at\nshunter@midway.org\n.\n\nhttps://www.sdi
- cscouting.org/events/radio-merit-badge-on-uss-midway--november
-URL:https://www.sdicscouting.org/events/radio-merit-badge-on-uss-midway--n
- ovember
+ cscouting.org/events/radio-merit-badge-on-uss-midway-november
+URL:https://www.sdicscouting.org/events/radio-merit-badge-on-uss-midway-no
+ vember
 END:VEVENT
 BEGIN:VEVENT
 UID:cub-scout-leader-training@sdicscouting.org
@@ -1848,23 +1848,6 @@ URL:https://www.sdicscouting.org/events/paddle-craft-and-safe-water-rescue
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
 END:VEVENT
 BEGIN:VEVENT
-UID:haltt-session-3-sept-2027@sdicscouting.org
-DTSTAMP:20270925T000000Z
-DTSTART;VALUE=DATE:20270925
-DTEND;VALUE=DATE:20270927
-SUMMARY:HALTT Session III
-DESCRIPTION:HALTT Session III\nThis 40-hour course prepares unit leaders f
- or backpacking trips.\nThis 40-hour course prepares unit leaders for basi
- c backpacking and wilderness camping trips. Topics include: leadership\, 
- trek planning\, equipment\, food\, health and safety\, map and compass\, 
- awards\, and conservation. Leaders completing sessions I\, II\, and III r
- eceive a patch and numbered card.\n\nhttps://www.sdicscouting.org/events/
- haltt-session-3-sept-2027
-URL:https://www.sdicscouting.org/events/haltt-session-3-sept-2027
-LOCATION:Mataguay Scout Ranch\, Mataguay Rd\, Santa Ysabel\, CA 92070\, US
- A
-END:VEVENT
-BEGIN:VEVENT
 UID:2027-tiwahe-lodge-vigil-celebration@sdicscouting.org
 DTSTAMP:20270925T000000Z
 DTSTART;VALUE=DATE:20270925
@@ -1885,6 +1868,23 @@ DESCRIPTION:2027 Tiwahe Lodge Vigil Celebration\nThe Vigil Honor is a high
 URL:https://www.sdicscouting.org/events/2027-tiwahe-lodge-vigil-celebratio
  n
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92070
+END:VEVENT
+BEGIN:VEVENT
+UID:haltt-session-3-sept-2027@sdicscouting.org
+DTSTAMP:20270925T000000Z
+DTSTART;VALUE=DATE:20270925
+DTEND;VALUE=DATE:20270927
+SUMMARY:HALTT Session III
+DESCRIPTION:HALTT Session III\nThis 40-hour course prepares unit leaders f
+ or backpacking trips.\nThis 40-hour course prepares unit leaders for basi
+ c backpacking and wilderness camping trips. Topics include: leadership\, 
+ trek planning\, equipment\, food\, health and safety\, map and compass\, 
+ awards\, and conservation. Leaders completing sessions I\, II\, and III r
+ eceive a patch and numbered card.\n\nhttps://www.sdicscouting.org/events/
+ haltt-session-3-sept-2027
+URL:https://www.sdicscouting.org/events/haltt-session-3-sept-2027
+LOCATION:Mataguay Scout Ranch\, Mataguay Rd\, Santa Ysabel\, CA 92070\, US
+ A
 END:VEVENT
 BEGIN:VEVENT
 UID:community-adventure-day-6@sdicscouting.org
