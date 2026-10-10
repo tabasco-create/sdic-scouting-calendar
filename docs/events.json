@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-10-09T13:39:14Z",
- "updated_at": "2026-10-08T00:46:56Z",
+ "checked_at": "2026-10-10T13:34:20Z",
+ "updated_at": "2026-10-10T13:34:20Z",
  "tracking_since": "2026-10-08T00:46:56Z",
  "events": [
   {
@@ -76,6 +76,15 @@
    "url": "https://www.sdicscouting.org/events/kayaking-merit-badge-day-2"
   },
   {
+   "uid": "coin-collecting-merit-badge-day",
+   "title": "Coin Collecting Merit Badge Day",
+   "start": "2026-10-18",
+   "end": "2026-10-18",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/coin-collecting-merit-badge-day"
+  },
+  {
    "uid": "honor-guard-training-october",
    "title": "Honor Guard Training",
    "start": "2026-10-18",
@@ -110,6 +119,15 @@
    "time": null,
    "location": "Mataguay Scout Ranch, Mataguay Rd, Santa Ysabel, CA 92070",
    "url": "https://www.sdicscouting.org/events/fall-family-fun"
+  },
+  {
+   "uid": "movie-in-the-park",
+   "title": "Movie in the Park",
+   "start": "2026-10-23",
+   "end": "2026-10-23",
+   "time": null,
+   "location": "25453 Lake Wohlford Road, Escondido, CA 92025",
+   "url": "https://www.sdicscouting.org/events/movie-in-the-park"
   },
   {
    "uid": "personal-management-merit-badge-workshop-20261028",
@@ -245,6 +263,15 @@
    "time": null,
    "location": "Sea World San Diego, 500 Sea World Dr., San Diego, CA 92109",
    "url": "https://www.sdicscouting.org/events/cub-scout-lock-in"
+  },
+  {
+   "uid": "coastal-sage-scouting-for-clean-waterways",
+   "title": "Scouting for Clean Waterways",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/coastal-sage-scouting-for-clean-waterways"
   },
   {
    "uid": "holiday-at-the-bay-2026",
