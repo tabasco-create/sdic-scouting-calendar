@@ -5,6 +5,7 @@ on:
   workflow_dispatch:         # lets you run it manually from the Actions tab
 permissions:
   contents: write
+  actions: write      # lets the keep-alive step reset GitHub's 60-day inactivity timer
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -21,3 +22,10 @@ jobs:
           git config user.email "calendar-bot@users.noreply.github.com"
           git add docs
           git diff --staged --quiet || (git commit -m "Update events" && git push)
+
+      - name: Keep schedule alive
+        # GitHub disables scheduled workflows after 60 days of repo inactivity. Re-enabling the
+        # workflow on every run resets that timer, so the daily schedule never lapses.
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow enable update.yml || echo "Could not re-enable (harmless)."
