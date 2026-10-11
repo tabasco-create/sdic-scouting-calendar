@@ -12,7 +12,7 @@ Or use these directly:
 
 | App | How |
 |---|---|
-| Google Calendar | [Click to add](https://calendar.google.com/calendar/r?cid=webcal://tabasco-create.github.io/sdic-scouting-calendar/sdic_events.ics) |
+| Google Calendar | [Click to add](https://calendar.google.com/calendar/r?cid=aHR0cHM6Ly90YWJhc2NvLWNyZWF0ZS5naXRodWIuaW8vc2RpYy1zY291dGluZy1jYWxlbmRhci9zZGljX2V2ZW50cy5pY3M) |
 | Apple Calendar / Outlook | [Click to subscribe](webcal://tabasco-create.github.io/sdic-scouting-calendar/sdic_events.ics) |
 | Any other app | Subscribe by URL: `https://tabasco-create.github.io/sdic-scouting-calendar/sdic_events.ics` |
 
