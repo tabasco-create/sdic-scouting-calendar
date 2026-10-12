@@ -1,35 +1,8 @@
 {
- "checked_at": "2026-10-11T13:35:10Z",
+ "checked_at": "2026-10-12T13:49:57Z",
  "updated_at": "2026-10-10T13:34:20Z",
  "tracking_since": "2026-10-08T00:46:56Z",
  "events": [
-  {
-   "uid": "cope-weekend-2026-7",
-   "title": "Project C.O.P.E.",
-   "start": "2026-10-09",
-   "end": "2026-10-11",
-   "time": null,
-   "location": "Mataguay Scout Ranch, Mataguay Rd, Santa Ysabel, CA 92076",
-   "url": "https://www.sdicscouting.org/events/cope-weekend-2026-7"
-  },
-  {
-   "uid": "coastal-sage-camporee",
-   "title": "Sweetwater/Coastal Sage Camporee",
-   "start": "2026-10-09",
-   "end": "2026-10-11",
-   "time": null,
-   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92070",
-   "url": "https://www.sdicscouting.org/events/coastal-sage-camporee"
-  },
-  {
-   "uid": "2026-october-unit-backpacking",
-   "title": "Unit Backpack Training",
-   "start": "2026-10-10",
-   "end": "2026-10-11",
-   "time": null,
-   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
-   "url": "https://www.sdicscouting.org/events/2026-october-unit-backpacking"
-  },
   {
    "uid": "gathering-of-the-eagles",
    "title": "Gathering of Eagles",

@@ -5,66 +5,6 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:SDIC Scouting Events
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-UID:coastal-sage-camporee@sdicscouting.org
-DTSTAMP:20261009T000000Z
-DTSTART;VALUE=DATE:20261009
-DTEND;VALUE=DATE:20261012
-SUMMARY:Sweetwater/Coastal Sage Camporee
-DESCRIPTION:Sweetwater/Coastal Sage Camporee\nWestern Winds\nCost\nCamp Fe
- es:\n$25.00 per Scout & AOL registration\n$15.00 per parent/registered ad
- ult\n$40 Scout plus ranges Limited to 64 spots\nPlease note:\nPARTS A & B
-  of the BSA ANNUAL HEALTH & MEDICAL FORM are REQUIRED to attend event.\nT
- he Shooting Sports Form is also required for all youth participating in s
- hooting sports.\nTroops will be responsible for providing and cooking the
- ir own meals.\nFor More Information:\nPaul Koniarski -\npkoniars@gmail.co
- m\nJackie Ficarra -\nJacqueline.Ficarra@scouting.org\n‍\nVisit our 2026
-  Camporee Website\n‍\n\nhttps://www.sdicscouting.org/events/coastal-sag
- e-camporee
-URL:https://www.sdicscouting.org/events/coastal-sage-camporee
-LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92070
-END:VEVENT
-BEGIN:VEVENT
-UID:cope-weekend-2026-7@sdicscouting.org
-DTSTAMP:20261009T000000Z
-DTSTART;VALUE=DATE:20261009
-DTEND;VALUE=DATE:20261012
-SUMMARY:Project C.O.P.E.
-DESCRIPTION:Project C.O.P.E.\nChallenging Outdoor Personal Experience\nC.O
- .P.E. is an acronym for Challenging Outdoor Personal Experience and at Ma
- taguay Scout Ranch\, we have a weekend that will do just that!\nWhether y
- our unit needs help learning how to Communicate\, Plan\, Trust each other
- \, Team-work\, build Leadership\, learn to Make Decisions\, Problem Solve
- \, or just build Self-esteem\, we have a program that will fill your unit
- s needs.\n\nhttps://www.sdicscouting.org/events/cope-weekend-2026-7
-URL:https://www.sdicscouting.org/events/cope-weekend-2026-7
-LOCATION:Mataguay Scout Ranch\, Mataguay Rd\, Santa Ysabel\, CA 92076
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-october-unit-backpacking@sdicscouting.org
-DTSTAMP:20261010T000000Z
-DTSTART;VALUE=DATE:20261010
-DTEND;VALUE=DATE:20261012
-SUMMARY:Unit Backpack Training
-DESCRIPTION:Unit Backpack Training\nUNIT BACKPACK TRAINING for Troops (NOT
-  for Cub Packs) is a weekend training program designed for youth so they 
- can learn basic backpacking and trail camping under their own adult leade
- rship. Backpacks\, tube tents\, and propane stoves may be provided by the
-  Council for those who do not have them. This program is especially appli
- cable to those units with little or no experience or equipment. The MSR "
- T" Patch will be awarded to all participants\, youth and adult\, who succ
- essfully complete this training.\nThis weekend Backpack Training starts a
- t 8:00 Saturday morning. Backpacks\, propane fuel stoves and tube tents a
- re issued at this time. A six-mile loop trail is backpack-hiked\, ending 
- at a trail camp in MSR. High Sierra Trek-experienced instructors from the
-  H.A.T. provide guidance\, instruction and help along the trail and in ca
- mp. Sunday morning will have a second short hike\, review of the trip\, a
- nd handout of patches. Scouts should be free to leave Mataguay by around 
- 10:00 AM.\n\nhttps://www.sdicscouting.org/events/2026-october-unit-backpa
- cking
-URL:https://www.sdicscouting.org/events/2026-october-unit-backpacking
-LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
-END:VEVENT
-BEGIN:VEVENT
 UID:gathering-of-the-eagles@sdicscouting.org
 DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20261014
@@ -1835,21 +1775,6 @@ LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
  o\, CA 92109
 END:VEVENT
 BEGIN:VEVENT
-UID:oa-induction-weekend-3-2027@sdicscouting.org
-DTSTAMP:20270910T000000Z
-DTSTART;VALUE=DATE:20270910
-DTEND;VALUE=DATE:20270913
-SUMMARY:OA Induction Weekend 3 - 2027
-DESCRIPTION:OA Induction Weekend 3 - 2027\nThe Induction Weekend is the fi
- rst step toward full membership in the Order of the Arrow (OA). The entir
- e experience is designed to teach significant values. All candidates for 
- membership are required to complete the Induction Weekend within eighteen
-  months of their election or nomination.\nRegistration Coming Soon.\n\nht
- tps://www.sdicscouting.org/events/oa-induction-weekend-3-2027
-URL:https://www.sdicscouting.org/events/oa-induction-weekend-3-2027
-LOCATION:Camp Balboa\, 1207 Upas Street\, San Diego\, CA 92103
-END:VEVENT
-BEGIN:VEVENT
 UID:cope-weekend-2027-9@sdicscouting.org
 DTSTAMP:20270910T000000Z
 DTSTART;VALUE=DATE:20270910
@@ -1866,6 +1791,21 @@ URL:https://www.sdicscouting.org/events/cope-weekend-2027-9
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
 END:VEVENT
 BEGIN:VEVENT
+UID:oa-induction-weekend-3-2027@sdicscouting.org
+DTSTAMP:20270910T000000Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20270913
+SUMMARY:OA Induction Weekend 3 - 2027
+DESCRIPTION:OA Induction Weekend 3 - 2027\nThe Induction Weekend is the fi
+ rst step toward full membership in the Order of the Arrow (OA). The entir
+ e experience is designed to teach significant values. All candidates for 
+ membership are required to complete the Induction Weekend within eighteen
+  months of their election or nomination.\nRegistration Coming Soon.\n\nht
+ tps://www.sdicscouting.org/events/oa-induction-weekend-3-2027
+URL:https://www.sdicscouting.org/events/oa-induction-weekend-3-2027
+LOCATION:Camp Balboa\, 1207 Upas Street\, San Diego\, CA 92103
+END:VEVENT
+BEGIN:VEVENT
 UID:paddle-craft-and-safe-water-rescue-clinic@sdicscouting.org
 DTSTAMP:20270911T000000Z
 DTSTART;VALUE=DATE:20270911
@@ -1876,6 +1816,40 @@ DESCRIPTION:Paddle Craft and Safe Water Rescue Clinic\nSave the Date\nMore
  t-and-safe-water-rescue-clinic
 URL:https://www.sdicscouting.org/events/paddle-craft-and-safe-water-rescue
  -clinic
+LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
+END:VEVENT
+BEGIN:VEVENT
+UID:haltt-session-3-sept-2027@sdicscouting.org
+DTSTAMP:20270925T000000Z
+DTSTART;VALUE=DATE:20270925
+DTEND;VALUE=DATE:20270927
+SUMMARY:HALTT Session III
+DESCRIPTION:HALTT Session III\nThis 40-hour course prepares unit leaders f
+ or backpacking trips.\nThis 40-hour course prepares unit leaders for basi
+ c backpacking and wilderness camping trips. Topics include: leadership\, 
+ trek planning\, equipment\, food\, health and safety\, map and compass\, 
+ awards\, and conservation. Leaders completing sessions I\, II\, and III r
+ eceive a patch and numbered card.\n\nhttps://www.sdicscouting.org/events/
+ haltt-session-3-sept-2027
+URL:https://www.sdicscouting.org/events/haltt-session-3-sept-2027
+LOCATION:Mataguay Scout Ranch\, Mataguay Rd\, Santa Ysabel\, CA 92070\, US
+ A
+END:VEVENT
+BEGIN:VEVENT
+UID:community-adventure-day-6@sdicscouting.org
+DTSTAMP:20270925T000000Z
+DTSTART;VALUE=DATE:20270925
+DTEND;VALUE=DATE:20270926
+SUMMARY:Community Adventure Day
+DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
+ se style for you and your family to enjoy on your schedule. You may arriv
+ e anytime before noon and leave when you wish.\nAll activities designed f
+ or ages 5-17 (and their adults)\nActivities include crafts\, canoeing\, k
+ ayaking\, and a nature activity.\nExperience the great outdoors and enjoy
+  the day at Mataguay Scout Ranch.\nFamilies must pre-register. NO WALK-IN
+ 'S.\nPlease no dogs allowed at the Community Adventure Day\n\nhttps://www
+ .sdicscouting.org/events/community-adventure-day-6
+URL:https://www.sdicscouting.org/events/community-adventure-day-6
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
 END:VEVENT
 BEGIN:VEVENT
@@ -1899,40 +1873,6 @@ DESCRIPTION:2027 Tiwahe Lodge Vigil Celebration\nThe Vigil Honor is a high
 URL:https://www.sdicscouting.org/events/2027-tiwahe-lodge-vigil-celebratio
  n
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92070
-END:VEVENT
-BEGIN:VEVENT
-UID:community-adventure-day-6@sdicscouting.org
-DTSTAMP:20270925T000000Z
-DTSTART;VALUE=DATE:20270925
-DTEND;VALUE=DATE:20270926
-SUMMARY:Community Adventure Day
-DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
- se style for you and your family to enjoy on your schedule. You may arriv
- e anytime before noon and leave when you wish.\nAll activities designed f
- or ages 5-17 (and their adults)\nActivities include crafts\, canoeing\, k
- ayaking\, and a nature activity.\nExperience the great outdoors and enjoy
-  the day at Mataguay Scout Ranch.\nFamilies must pre-register. NO WALK-IN
- 'S.\nPlease no dogs allowed at the Community Adventure Day\n\nhttps://www
- .sdicscouting.org/events/community-adventure-day-6
-URL:https://www.sdicscouting.org/events/community-adventure-day-6
-LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
-END:VEVENT
-BEGIN:VEVENT
-UID:haltt-session-3-sept-2027@sdicscouting.org
-DTSTAMP:20270925T000000Z
-DTSTART;VALUE=DATE:20270925
-DTEND;VALUE=DATE:20270927
-SUMMARY:HALTT Session III
-DESCRIPTION:HALTT Session III\nThis 40-hour course prepares unit leaders f
- or backpacking trips.\nThis 40-hour course prepares unit leaders for basi
- c backpacking and wilderness camping trips. Topics include: leadership\, 
- trek planning\, equipment\, food\, health and safety\, map and compass\, 
- awards\, and conservation. Leaders completing sessions I\, II\, and III r
- eceive a patch and numbered card.\n\nhttps://www.sdicscouting.org/events/
- haltt-session-3-sept-2027
-URL:https://www.sdicscouting.org/events/haltt-session-3-sept-2027
-LOCATION:Mataguay Scout Ranch\, Mataguay Rd\, Santa Ysabel\, CA 92070\, US
- A
 END:VEVENT
 BEGIN:VEVENT
 UID:cope-weekend-2027-10@sdicscouting.org
@@ -1976,6 +1916,24 @@ URL:https://www.sdicscouting.org/events/2027-oct-unit-backpacking
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92081
 END:VEVENT
 BEGIN:VEVENT
+UID:community-adventure-day-7@sdicscouting.org
+DTSTAMP:20271016T000000Z
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
+SUMMARY:Community Adventure Day
+DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
+ se style for you and your family to enjoy on your schedule. You may arriv
+ e anytime before noon and leave when you wish.\nAll activities designed f
+ or ages 5-17 (and their adults)\nActivities include crafts\, canoeing\, k
+ ayaking\, and a nature activity.\nExperience the great outdoors and enjoy
+  the day at Mataguay Scout Ranch.\nFamilies must pre-register. NO WALK-IN
+ 'S.\nPlease no dogs allowed at the Community Adventure Day\n\nhttps://www
+ .sdicscouting.org/events/community-adventure-day-7
+URL:https://www.sdicscouting.org/events/community-adventure-day-7
+LOCATION:Camp Bashor at Otay Lakes County Park\, 2270 Wueste Rd\, Chula Vi
+ sta\, CA 91915
+END:VEVENT
+BEGIN:VEVENT
 UID:first-aid-adult-cpr-and-aed-oct-2027@sdicscouting.org
 DTSTAMP:20271016T000000Z
 DTSTART;VALUE=DATE:20271016
@@ -1997,24 +1955,6 @@ DESCRIPTION:First Aid\, Adult CPR\, and AED\nSave the Date\nTopics include
  https://www.sdicscouting.org/events/first-aid-adult-cpr-and-aed-oct-2027
 URL:https://www.sdicscouting.org/events/first-aid-adult-cpr-and-aed-oct-20
  27
-END:VEVENT
-BEGIN:VEVENT
-UID:community-adventure-day-7@sdicscouting.org
-DTSTAMP:20271016T000000Z
-DTSTART;VALUE=DATE:20271016
-DTEND;VALUE=DATE:20271017
-SUMMARY:Community Adventure Day
-DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
- se style for you and your family to enjoy on your schedule. You may arriv
- e anytime before noon and leave when you wish.\nAll activities designed f
- or ages 5-17 (and their adults)\nActivities include crafts\, canoeing\, k
- ayaking\, and a nature activity.\nExperience the great outdoors and enjoy
-  the day at Mataguay Scout Ranch.\nFamilies must pre-register. NO WALK-IN
- 'S.\nPlease no dogs allowed at the Community Adventure Day\n\nhttps://www
- .sdicscouting.org/events/community-adventure-day-7
-URL:https://www.sdicscouting.org/events/community-adventure-day-7
-LOCATION:Camp Bashor at Otay Lakes County Park\, 2270 Wueste Rd\, Chula Vi
- sta\, CA 91915
 END:VEVENT
 BEGIN:VEVENT
 UID:wilderness-and-remote-first-aid-oct-2027@sdicscouting.org
@@ -2064,6 +2004,21 @@ LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
  o\, CA 92114
 END:VEVENT
 BEGIN:VEVENT
+UID:2027-tiwahe-lodge-fellowship@sdicscouting.org
+DTSTAMP:20271112T000000Z
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271115
+SUMMARY:2027 Tiwahe Lodge Fellowship
+DESCRIPTION:2027 Tiwahe Lodge Fellowship\nLodge Fellowship is an annual ev
+ ent for all Arrowmen of Tiwahe Lodge. We hold an annual Fall Fellowship\,
+  this year’s agenda is packed with fun activities and training.\n2027 T
+ iwahe Lodge Fellowship will be held November 12-14 at Camp Balboa. Join u
+ s for Training\, Activities\, and Fellowship!\n\nhttps://www.sdicscouting
+ .org/events/2027-tiwahe-lodge-fellowship
+URL:https://www.sdicscouting.org/events/2027-tiwahe-lodge-fellowship
+LOCATION:Camp Balboa\, 1207 Upas Street\, San Diego\, CA 92103
+END:VEVENT
+BEGIN:VEVENT
 UID:cope-weekend-2027-11@sdicscouting.org
 DTSTAMP:20271112T000000Z
 DTSTART;VALUE=DATE:20271112
@@ -2078,21 +2033,6 @@ DESCRIPTION:Project C.O.P.E.\nChallenging Outdoor Personal Experience\nC.O
  s needs.\n\nhttps://www.sdicscouting.org/events/cope-weekend-2027-11
 URL:https://www.sdicscouting.org/events/cope-weekend-2027-11
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
-END:VEVENT
-BEGIN:VEVENT
-UID:2027-tiwahe-lodge-fellowship@sdicscouting.org
-DTSTAMP:20271112T000000Z
-DTSTART;VALUE=DATE:20271112
-DTEND;VALUE=DATE:20271115
-SUMMARY:2027 Tiwahe Lodge Fellowship
-DESCRIPTION:2027 Tiwahe Lodge Fellowship\nLodge Fellowship is an annual ev
- ent for all Arrowmen of Tiwahe Lodge. We hold an annual Fall Fellowship\,
-  this year’s agenda is packed with fun activities and training.\n2027 T
- iwahe Lodge Fellowship will be held November 12-14 at Camp Balboa. Join u
- s for Training\, Activities\, and Fellowship!\n\nhttps://www.sdicscouting
- .org/events/2027-tiwahe-lodge-fellowship
-URL:https://www.sdicscouting.org/events/2027-tiwahe-lodge-fellowship
-LOCATION:Camp Balboa\, 1207 Upas Street\, San Diego\, CA 92103
 END:VEVENT
 BEGIN:VEVENT
 UID:haltt-recert-2-2027@sdicscouting.org
