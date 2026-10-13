@@ -1,6 +1,122 @@
 {
  "history": [
   {
+   "at": "2026-10-13T13:45:40Z",
+   "added": [
+    {
+     "uid": "spring-personal-management-merit-badge-workshop-20270201",
+     "title": "Spring Personal Management Merit Badge Workshop (1/4)",
+     "start": "2027-02-01",
+     "end": "2027-02-01",
+     "time": "4:00 PM – 7:30 PM",
+     "location": "",
+     "url": "https://www.sdicscouting.org/events/spring-personal-management-merit-badge-workshop"
+    },
+    {
+     "uid": "spring-personal-management-merit-badge-workshop-20270315",
+     "title": "Spring Personal Management Merit Badge Workshop (2/4)",
+     "start": "2027-03-15",
+     "end": "2027-03-15",
+     "time": "4:00 PM – 7:30 PM",
+     "location": "",
+     "url": "https://www.sdicscouting.org/events/spring-personal-management-merit-badge-workshop"
+    },
+    {
+     "uid": "spring-personal-management-merit-badge-workshop-20270510",
+     "title": "Spring Personal Management Merit Badge Workshop (3/4)",
+     "start": "2027-05-10",
+     "end": "2027-05-10",
+     "time": "3:00 PM – 6:00 PM",
+     "location": "",
+     "url": "https://www.sdicscouting.org/events/spring-personal-management-merit-badge-workshop"
+    },
+    {
+     "uid": "spring-personal-management-merit-badge-workshop-20270511",
+     "title": "Spring Personal Management Merit Badge Workshop (4/4)",
+     "start": "2027-05-11",
+     "end": "2027-05-11",
+     "time": "3:00 PM – 6:00 PM",
+     "location": "",
+     "url": "https://www.sdicscouting.org/events/spring-personal-management-merit-badge-workshop"
+    }
+   ],
+   "removed": [],
+   "changed": [
+    {
+     "event": {
+      "uid": "personal-management-merit-badge-workshop-20261028",
+      "title": "Winter Personal Management Merit Badge Workshop (1/4)",
+      "start": "2026-10-28",
+      "end": "2026-10-28",
+      "time": "4:00 PM – 7:30 PM",
+      "location": "",
+      "url": "https://www.sdicscouting.org/events/personal-management-merit-badge-workshop"
+     },
+     "changes": [
+      {
+       "field": "title",
+       "from": "Personal Management Merit Badge Workshop (1/4)",
+       "to": "Winter Personal Management Merit Badge Workshop (1/4)"
+      }
+     ]
+    },
+    {
+     "event": {
+      "uid": "personal-management-merit-badge-workshop-20261209",
+      "title": "Winter Personal Management Merit Badge Workshop (2/4)",
+      "start": "2026-12-09",
+      "end": "2026-12-09",
+      "time": "4:00 PM – 7:30 PM",
+      "location": "",
+      "url": "https://www.sdicscouting.org/events/personal-management-merit-badge-workshop"
+     },
+     "changes": [
+      {
+       "field": "title",
+       "from": "Personal Management Merit Badge Workshop (2/4)",
+       "to": "Winter Personal Management Merit Badge Workshop (2/4)"
+      }
+     ]
+    },
+    {
+     "event": {
+      "uid": "personal-management-merit-badge-workshop-20270209",
+      "title": "Winter Personal Management Merit Badge Workshop (3/4)",
+      "start": "2027-02-09",
+      "end": "2027-02-09",
+      "time": "3:00 PM – 6:00 PM",
+      "location": "",
+      "url": "https://www.sdicscouting.org/events/personal-management-merit-badge-workshop"
+     },
+     "changes": [
+      {
+       "field": "title",
+       "from": "Personal Management Merit Badge Workshop (3/4)",
+       "to": "Winter Personal Management Merit Badge Workshop (3/4)"
+      }
+     ]
+    },
+    {
+     "event": {
+      "uid": "personal-management-merit-badge-workshop-20270210",
+      "title": "Winter Personal Management Merit Badge Workshop (4/4)",
+      "start": "2027-02-10",
+      "end": "2027-02-10",
+      "time": "3:00 PM – 6:00 PM",
+      "location": "",
+      "url": "https://www.sdicscouting.org/events/personal-management-merit-badge-workshop"
+     },
+     "changes": [
+      {
+       "field": "title",
+       "from": "Personal Management Merit Badge Workshop (4/4)",
+       "to": "Winter Personal Management Merit Badge Workshop (4/4)"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "at": "2026-10-10T13:34:20Z",
    "added": [
     {
