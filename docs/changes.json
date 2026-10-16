@@ -1,6 +1,256 @@
 {
  "history": [
   {
+   "at": "2026-10-16T13:56:33Z",
+   "added": [],
+   "removed": [
+    {
+     "uid": "oa-lodge-encampment-2027",
+     "title": "OA Lodge Encampment - 2027",
+     "start": "2027-05-14",
+     "end": "2027-05-16",
+     "time": null,
+     "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92070",
+     "url": "https://www.sdicscouting.org/events/oa-lodge-encampment-2027"
+    }
+   ],
+   "changed": [
+    {
+     "event": {
+      "uid": "spring-personal-management-merit-badge-workshop-20270201",
+      "title": "Personal Management Merit Badge Workshop (1/4)",
+      "start": "2027-02-01",
+      "end": "2027-02-01",
+      "time": "4:00 PM – 7:30 PM",
+      "location": "",
+      "url": "https://www.sdicscouting.org/events/spring-personal-management-merit-badge-workshop"
+     },
+     "changes": [
+      {
+       "field": "title",
+       "from": "Spring Personal Management Merit Badge Workshop (1/4)",
+       "to": "Personal Management Merit Badge Workshop (1/4)"
+      }
+     ]
+    },
+    {
+     "event": {
+      "uid": "spring-personal-management-merit-badge-workshop-20270315",
+      "title": "Personal Management Merit Badge Workshop (2/4)",
+      "start": "2027-03-15",
+      "end": "2027-03-15",
+      "time": "4:00 PM – 7:30 PM",
+      "location": "",
+      "url": "https://www.sdicscouting.org/events/spring-personal-management-merit-badge-workshop"
+     },
+     "changes": [
+      {
+       "field": "title",
+       "from": "Spring Personal Management Merit Badge Workshop (2/4)",
+       "to": "Personal Management Merit Badge Workshop (2/4)"
+      }
+     ]
+    },
+    {
+     "event": {
+      "uid": "eagle-camp-week-1",
+      "title": "Eagle Camp",
+      "start": "2027-03-22",
+      "end": "2027-03-26",
+      "time": null,
+      "location": "Camp Balboa, 1207 Upas Street, San Diego, CA 92103",
+      "url": "https://www.sdicscouting.org/events/eagle-camp-week-1"
+     },
+     "changes": [
+      {
+       "field": "start",
+       "from": "2027-03-20",
+       "to": "2027-03-22"
+      },
+      {
+       "field": "end",
+       "from": "2027-03-20",
+       "to": "2027-03-26"
+      }
+     ]
+    },
+    {
+     "event": {
+      "uid": "trailblazer-camp-week-1",
+      "title": "Trailblazer Camp",
+      "start": "2027-03-22",
+      "end": "2027-03-26",
+      "time": null,
+      "location": "Camp Balboa, 1207 Upas Street, San Diego, CA 92103",
+      "url": "https://www.sdicscouting.org/events/trailblazer-camp-week-1"
+     },
+     "changes": [
+      {
+       "field": "start",
+       "from": "2027-03-20",
+       "to": "2027-03-22"
+      },
+      {
+       "field": "end",
+       "from": "2027-03-20",
+       "to": "2027-03-26"
+      }
+     ]
+    },
+    {
+     "event": {
+      "uid": "cub-day-camp",
+      "title": "Cub Day Camp",
+      "start": "2027-03-29",
+      "end": "2027-04-02",
+      "time": null,
+      "location": "Camp Balboa, 1207 Upas Street, San Diego, CA 92103",
+      "url": "https://www.sdicscouting.org/events/cub-day-camp"
+     },
+     "changes": [
+      {
+       "field": "start",
+       "from": "2027-03-27",
+       "to": "2027-03-29"
+      },
+      {
+       "field": "end",
+       "from": "2027-03-27",
+       "to": "2027-04-02"
+      }
+     ]
+    },
+    {
+     "event": {
+      "uid": "eagle-camp-week-2",
+      "title": "Eagle Camp",
+      "start": "2027-03-29",
+      "end": "2027-04-02",
+      "time": null,
+      "location": "Camp Balboa, 1207 Upas Street, San Diego, CA 92103",
+      "url": "https://www.sdicscouting.org/events/eagle-camp-week-2"
+     },
+     "changes": [
+      {
+       "field": "start",
+       "from": "2027-03-27",
+       "to": "2027-03-29"
+      },
+      {
+       "field": "end",
+       "from": "2027-03-27",
+       "to": "2027-04-02"
+      }
+     ]
+    },
+    {
+     "event": {
+      "uid": "trailblazer-camp-week-2",
+      "title": "Trailblazer Camp",
+      "start": "2027-03-29",
+      "end": "2027-04-02",
+      "time": null,
+      "location": "Camp Balboa, 1207 Upas Street, San Diego, CA 92103",
+      "url": "https://www.sdicscouting.org/events/trailblazer-camp-week-2"
+     },
+     "changes": [
+      {
+       "field": "start",
+       "from": "2027-03-27",
+       "to": "2027-03-29"
+      },
+      {
+       "field": "end",
+       "from": "2027-03-27",
+       "to": "2027-04-02"
+      }
+     ]
+    },
+    {
+     "event": {
+      "uid": "spring-family-fun-2026",
+      "title": "Spring Family Fun",
+      "start": "2027-04-16",
+      "end": "2027-04-18",
+      "time": null,
+      "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+      "url": "https://www.sdicscouting.org/events/spring-family-fun-2026"
+     },
+     "changes": [
+      {
+       "field": "start",
+       "from": "2027-04-17",
+       "to": "2027-04-16"
+      },
+      {
+       "field": "end",
+       "from": "2027-04-17",
+       "to": "2027-04-18"
+      }
+     ]
+    },
+    {
+     "event": {
+      "uid": "spring-personal-management-merit-badge-workshop-20270510",
+      "title": "Personal Management Merit Badge Workshop (3/4)",
+      "start": "2027-05-10",
+      "end": "2027-05-10",
+      "time": "3:00 PM – 6:00 PM",
+      "location": "",
+      "url": "https://www.sdicscouting.org/events/spring-personal-management-merit-badge-workshop"
+     },
+     "changes": [
+      {
+       "field": "title",
+       "from": "Spring Personal Management Merit Badge Workshop (3/4)",
+       "to": "Personal Management Merit Badge Workshop (3/4)"
+      }
+     ]
+    },
+    {
+     "event": {
+      "uid": "spring-personal-management-merit-badge-workshop-20270511",
+      "title": "Personal Management Merit Badge Workshop (4/4)",
+      "start": "2027-05-11",
+      "end": "2027-05-11",
+      "time": "3:00 PM – 6:00 PM",
+      "location": "",
+      "url": "https://www.sdicscouting.org/events/spring-personal-management-merit-badge-workshop"
+     },
+     "changes": [
+      {
+       "field": "title",
+       "from": "Spring Personal Management Merit Badge Workshop (4/4)",
+       "to": "Personal Management Merit Badge Workshop (4/4)"
+      }
+     ]
+    },
+    {
+     "event": {
+      "uid": "international-camporee-2027",
+      "title": "International Camporee",
+      "start": "2027-05-14",
+      "end": "2027-05-16",
+      "time": null,
+      "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
+      "url": "https://www.sdicscouting.org/events/international-camporee-2027"
+     },
+     "changes": [
+      {
+       "field": "start",
+       "from": "2027-05-21",
+       "to": "2027-05-14"
+      },
+      {
+       "field": "end",
+       "from": "2027-05-23",
+       "to": "2027-05-16"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "at": "2026-10-13T13:45:40Z",
    "added": [
     {
