@@ -1,6 +1,22 @@
 {
  "history": [
   {
+   "at": "2026-10-17T13:45:21Z",
+   "added": [
+    {
+     "uid": "philmont-trek",
+     "title": "Philmont Trek",
+     "start": "2026-11-08",
+     "end": "2026-11-08",
+     "time": null,
+     "location": "",
+     "url": "https://www.sdicscouting.org/events/philmont-trek"
+    }
+   ],
+   "removed": [],
+   "changed": []
+  },
+  {
    "at": "2026-10-16T13:56:33Z",
    "added": [],
    "removed": [

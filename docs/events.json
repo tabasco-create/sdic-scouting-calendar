@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-10-16T13:56:33Z",
- "updated_at": "2026-10-16T13:56:33Z",
+ "checked_at": "2026-10-17T13:45:21Z",
+ "updated_at": "2026-10-17T13:45:21Z",
  "tracking_since": "2026-10-08T00:46:56Z",
  "events": [
   {
@@ -155,6 +155,15 @@
    "time": null,
    "location": "",
    "url": "https://www.sdicscouting.org/events/lion-tiger-safari"
+  },
+  {
+   "uid": "philmont-trek",
+   "title": "Philmont Trek",
+   "start": "2026-11-08",
+   "end": "2026-11-08",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/philmont-trek"
   },
   {
    "uid": "2026-tiwahe-lodge-fellowship",
