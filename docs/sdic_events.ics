@@ -5,40 +5,6 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:SDIC Scouting Events
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-UID:jamboree-on-the-air@sdicscouting.org
-DTSTAMP:20261016T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261018
-SUMMARY:Jamboree-on-the-Air
-DESCRIPTION:Jamboree-on-the-Air\nJamboree on the Air (JOTA) is an annual e
- vent where Scouts worldwide connect via amateur radio to communicate\, sh
- are experiences\, and foster international friendship.\nCOST\n: Free wil
- l donations help support WB6BSA amateur radio programs. Open to All Scout
- s & Families\nWorld Wide Radio Voice Communication with Scout Units\nFrid
- ay 5:00 - 8:00 PM\nSaturday 10:00 AM - 8:00 PM\nConnect live on amateur r
- adio with Scout units all over the world! Take the microphone to speak wi
- th fellow Scouts from other states and nations\, exchange greetings\, and
-  discover global radio fellowship.\nTransmitter Fox Hunt (Radio Direction
-  Finding)\nSaturday 10:00 AM - 12:00 PM\nLearn electronic navigation and 
- radio tracking! Using handheld directional antennas and signal receivers\
- , Scouts work in teams to locate hidden low-power radio transmitters conc
- ealed across Camp Balboa. A thrilling electronic treasure hunt!\nOpen to 
- Cub Scouts\, Scouts BSA\, Sea Scouts\, Venture Scouts\, and families.\nFa
- mily Radio Communications Backup Plan\nSaturday 12:00 PM - 1:00 PM\nEquip
-  your family with an emergency communication strategy. Learn how to use e
- veryday FRS/GMRS two-way radios when cell towers and electrical networks 
- go offline during fires\, earthquakes\, or disasters. Includes channel pl
- anning & protocol.\nRadio Merit Badge Workshop (Scouts BSA)\nSaturday 1:0
- 0 PM - 4:00 PM\nComplete major requirements for the official Radio Merit 
- Badge! Experienced volunteer mentors cover radio theory\, wave propagatio
- n\, electronics\, safety\, FCC rules\, callsigns\, Morse code\, and give 
- Scouts hands-on time operating the WB6BSA station.\n\nhttps://www.sdicsco
- uting.org/events/jamboree-on-the-air
-URL:https://www.sdicscouting.org/events/jamboree-on-the-air
-LOCATION:Camp Balboa\, WB6BSA Amateur Radio Station\, 1207 Upas Street\, S
- an Diego\, CA 92103
-END:VEVENT
-BEGIN:VEVENT
 UID:palomar-rslr-webelos-woods@sdicscouting.org
 DTSTAMP:20261016T000000Z
 DTSTART;VALUE=DATE:20261016
@@ -59,36 +25,6 @@ DESCRIPTION:Palomar/RSLR Webelos Woods\nWebelos Woods is a fun-filled week
  n-luis-rey-webelos-woods-troop-registration/3159651\n\nhttps://www.sdicsc
  outing.org/events/palomar-rslr-webelos-woods
 URL:https://www.sdicscouting.org/events/palomar-rslr-webelos-woods
-END:VEVENT
-BEGIN:VEVENT
-UID:kayaking-merit-badge-day-2@sdicscouting.org
-DTSTAMP:20261017T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:Kayaking Merit Badge Day
-DESCRIPTION:Kayaking Merit Badge Day\nScouts will have the opportunity to 
- earn the Kayaking Merit Badge\nDesigned for ages 11-17\nCost:\n$36 for yo
- uth\nLunch is NOT included. You may bring a sack lunch\nCost covers boat 
- usage fee's and Lifeguards\nCheck-in opens at 9:45 am. Class starts at 10
- :00 am.\nYouth must be pre-register. NO WALK-IN'S. | SCOUTS MUST BE ABLE 
- TO PASS SCOUTING AMERICA SWIM TEST\nPer the merit badge requirements Scou
- ts are required to pass the Scouting America swim test before attempting 
- any other requirements. Scouts will have the following options to complet
- e these requirements.\nPass Scouting America swim test day of. We ask par
- ents to stay until the scout has passed the swim test. If a scout can’t
-  pass the test they will be unable to continue in the class.\nBring a pro
- perly filled out and signed Scouting America Swim Classification Record s
- heet. This must have been signed within the last year.\nIf a scout can sh
- ow proof of completing the swimming and or lifesaving merit badge within 
- the last year\, this will suffice.\nIf you have any questions please reac
- h out to\njohnathon.hall@scouting.org\nAll attending Scouts must bring a 
- Merit Badge application (\nblue card\n) with them\,\nsigned by their Unit
-  Leader\n. Blue cards shall not be issued at the event. (If a Scout does 
- not bring a signed Blue Card\, the Scout may not be signed-off at the eve
- nt.)\n\nhttps://www.sdicscouting.org/events/kayaking-merit-badge-day-2
-URL:https://www.sdicscouting.org/events/kayaking-merit-badge-day-2
-LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
- o\, CA 92109
 END:VEVENT
 BEGIN:VEVENT
 UID:life-to-eagle-workshop-5@sdicscouting.org
@@ -1961,23 +1897,6 @@ URL:https://www.sdicscouting.org/events/2027-tiwahe-lodge-vigil-celebratio
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92070
 END:VEVENT
 BEGIN:VEVENT
-UID:community-adventure-day-6@sdicscouting.org
-DTSTAMP:20270925T000000Z
-DTSTART;VALUE=DATE:20270925
-DTEND;VALUE=DATE:20270926
-SUMMARY:Community Adventure Day
-DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
- se style for you and your family to enjoy on your schedule. You may arriv
- e anytime before noon and leave when you wish.\nAll activities designed f
- or ages 5-17 (and their adults)\nActivities include crafts\, canoeing\, k
- ayaking\, and a nature activity.\nExperience the great outdoors and enjoy
-  the day at Mataguay Scout Ranch.\nFamilies must pre-register. NO WALK-IN
- 'S.\nPlease no dogs allowed at the Community Adventure Day\n\nhttps://www
- .sdicscouting.org/events/community-adventure-day-6
-URL:https://www.sdicscouting.org/events/community-adventure-day-6
-LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
-END:VEVENT
-BEGIN:VEVENT
 UID:haltt-session-3-sept-2027@sdicscouting.org
 DTSTAMP:20270925T000000Z
 DTSTART;VALUE=DATE:20270925
@@ -1993,6 +1912,23 @@ DESCRIPTION:HALTT Session III\nThis 40-hour course prepares unit leaders f
 URL:https://www.sdicscouting.org/events/haltt-session-3-sept-2027
 LOCATION:Mataguay Scout Ranch\, Mataguay Rd\, Santa Ysabel\, CA 92070\, US
  A
+END:VEVENT
+BEGIN:VEVENT
+UID:community-adventure-day-6@sdicscouting.org
+DTSTAMP:20270925T000000Z
+DTSTART;VALUE=DATE:20270925
+DTEND;VALUE=DATE:20270926
+SUMMARY:Community Adventure Day
+DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
+ se style for you and your family to enjoy on your schedule. You may arriv
+ e anytime before noon and leave when you wish.\nAll activities designed f
+ or ages 5-17 (and their adults)\nActivities include crafts\, canoeing\, k
+ ayaking\, and a nature activity.\nExperience the great outdoors and enjoy
+  the day at Mataguay Scout Ranch.\nFamilies must pre-register. NO WALK-IN
+ 'S.\nPlease no dogs allowed at the Community Adventure Day\n\nhttps://www
+ .sdicscouting.org/events/community-adventure-day-6
+URL:https://www.sdicscouting.org/events/community-adventure-day-6
+LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
 END:VEVENT
 BEGIN:VEVENT
 UID:cope-weekend-2027-10@sdicscouting.org
@@ -2124,21 +2060,6 @@ LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
  o\, CA 92114
 END:VEVENT
 BEGIN:VEVENT
-UID:2027-tiwahe-lodge-fellowship@sdicscouting.org
-DTSTAMP:20271112T000000Z
-DTSTART;VALUE=DATE:20271112
-DTEND;VALUE=DATE:20271115
-SUMMARY:2027 Tiwahe Lodge Fellowship
-DESCRIPTION:2027 Tiwahe Lodge Fellowship\nLodge Fellowship is an annual ev
- ent for all Arrowmen of Tiwahe Lodge. We hold an annual Fall Fellowship\,
-  this year’s agenda is packed with fun activities and training.\n2027 T
- iwahe Lodge Fellowship will be held November 12-14 at Camp Balboa. Join u
- s for Training\, Activities\, and Fellowship!\n\nhttps://www.sdicscouting
- .org/events/2027-tiwahe-lodge-fellowship
-URL:https://www.sdicscouting.org/events/2027-tiwahe-lodge-fellowship
-LOCATION:Camp Balboa\, 1207 Upas Street\, San Diego\, CA 92103
-END:VEVENT
-BEGIN:VEVENT
 UID:cope-weekend-2027-11@sdicscouting.org
 DTSTAMP:20271112T000000Z
 DTSTART;VALUE=DATE:20271112
@@ -2153,6 +2074,21 @@ DESCRIPTION:Project C.O.P.E.\nChallenging Outdoor Personal Experience\nC.O
  s needs.\n\nhttps://www.sdicscouting.org/events/cope-weekend-2027-11
 URL:https://www.sdicscouting.org/events/cope-weekend-2027-11
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-tiwahe-lodge-fellowship@sdicscouting.org
+DTSTAMP:20271112T000000Z
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271115
+SUMMARY:2027 Tiwahe Lodge Fellowship
+DESCRIPTION:2027 Tiwahe Lodge Fellowship\nLodge Fellowship is an annual ev
+ ent for all Arrowmen of Tiwahe Lodge. We hold an annual Fall Fellowship\,
+  this year’s agenda is packed with fun activities and training.\n2027 T
+ iwahe Lodge Fellowship will be held November 12-14 at Camp Balboa. Join u
+ s for Training\, Activities\, and Fellowship!\n\nhttps://www.sdicscouting
+ .org/events/2027-tiwahe-lodge-fellowship
+URL:https://www.sdicscouting.org/events/2027-tiwahe-lodge-fellowship
+LOCATION:Camp Balboa\, 1207 Upas Street\, San Diego\, CA 92103
 END:VEVENT
 BEGIN:VEVENT
 UID:haltt-recert-2-2027@sdicscouting.org
