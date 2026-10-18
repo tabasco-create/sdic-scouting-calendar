@@ -1,17 +1,8 @@
 {
- "checked_at": "2026-10-17T13:45:21Z",
+ "checked_at": "2026-10-18T13:45:49Z",
  "updated_at": "2026-10-17T13:45:21Z",
  "tracking_since": "2026-10-08T00:46:56Z",
  "events": [
-  {
-   "uid": "jamboree-on-the-air",
-   "title": "Jamboree-on-the-Air",
-   "start": "2026-10-16",
-   "end": "2026-10-17",
-   "time": null,
-   "location": "Camp Balboa, WB6BSA Amateur Radio Station, 1207 Upas Street, San Diego, CA 92103",
-   "url": "https://www.sdicscouting.org/events/jamboree-on-the-air"
-  },
   {
    "uid": "palomar-rslr-webelos-woods",
    "title": "Palomar/RSLR Webelos Woods",
@@ -20,15 +11,6 @@
    "time": null,
    "location": "",
    "url": "https://www.sdicscouting.org/events/palomar-rslr-webelos-woods"
-  },
-  {
-   "uid": "kayaking-merit-badge-day-2",
-   "title": "Kayaking Merit Badge Day",
-   "start": "2026-10-17",
-   "end": "2026-10-17",
-   "time": null,
-   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
-   "url": "https://www.sdicscouting.org/events/kayaking-merit-badge-day-2"
   },
   {
    "uid": "coin-collecting-merit-badge-day",
