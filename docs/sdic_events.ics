@@ -5,77 +5,6 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:SDIC Scouting Events
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-UID:palomar-rslr-webelos-woods@sdicscouting.org
-DTSTAMP:20261016T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261019
-SUMMARY:Palomar/RSLR Webelos Woods
-DESCRIPTION:Palomar/RSLR Webelos Woods\nWebelos Woods is a fun-filled week
- end designed to give Webelos and Arrow of Light Scouts a taste of the adv
- enture that awaits in Scouts BSA. Scouts will spend the weekend camping\,
-  exploring the outdoors\, participating in range and target activities\, 
- and taking on new challenges alongside other Scouts.\nOpen to Webelos\, A
- rrow of Light Scouts\, and all Scouts BSA troops\, this event is a great 
- opportunity to make new friends\, build confidence\, learn new skills\, a
- nd experience the excitement of camping at Mataguay Scout Ranch. It’s a
-  weekend filled with adventure\, friendship\, fun\, and memories that Sco
- uts will take home with them!\nWebelos/AOL Registration: https://sdicbsa.
- doubleknot.com/event/palomar-rancho-san-luis-rey-webelos-woods/3159316\nT
- roop Registration: https://sdicbsa.doubleknot.com/event/palomar-rancho-sa
- n-luis-rey-webelos-woods-troop-registration/3159651\n\nhttps://www.sdicsc
- outing.org/events/palomar-rslr-webelos-woods
-URL:https://www.sdicscouting.org/events/palomar-rslr-webelos-woods
-END:VEVENT
-BEGIN:VEVENT
-UID:life-to-eagle-workshop-5@sdicscouting.org
-DTSTAMP:20261018T000000Z
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
-SUMMARY:Life to Eagle Workshop
-DESCRIPTION:Life to Eagle Workshop\nLearn How To:\n• Choose an appropria
- te and challenging Eagle service project\n• Effectively develop and wri
- te a project proposal\n• Locate an Eagle Project Counselor/Coach\n• C
- omplete & submit the Eagle Scout Rank Application\n• Request letters of
-  reference\nRSVP is required. Scouts: Life rank only. To reserve a seat a
- t one of the workshops\, send email to: doris.mccarthy@sdsu.edu. State: N
- ame of Scout\, Rank\, Unit Number\, Name of Parent\, and District. Youth 
- must copy parent when sending email to an adult. Have a copy of the Eagle
-  Scout Service Project Workbook and Eagle Scout Rank Application availabl
- e – download from council website. Comfy is the appropriate dress.\n\nh
- ttps://www.sdicscouting.org/events/life-to-eagle-workshop-5
-URL:https://www.sdicscouting.org/events/life-to-eagle-workshop-5
-END:VEVENT
-BEGIN:VEVENT
-UID:honor-guard-training-october@sdicscouting.org
-DTSTAMP:20261018T000000Z
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
-SUMMARY:Honor Guard Training
-DESCRIPTION:Honor Guard Training\nHONOR — SERVICE — COMMITMENT\nThis t
- raining will cover history and etiquette\, indoor and outdoor flag ceremo
- nies\, flag retirement and more.\nTraining is open to all registered Scou
- ts and Adults.\n1-5pm\, Snacks provided\, Cost is $10 a person.\nContact\
- n: Alex Bedoya\,\nkhanito@aol.com\n\nhttps://www.sdicscouting.org/events/
- honor-guard-training-october
-URL:https://www.sdicscouting.org/events/honor-guard-training-october
-LOCATION:Camp Balboa\, San Diego-Imperial Council\, Scouting America\, 120
- 7 Upas St\, San Diego\, CA 92103\, USA
-END:VEVENT
-BEGIN:VEVENT
-UID:coin-collecting-merit-badge-day@sdicscouting.org
-DTSTAMP:20261018T000000Z
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
-SUMMARY:Coin Collecting Merit Badge Day
-DESCRIPTION:Coin Collecting Merit Badge Day\nOn October 18\nth\nfrom 12:00
-  PM to 2:30 PM\, at the El Cajon Elks Lodge\, there is going to be a Coin
-  Collecting Merit Badge Workshop. Free of charge\, Scouts will fully comp
- lete the merit badge at the event. To register\, please reach out to Greg
-  Schenewerk at GCSCoincollector@gmail.com.\n\nhttps://www.sdicscouting.or
- g/events/coin-collecting-merit-badge-day
-URL:https://www.sdicscouting.org/events/coin-collecting-merit-badge-day
-END:VEVENT
-BEGIN:VEVENT
 UID:eagleprojectcounselor-training@sdicscouting.org
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20261019
@@ -1972,24 +1901,6 @@ URL:https://www.sdicscouting.org/events/2027-oct-unit-backpacking
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92081
 END:VEVENT
 BEGIN:VEVENT
-UID:community-adventure-day-7@sdicscouting.org
-DTSTAMP:20271016T000000Z
-DTSTART;VALUE=DATE:20271016
-DTEND;VALUE=DATE:20271017
-SUMMARY:Community Adventure Day
-DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
- se style for you and your family to enjoy on your schedule. You may arriv
- e anytime before noon and leave when you wish.\nAll activities designed f
- or ages 5-17 (and their adults)\nActivities include crafts\, canoeing\, k
- ayaking\, and a nature activity.\nExperience the great outdoors and enjoy
-  the day at Mataguay Scout Ranch.\nFamilies must pre-register. NO WALK-IN
- 'S.\nPlease no dogs allowed at the Community Adventure Day\n\nhttps://www
- .sdicscouting.org/events/community-adventure-day-7
-URL:https://www.sdicscouting.org/events/community-adventure-day-7
-LOCATION:Camp Bashor at Otay Lakes County Park\, 2270 Wueste Rd\, Chula Vi
- sta\, CA 91915
-END:VEVENT
-BEGIN:VEVENT
 UID:first-aid-adult-cpr-and-aed-oct-2027@sdicscouting.org
 DTSTAMP:20271016T000000Z
 DTSTART;VALUE=DATE:20271016
@@ -2011,6 +1922,24 @@ DESCRIPTION:First Aid\, Adult CPR\, and AED\nSave the Date\nTopics include
  https://www.sdicscouting.org/events/first-aid-adult-cpr-and-aed-oct-2027
 URL:https://www.sdicscouting.org/events/first-aid-adult-cpr-and-aed-oct-20
  27
+END:VEVENT
+BEGIN:VEVENT
+UID:community-adventure-day-7@sdicscouting.org
+DTSTAMP:20271016T000000Z
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
+SUMMARY:Community Adventure Day
+DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
+ se style for you and your family to enjoy on your schedule. You may arriv
+ e anytime before noon and leave when you wish.\nAll activities designed f
+ or ages 5-17 (and their adults)\nActivities include crafts\, canoeing\, k
+ ayaking\, and a nature activity.\nExperience the great outdoors and enjoy
+  the day at Mataguay Scout Ranch.\nFamilies must pre-register. NO WALK-IN
+ 'S.\nPlease no dogs allowed at the Community Adventure Day\n\nhttps://www
+ .sdicscouting.org/events/community-adventure-day-7
+URL:https://www.sdicscouting.org/events/community-adventure-day-7
+LOCATION:Camp Bashor at Otay Lakes County Park\, 2270 Wueste Rd\, Chula Vi
+ sta\, CA 91915
 END:VEVENT
 BEGIN:VEVENT
 UID:wilderness-and-remote-first-aid-oct-2027@sdicscouting.org
@@ -2060,6 +1989,21 @@ LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
  o\, CA 92114
 END:VEVENT
 BEGIN:VEVENT
+UID:2027-tiwahe-lodge-fellowship@sdicscouting.org
+DTSTAMP:20271112T000000Z
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271115
+SUMMARY:2027 Tiwahe Lodge Fellowship
+DESCRIPTION:2027 Tiwahe Lodge Fellowship\nLodge Fellowship is an annual ev
+ ent for all Arrowmen of Tiwahe Lodge. We hold an annual Fall Fellowship\,
+  this year’s agenda is packed with fun activities and training.\n2027 T
+ iwahe Lodge Fellowship will be held November 12-14 at Camp Balboa. Join u
+ s for Training\, Activities\, and Fellowship!\n\nhttps://www.sdicscouting
+ .org/events/2027-tiwahe-lodge-fellowship
+URL:https://www.sdicscouting.org/events/2027-tiwahe-lodge-fellowship
+LOCATION:Camp Balboa\, 1207 Upas Street\, San Diego\, CA 92103
+END:VEVENT
+BEGIN:VEVENT
 UID:cope-weekend-2027-11@sdicscouting.org
 DTSTAMP:20271112T000000Z
 DTSTART;VALUE=DATE:20271112
@@ -2074,21 +2018,6 @@ DESCRIPTION:Project C.O.P.E.\nChallenging Outdoor Personal Experience\nC.O
  s needs.\n\nhttps://www.sdicscouting.org/events/cope-weekend-2027-11
 URL:https://www.sdicscouting.org/events/cope-weekend-2027-11
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
-END:VEVENT
-BEGIN:VEVENT
-UID:2027-tiwahe-lodge-fellowship@sdicscouting.org
-DTSTAMP:20271112T000000Z
-DTSTART;VALUE=DATE:20271112
-DTEND;VALUE=DATE:20271115
-SUMMARY:2027 Tiwahe Lodge Fellowship
-DESCRIPTION:2027 Tiwahe Lodge Fellowship\nLodge Fellowship is an annual ev
- ent for all Arrowmen of Tiwahe Lodge. We hold an annual Fall Fellowship\,
-  this year’s agenda is packed with fun activities and training.\n2027 T
- iwahe Lodge Fellowship will be held November 12-14 at Camp Balboa. Join u
- s for Training\, Activities\, and Fellowship!\n\nhttps://www.sdicscouting
- .org/events/2027-tiwahe-lodge-fellowship
-URL:https://www.sdicscouting.org/events/2027-tiwahe-lodge-fellowship
-LOCATION:Camp Balboa\, 1207 Upas Street\, San Diego\, CA 92103
 END:VEVENT
 BEGIN:VEVENT
 UID:haltt-recert-2-2027@sdicscouting.org
