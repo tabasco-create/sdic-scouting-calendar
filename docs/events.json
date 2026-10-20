@@ -1,17 +1,8 @@
 {
- "checked_at": "2026-10-19T14:02:49Z",
- "updated_at": "2026-10-17T13:45:21Z",
+ "checked_at": "2026-10-20T13:58:14Z",
+ "updated_at": "2026-10-20T13:58:14Z",
  "tracking_since": "2026-10-08T00:46:56Z",
  "events": [
-  {
-   "uid": "eagleprojectcounselor-training",
-   "title": "Eagle Project Counselor Training",
-   "start": "2026-10-19",
-   "end": "2026-10-19",
-   "time": null,
-   "location": "Camp Balboa, Atherton Hall – 1207 Upas Street, SD CA 92103",
-   "url": "https://www.sdicscouting.org/events/eagleprojectcounselor-training"
-  },
   {
    "uid": "fall-family-fun",
    "title": "Fall Family Fun",
@@ -722,6 +713,15 @@
    "time": null,
    "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
    "url": "https://www.sdicscouting.org/events/summer-camp-msr-week-1"
+  },
+  {
+   "uid": "swamp-base-2027",
+   "title": "Swamp Base 2027",
+   "start": "2027-06-18",
+   "end": "2027-06-23",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/swamp-base-2027"
   },
   {
    "uid": "summer-camp-cfi-week-1",
