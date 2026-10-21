@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-10-20T13:58:14Z",
- "updated_at": "2026-10-20T13:58:14Z",
+ "checked_at": "2026-10-21T13:57:51Z",
+ "updated_at": "2026-10-21T13:57:51Z",
  "tracking_since": "2026-10-08T00:46:56Z",
  "events": [
   {
@@ -23,7 +23,7 @@
   },
   {
    "uid": "personal-management-merit-badge-workshop-20261028",
-   "title": "Winter Personal Management Merit Badge Workshop (1/4)",
+   "title": "Personal Management Merit Badge (1/4)",
    "start": "2026-10-28",
    "end": "2026-10-28",
    "time": "4:00 PM – 7:30 PM",
@@ -194,7 +194,7 @@
   },
   {
    "uid": "personal-management-merit-badge-workshop-20261209",
-   "title": "Winter Personal Management Merit Badge Workshop (2/4)",
+   "title": "Personal Management Merit Badge (2/4)",
    "start": "2026-12-09",
    "end": "2026-12-09",
    "time": "4:00 PM – 7:30 PM",
@@ -284,7 +284,7 @@
   },
   {
    "uid": "spring-personal-management-merit-badge-workshop-20270201",
-   "title": "Personal Management Merit Badge Workshop (1/4)",
+   "title": "Personal Management Merit Badge (1/4)",
    "start": "2027-02-01",
    "end": "2027-02-01",
    "time": "4:00 PM – 7:30 PM",
@@ -329,7 +329,7 @@
   },
   {
    "uid": "personal-management-merit-badge-workshop-20270209",
-   "title": "Winter Personal Management Merit Badge Workshop (3/4)",
+   "title": "Personal Management Merit Badge (3/4)",
    "start": "2027-02-09",
    "end": "2027-02-09",
    "time": "3:00 PM – 6:00 PM",
@@ -338,7 +338,7 @@
   },
   {
    "uid": "personal-management-merit-badge-workshop-20270210",
-   "title": "Winter Personal Management Merit Badge Workshop (4/4)",
+   "title": "Personal Management Merit Badge (4/4)",
    "start": "2027-02-10",
    "end": "2027-02-10",
    "time": "3:00 PM – 6:00 PM",
@@ -455,7 +455,7 @@
   },
   {
    "uid": "spring-personal-management-merit-badge-workshop-20270315",
-   "title": "Personal Management Merit Badge Workshop (2/4)",
+   "title": "Personal Management Merit Badge (2/4)",
    "start": "2027-03-15",
    "end": "2027-03-15",
    "time": "4:00 PM – 7:30 PM",
@@ -608,7 +608,7 @@
   },
   {
    "uid": "spring-personal-management-merit-badge-workshop-20270510",
-   "title": "Personal Management Merit Badge Workshop (3/4)",
+   "title": "Personal Management Merit Badge (3/4)",
    "start": "2027-05-10",
    "end": "2027-05-10",
    "time": "3:00 PM – 6:00 PM",
@@ -617,7 +617,7 @@
   },
   {
    "uid": "spring-personal-management-merit-badge-workshop-20270511",
-   "title": "Personal Management Merit Badge Workshop (4/4)",
+   "title": "Personal Management Merit Badge (4/4)",
    "start": "2027-05-11",
    "end": "2027-05-11",
    "time": "3:00 PM – 6:00 PM",
