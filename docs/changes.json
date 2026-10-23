@@ -1,6 +1,22 @@
 {
  "history": [
   {
+   "at": "2026-10-23T13:57:50Z",
+   "added": [
+    {
+     "uid": "movo-training",
+     "title": "MOVO Training",
+     "start": "2026-11-05",
+     "end": "2026-11-05",
+     "time": null,
+     "location": "Atherton Hall, 1207 Upas St San Diego, CA 92103",
+     "url": "https://www.sdicscouting.org/events/movo-training"
+    }
+   ],
+   "removed": [],
+   "changed": []
+  },
+  {
    "at": "2026-10-22T13:59:15Z",
    "added": [
     {
