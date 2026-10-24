@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-10-23T13:57:50Z",
- "updated_at": "2026-10-23T13:57:50Z",
+ "checked_at": "2026-10-24T13:46:26Z",
+ "updated_at": "2026-10-24T13:46:26Z",
  "tracking_since": "2026-10-08T00:46:56Z",
  "events": [
   {
@@ -11,15 +11,6 @@
    "time": null,
    "location": "Mataguay Scout Ranch, Mataguay Rd, Santa Ysabel, CA 92070",
    "url": "https://www.sdicscouting.org/events/fall-family-fun"
-  },
-  {
-   "uid": "movie-in-the-park",
-   "title": "Movie in the Park",
-   "start": "2026-10-23",
-   "end": "2026-10-23",
-   "time": null,
-   "location": "25453 Lake Wohlford Road, Escondido, CA 92025",
-   "url": "https://www.sdicscouting.org/events/movie-in-the-park"
   },
   {
    "uid": "personal-management-merit-badge-workshop-20261028",
@@ -218,6 +209,15 @@
    "time": null,
    "location": "Mataguay Scout Ranch, Mataguay Rd, Santa Ysabel, CA 92076",
    "url": "https://www.sdicscouting.org/events/cope-weekend-2026-9"
+  },
+  {
+   "uid": "knife-skills-training",
+   "title": "Knife Skills Training",
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "time": null,
+   "location": "Camp Balboa, 1207 Upas St, San Diego CA 92123",
+   "url": "https://www.sdicscouting.org/events/knife-skills-training"
   },
   {
    "uid": "scout-night-with-gulls-hockey",
