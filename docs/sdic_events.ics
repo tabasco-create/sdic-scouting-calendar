@@ -506,6 +506,25 @@ URL:https://www.sdicscouting.org/events/msr-work-party-jan
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
 END:VEVENT
 BEGIN:VEVENT
+UID:wilderness-and-remote-first-aid-june-2027@sdicscouting.org
+DTSTAMP:20270105T000000Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270107
+SUMMARY:Wilderness and Remote First Aid
+DESCRIPTION:Wilderness and Remote First Aid\nSave the Date - Required for 
+ all High Adventure Treks\nWilderness First Aid (WFA) is the assessment of
+  and treatment given to an ill or injured person in a remote environment 
+ where definitive care by a physician and/or rapid transport is not readil
+ y available.\nA current basic level certificate in First Aid/CPR/AED cert
+ ification is required to participate in the WRFA Course.\nPrice:\n$100\n\
+ nhttps://www.sdicscouting.org/events/wilderness-and-remote-first-aid-june
+ -2027
+URL:https://www.sdicscouting.org/events/wilderness-and-remote-first-aid-ju
+ ne-2027
+LOCATION:San Diego-Imperial Council\, Boy Scouts of America\, 1207 Upas St
+ \, San Diego\, CA 92103\, USA
+END:VEVENT
+BEGIN:VEVENT
 UID:cope-weekend-2027-1@sdicscouting.org
 DTSTAMP:20270108T000000Z
 DTSTART;VALUE=DATE:20270108
