@@ -5,31 +5,6 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:SDIC Scouting Events
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-UID:personal-management-merit-badge-workshop-20261028@sdicscouting.org
-DTSTAMP:20261028T000000Z
-DTSTART;TZID=America/Los_Angeles:20261028T160000
-DTEND;TZID=America/Los_Angeles:20261028T193000
-SUMMARY:Personal Management MB (1/4)
-DESCRIPTION:Personal Management MB\nJA Merit Badge\nScouts map their futur
- e financial goals and how to achieve them through personal finance. After
-  completing all three sessions\, scouts will earn their Personal Manageme
- nt Merit Badge!\nThe JA Scout Merit Badge Workshop Series prepares partic
- ipants to consider income\, savings\, debt\, investing\, insurance\, and 
- budgeting to become real-world ready.\nScouts will earn their Personal Ma
- nagement Merit Badge after completing all three sessions.\nParticipants w
- alk away with an understanding of:\nHow to create a budget\nRelationship 
- between income and cost of living\nImportance of saving\nHow credit and l
- oans work\nBasic fundamentals of investing\nWORKSHOP SESSION DATES\nSessi
- on 1: Workbook\n‍\nWed\, October 28\, 2026 from 4:00-7:30 PM\nSession 2
- : Simulation\nWed\, December 9\, 2026 from 4:00-7:30 PM\nSession 3: Testi
- ng\nScouts will select a 1-hour timeslot for their testing\nsession from 
- the following time windows:\nTues\, February 9\, 2027 from 3:00-6:00 PM\n
- Wed\, February 10\, 2027 10 from 3:00-6:00 PM\n\nhttps://www.sdicscouting
- .org/events/personal-management-merit-badge-workshop
-URL:https://www.sdicscouting.org/events/personal-management-merit-badge-wo
- rkshop
-END:VEVENT
-BEGIN:VEVENT
 UID:haunt-the-valley-scout-night@sdicscouting.org
 DTSTAMP:20261031T000000Z
 DTSTART;VALUE=DATE:20261031
@@ -504,25 +479,6 @@ DESCRIPTION:Mataguay Scout Ranch Work Party\nCasitas - Painting\nParticipa
   and Painting\n\nhttps://www.sdicscouting.org/events/msr-work-party-jan
 URL:https://www.sdicscouting.org/events/msr-work-party-jan
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
-END:VEVENT
-BEGIN:VEVENT
-UID:wilderness-and-remote-first-aid-june-2027@sdicscouting.org
-DTSTAMP:20270105T000000Z
-DTSTART;VALUE=DATE:20270105
-DTEND;VALUE=DATE:20270107
-SUMMARY:Wilderness and Remote First Aid
-DESCRIPTION:Wilderness and Remote First Aid\nSave the Date - Required for 
- all High Adventure Treks\nWilderness First Aid (WFA) is the assessment of
-  and treatment given to an ill or injured person in a remote environment 
- where definitive care by a physician and/or rapid transport is not readil
- y available.\nA current basic level certificate in First Aid/CPR/AED cert
- ification is required to participate in the WRFA Course.\nPrice:\n$100\n\
- nhttps://www.sdicscouting.org/events/wilderness-and-remote-first-aid-june
- -2027
-URL:https://www.sdicscouting.org/events/wilderness-and-remote-first-aid-ju
- ne-2027
-LOCATION:San Diego-Imperial Council\, Boy Scouts of America\, 1207 Upas St
- \, San Diego\, CA 92103\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:cope-weekend-2027-1@sdicscouting.org
@@ -2013,21 +1969,6 @@ LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
  o\, CA 92114
 END:VEVENT
 BEGIN:VEVENT
-UID:2027-tiwahe-lodge-fellowship@sdicscouting.org
-DTSTAMP:20271112T000000Z
-DTSTART;VALUE=DATE:20271112
-DTEND;VALUE=DATE:20271115
-SUMMARY:2027 Tiwahe Lodge Fellowship
-DESCRIPTION:2027 Tiwahe Lodge Fellowship\nLodge Fellowship is an annual ev
- ent for all Arrowmen of Tiwahe Lodge. We hold an annual Fall Fellowship\,
-  this year’s agenda is packed with fun activities and training.\n2027 T
- iwahe Lodge Fellowship will be held November 12-14 at Camp Balboa. Join u
- s for Training\, Activities\, and Fellowship!\n\nhttps://www.sdicscouting
- .org/events/2027-tiwahe-lodge-fellowship
-URL:https://www.sdicscouting.org/events/2027-tiwahe-lodge-fellowship
-LOCATION:Camp Balboa\, 1207 Upas Street\, San Diego\, CA 92103
-END:VEVENT
-BEGIN:VEVENT
 UID:cope-weekend-2027-11@sdicscouting.org
 DTSTAMP:20271112T000000Z
 DTSTART;VALUE=DATE:20271112
@@ -2042,6 +1983,21 @@ DESCRIPTION:Project C.O.P.E.\nChallenging Outdoor Personal Experience\nC.O
  s needs.\n\nhttps://www.sdicscouting.org/events/cope-weekend-2027-11
 URL:https://www.sdicscouting.org/events/cope-weekend-2027-11
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-tiwahe-lodge-fellowship@sdicscouting.org
+DTSTAMP:20271112T000000Z
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271115
+SUMMARY:2027 Tiwahe Lodge Fellowship
+DESCRIPTION:2027 Tiwahe Lodge Fellowship\nLodge Fellowship is an annual ev
+ ent for all Arrowmen of Tiwahe Lodge. We hold an annual Fall Fellowship\,
+  this year’s agenda is packed with fun activities and training.\n2027 T
+ iwahe Lodge Fellowship will be held November 12-14 at Camp Balboa. Join u
+ s for Training\, Activities\, and Fellowship!\n\nhttps://www.sdicscouting
+ .org/events/2027-tiwahe-lodge-fellowship
+URL:https://www.sdicscouting.org/events/2027-tiwahe-lodge-fellowship
+LOCATION:Camp Balboa\, 1207 Upas Street\, San Diego\, CA 92103
 END:VEVENT
 BEGIN:VEVENT
 UID:haltt-recert-2-2027@sdicscouting.org

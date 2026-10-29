@@ -1,17 +1,8 @@
 {
- "checked_at": "2026-10-28T14:13:42Z",
- "updated_at": "2026-10-28T14:13:42Z",
+ "checked_at": "2026-10-29T14:17:34Z",
+ "updated_at": "2026-10-29T14:17:34Z",
  "tracking_since": "2026-10-08T00:46:56Z",
  "events": [
-  {
-   "uid": "personal-management-merit-badge-workshop-20261028",
-   "title": "Personal Management MB (1/4)",
-   "start": "2026-10-28",
-   "end": "2026-10-28",
-   "time": "4:00 PM – 7:30 PM",
-   "location": "",
-   "url": "https://www.sdicscouting.org/events/personal-management-merit-badge-workshop"
-  },
   {
    "uid": "haunt-the-valley-scout-night",
    "title": "Haunt the Valley Scout Night",
@@ -236,15 +227,6 @@
    "time": null,
    "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
    "url": "https://www.sdicscouting.org/events/msr-work-party-jan"
-  },
-  {
-   "uid": "wilderness-and-remote-first-aid-june-2027",
-   "title": "Wilderness and Remote First Aid",
-   "start": "2027-01-05",
-   "end": "2027-01-06",
-   "time": null,
-   "location": "San Diego-Imperial Council, Boy Scouts of America, 1207 Upas St, San Diego, CA 92103, USA",
-   "url": "https://www.sdicscouting.org/events/wilderness-and-remote-first-aid-june-2027"
   },
   {
    "uid": "cope-weekend-2027-1",
