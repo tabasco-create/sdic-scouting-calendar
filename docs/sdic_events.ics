@@ -1969,6 +1969,21 @@ LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
  o\, CA 92114
 END:VEVENT
 BEGIN:VEVENT
+UID:2027-tiwahe-lodge-fellowship@sdicscouting.org
+DTSTAMP:20271112T000000Z
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271115
+SUMMARY:2027 Tiwahe Lodge Fellowship
+DESCRIPTION:2027 Tiwahe Lodge Fellowship\nLodge Fellowship is an annual ev
+ ent for all Arrowmen of Tiwahe Lodge. We hold an annual Fall Fellowship\,
+  this year’s agenda is packed with fun activities and training.\n2027 T
+ iwahe Lodge Fellowship will be held November 12-14 at Camp Balboa. Join u
+ s for Training\, Activities\, and Fellowship!\n\nhttps://www.sdicscouting
+ .org/events/2027-tiwahe-lodge-fellowship
+URL:https://www.sdicscouting.org/events/2027-tiwahe-lodge-fellowship
+LOCATION:Camp Balboa\, 1207 Upas Street\, San Diego\, CA 92103
+END:VEVENT
+BEGIN:VEVENT
 UID:cope-weekend-2027-11@sdicscouting.org
 DTSTAMP:20271112T000000Z
 DTSTART;VALUE=DATE:20271112
@@ -1983,21 +1998,6 @@ DESCRIPTION:Project C.O.P.E.\nChallenging Outdoor Personal Experience\nC.O
  s needs.\n\nhttps://www.sdicscouting.org/events/cope-weekend-2027-11
 URL:https://www.sdicscouting.org/events/cope-weekend-2027-11
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
-END:VEVENT
-BEGIN:VEVENT
-UID:2027-tiwahe-lodge-fellowship@sdicscouting.org
-DTSTAMP:20271112T000000Z
-DTSTART;VALUE=DATE:20271112
-DTEND;VALUE=DATE:20271115
-SUMMARY:2027 Tiwahe Lodge Fellowship
-DESCRIPTION:2027 Tiwahe Lodge Fellowship\nLodge Fellowship is an annual ev
- ent for all Arrowmen of Tiwahe Lodge. We hold an annual Fall Fellowship\,
-  this year’s agenda is packed with fun activities and training.\n2027 T
- iwahe Lodge Fellowship will be held November 12-14 at Camp Balboa. Join u
- s for Training\, Activities\, and Fellowship!\n\nhttps://www.sdicscouting
- .org/events/2027-tiwahe-lodge-fellowship
-URL:https://www.sdicscouting.org/events/2027-tiwahe-lodge-fellowship
-LOCATION:Camp Balboa\, 1207 Upas Street\, San Diego\, CA 92103
 END:VEVENT
 BEGIN:VEVENT
 UID:haltt-recert-2-2027@sdicscouting.org
