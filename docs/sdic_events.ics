@@ -5,21 +5,6 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:SDIC Scouting Events
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-UID:haunt-the-valley-scout-night@sdicscouting.org
-DTSTAMP:20261031T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Haunt the Valley Scout Night
-DESCRIPTION:Haunt the Valley Scout Night\nJoin the San Diego Council for S
- cout Night at SDSU Aztecs Football on Saturday\, October 31\, as the Azte
- cs take on Washington State at Snapdragon Stadium! Scouts\, leaders\, fam
- ilies\, and friends can enjoy $20 discounted tickets\, Halloween festivit
- ies\, and pregame trunk-or-treating. Costumes and Scout jerseys are encou
- raged!\n\nhttps://www.sdicscouting.org/events/haunt-the-valley-scout-nigh
- t
-URL:https://www.sdicscouting.org/events/haunt-the-valley-scout-night
-END:VEVENT
-BEGIN:VEVENT
 UID:movo-training@sdicscouting.org
 DTSTAMP:20261105T000000Z
 DTSTART;VALUE=DATE:20261105
