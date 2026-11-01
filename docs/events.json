@@ -1,17 +1,8 @@
 {
- "checked_at": "2026-10-31T13:57:24Z",
+ "checked_at": "2026-11-01T13:59:18Z",
  "updated_at": "2026-10-31T13:57:24Z",
  "tracking_since": "2026-10-08T00:46:56Z",
  "events": [
-  {
-   "uid": "haunt-the-valley-scout-night",
-   "title": "Haunt the Valley Scout Night",
-   "start": "2026-10-31",
-   "end": "2026-10-31",
-   "time": null,
-   "location": "",
-   "url": "https://www.sdicscouting.org/events/haunt-the-valley-scout-night"
-  },
   {
    "uid": "movo-training",
    "title": "MOVO Training",
