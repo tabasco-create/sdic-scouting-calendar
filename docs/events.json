@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-11-02T14:30:05Z",
- "updated_at": "2026-10-31T13:57:24Z",
+ "checked_at": "2026-11-03T14:27:19Z",
+ "updated_at": "2026-11-03T14:27:19Z",
  "tracking_since": "2026-10-08T00:46:56Z",
  "events": [
   {
@@ -167,7 +167,7 @@
   },
   {
    "uid": "personal-management-merit-badge-workshop-20261209",
-   "title": "Personal Management MB (2/4)",
+   "title": "Personal Management MB (1/3)",
    "start": "2026-12-09",
    "end": "2026-12-09",
    "time": "4:00 PM – 7:30 PM",
@@ -302,7 +302,7 @@
   },
   {
    "uid": "personal-management-merit-badge-workshop-20270209",
-   "title": "Personal Management MB (3/4)",
+   "title": "Personal Management MB (2/3)",
    "start": "2027-02-09",
    "end": "2027-02-09",
    "time": "3:00 PM – 6:00 PM",
@@ -311,7 +311,7 @@
   },
   {
    "uid": "personal-management-merit-badge-workshop-20270210",
-   "title": "Personal Management MB (4/4)",
+   "title": "Personal Management MB (3/3)",
    "start": "2027-02-10",
    "end": "2027-02-10",
    "time": "3:00 PM – 6:00 PM",
@@ -353,15 +353,6 @@
    "time": null,
    "location": "",
    "url": "https://www.sdicscouting.org/events/cub-scout-leaders-baloo-foothills"
-  },
-  {
-   "uid": "first-aid-adult-cpr-and-aed-feb-2027",
-   "title": "First Aid, Adult CPR, and AED",
-   "start": "2027-02-27",
-   "end": "2027-02-27",
-   "time": null,
-   "location": "",
-   "url": "https://www.sdicscouting.org/events/first-aid-adult-cpr-and-aed-feb-2027"
   },
   {
    "uid": "muti-sport-merit-badge-day",
