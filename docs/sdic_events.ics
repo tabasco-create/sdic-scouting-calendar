@@ -1121,10 +1121,16 @@ DTSTAMP:20270416T000000Z
 DTSTART;VALUE=DATE:20270416
 DTEND;VALUE=DATE:20270419
 SUMMARY:Spring Family Fun
-DESCRIPTION:Spring Family Fun\nSave the Date\nScouts and their families ar
- e invited to join us for a Champions of Nature-themed weekend getaway to 
- relax and enjoy the outdoors.\nMore details to come soon!\n\nhttps://www.
- sdicscouting.org/events/spring-family-fun-2026
+DESCRIPTION:Spring Family Fun\nScouts and their families are invited to jo
+ in us for a Champions of Nature-themed weekend getaway to relax and enjoy
+  the outdoors.\nActivities:\nArchery\, BB's\, the lakefront is open for f
+ ishing (bring your own gear)\, hiking\, bring your bike and helmet (mount
+ ain bike tires recommended)\, nature\, crafts & games.\nCheck-in:\n4-8 pm
+  Friday at Silva Lodge Patio\n(SATURDAY check-in 7:30-8:30 am) Shooting s
+ afety brief at 8:45am is mandatory for those who want to shoot.\nCheck ou
+ t:\n8:30-11 am Sunday\nFamilies must pre-register. WALK-IN'S cannot be gu
+ aranteed space.\n\nhttps://www.sdicscouting.org/events/spring-family-fun-
+ 2026
 URL:https://www.sdicscouting.org/events/spring-family-fun-2026
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
 END:VEVENT
@@ -1661,6 +1667,23 @@ LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
  o\, CA 92109
 END:VEVENT
 BEGIN:VEVENT
+UID:noac-2027@sdicscouting.org
+DTSTAMP:20270726T000000Z
+DTSTART;VALUE=DATE:20270726
+DTEND;VALUE=DATE:20270801
+SUMMARY:NOAC 2027
+DESCRIPTION:NOAC 2027\nThe National Order of the Arrow Conference (NOAC) i
+ s the flagship national Order of the Arrow event. It is held every two ye
+ ars at a major university campus and is attended by as many as 8\,000 Arr
+ owmen from all 50 states. It is second only to the National Scout Jambore
+ e in size and scope. Our largest conference was in 2015\, attended by mor
+ e than 15\,000 Arrowmen to commemorate the 100th anniversary of the Order
+  of the Arrow.\nNOAC 2027 will take place\nJuly 26th - 31st\nat the\nUniv
+ ersity of Illinois Urbana-Champaign\n\nhttps://www.sdicscouting.org/event
+ s/noac-2027
+URL:https://www.sdicscouting.org/events/noac-2027
+END:VEVENT
+BEGIN:VEVENT
 UID:summer-camp-cfi-webelos-aol-session-1@sdicscouting.org
 DTSTAMP:20270801T000000Z
 DTSTART;VALUE=DATE:20270801
@@ -1950,6 +1973,21 @@ LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
  o\, CA 92114
 END:VEVENT
 BEGIN:VEVENT
+UID:2027-tiwahe-lodge-fellowship@sdicscouting.org
+DTSTAMP:20271112T000000Z
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271115
+SUMMARY:2027 Tiwahe Lodge Fellowship
+DESCRIPTION:2027 Tiwahe Lodge Fellowship\nLodge Fellowship is an annual ev
+ ent for all Arrowmen of Tiwahe Lodge. We hold an annual Fall Fellowship\,
+  this year’s agenda is packed with fun activities and training.\n2027 T
+ iwahe Lodge Fellowship will be held November 12-14 at Camp Balboa. Join u
+ s for Training\, Activities\, and Fellowship!\n\nhttps://www.sdicscouting
+ .org/events/2027-tiwahe-lodge-fellowship
+URL:https://www.sdicscouting.org/events/2027-tiwahe-lodge-fellowship
+LOCATION:Camp Balboa\, 1207 Upas Street\, San Diego\, CA 92103
+END:VEVENT
+BEGIN:VEVENT
 UID:cope-weekend-2027-11@sdicscouting.org
 DTSTAMP:20271112T000000Z
 DTSTART;VALUE=DATE:20271112
@@ -1964,21 +2002,6 @@ DESCRIPTION:Project C.O.P.E.\nChallenging Outdoor Personal Experience\nC.O
  s needs.\n\nhttps://www.sdicscouting.org/events/cope-weekend-2027-11
 URL:https://www.sdicscouting.org/events/cope-weekend-2027-11
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
-END:VEVENT
-BEGIN:VEVENT
-UID:2027-tiwahe-lodge-fellowship@sdicscouting.org
-DTSTAMP:20271112T000000Z
-DTSTART;VALUE=DATE:20271112
-DTEND;VALUE=DATE:20271115
-SUMMARY:2027 Tiwahe Lodge Fellowship
-DESCRIPTION:2027 Tiwahe Lodge Fellowship\nLodge Fellowship is an annual ev
- ent for all Arrowmen of Tiwahe Lodge. We hold an annual Fall Fellowship\,
-  this year’s agenda is packed with fun activities and training.\n2027 T
- iwahe Lodge Fellowship will be held November 12-14 at Camp Balboa. Join u
- s for Training\, Activities\, and Fellowship!\n\nhttps://www.sdicscouting
- .org/events/2027-tiwahe-lodge-fellowship
-URL:https://www.sdicscouting.org/events/2027-tiwahe-lodge-fellowship
-LOCATION:Camp Balboa\, 1207 Upas Street\, San Diego\, CA 92103
 END:VEVENT
 BEGIN:VEVENT
 UID:haltt-recert-2-2027@sdicscouting.org
