@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-11-04T14:29:06Z",
- "updated_at": "2026-11-03T14:27:19Z",
+ "checked_at": "2026-11-05T14:29:23Z",
+ "updated_at": "2026-11-05T14:29:23Z",
  "tracking_since": "2026-10-08T00:46:56Z",
  "events": [
   {
@@ -785,6 +785,15 @@
    "time": null,
    "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
    "url": "https://www.sdicscouting.org/events/summer-camp-cfi-week-6"
+  },
+  {
+   "uid": "noac-2027",
+   "title": "NOAC 2027",
+   "start": "2027-07-26",
+   "end": "2027-07-31",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/noac-2027"
   },
   {
    "uid": "summer-camp-cfi-webelos-aol-session-1",

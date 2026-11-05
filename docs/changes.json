@@ -1,6 +1,22 @@
 {
  "history": [
   {
+   "at": "2026-11-05T14:29:23Z",
+   "added": [
+    {
+     "uid": "noac-2027",
+     "title": "NOAC 2027",
+     "start": "2027-07-26",
+     "end": "2027-07-31",
+     "time": null,
+     "location": "",
+     "url": "https://www.sdicscouting.org/events/noac-2027"
+    }
+   ],
+   "removed": [],
+   "changed": []
+  },
+  {
    "at": "2026-11-03T14:27:19Z",
    "added": [],
    "removed": [
