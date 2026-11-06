@@ -1,17 +1,8 @@
 {
- "checked_at": "2026-11-05T14:29:23Z",
+ "checked_at": "2026-11-06T14:28:11Z",
  "updated_at": "2026-11-05T14:29:23Z",
  "tracking_since": "2026-10-08T00:46:56Z",
  "events": [
-  {
-   "uid": "movo-training",
-   "title": "MOVO Training",
-   "start": "2026-11-05",
-   "end": "2026-11-05",
-   "time": null,
-   "location": "Atherton Hall, 1207 Upas St San Diego, CA 92103",
-   "url": "https://www.sdicscouting.org/events/movo-training"
-  },
   {
    "uid": "foothills-webelos-woods-j9kxc",
    "title": "Foothills Webelos Woods",
