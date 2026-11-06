@@ -5,25 +5,6 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:SDIC Scouting Events
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-UID:movo-training@sdicscouting.org
-DTSTAMP:20261105T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
-SUMMARY:MOVO Training
-DESCRIPTION:MOVO Training\nMOVO Training\nJoin us for MOVO Training to lea
- rn how Scouting America’s virtual assistant helps families discover Sco
- uting and connect with local units. Learn how your unit’s BeAScout pin 
- and up-to-date information can help more families find their Scouting hom
- e.\nLocation:\nAtherton Hall\, 1207 Upas Street\, San Diego\, CA 92103\nV
- irtual Option:\nJoin via Zoom: https://us02web.zoom.us/j/82000370366?pwd=
- VbsLG9eHHdxibJUH6oGXc3HuLvhMKd.1 Meeting ID: 820 0037 0366 Passcode: 0530
- 05\nOpen to unit leaders\, committee members\, and anyone interested in h
- elping more families connect with Scouting.\n\nhttps://www.sdicscouting.o
- rg/events/movo-training
-URL:https://www.sdicscouting.org/events/movo-training
-LOCATION:Atherton Hall\, 1207 Upas St San Diego\, CA 92103
-END:VEVENT
-BEGIN:VEVENT
 UID:foothills-webelos-woods-j9kxc@sdicscouting.org
 DTSTAMP:20261106T000000Z
 DTSTART;VALUE=DATE:20261106
