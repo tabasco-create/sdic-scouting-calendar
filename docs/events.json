@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-07T14:02:22Z",
+ "checked_at": "2026-11-08T18:24:26Z",
  "updated_at": "2026-11-05T14:29:23Z",
  "tracking_since": "2026-10-08T00:46:56Z",
  "events": [
@@ -11,15 +11,6 @@
    "time": null,
    "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92070",
    "url": "https://www.sdicscouting.org/events/foothills-webelos-woods-j9kxc"
-  },
-  {
-   "uid": "cub-scout-leader-training",
-   "title": "Cub Scout Leader Training",
-   "start": "2026-11-07",
-   "end": "2026-11-07",
-   "time": null,
-   "location": "",
-   "url": "https://www.sdicscouting.org/events/cub-scout-leader-training"
   },
   {
    "uid": "haltt-session-4-nov-water-50613",
@@ -38,15 +29,6 @@
    "time": null,
    "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
    "url": "https://www.sdicscouting.org/events/msr-work-party-nov"
-  },
-  {
-   "uid": "radio-merit-badge-on-uss-midway-november",
-   "title": "Radio Merit Badge",
-   "start": "2026-11-07",
-   "end": "2026-11-07",
-   "time": null,
-   "location": "",
-   "url": "https://www.sdicscouting.org/events/radio-merit-badge-on-uss-midway-november"
   },
   {
    "uid": "lion-tiger-safari",
