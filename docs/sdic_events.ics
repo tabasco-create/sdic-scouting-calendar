@@ -5,93 +5,6 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:SDIC Scouting Events
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-UID:foothills-webelos-woods-j9kxc@sdicscouting.org
-DTSTAMP:20261106T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261109
-SUMMARY:Foothills Webelos Woods
-DESCRIPTION:Foothills Webelos Woods\nWebelos Woods is an event designed to
-  introduce Webelos / AOL Scouts and parents to some of the exciting adven
- tures of Scouts BSA program. More details coming soon! If you would like 
- to lead this event\, please reach out to the District Executive.\nScouts 
- are encouraged to register with their Troop at: https://sdicbsa.doublekno
- t.com/event/foothills-webelos-woods-2026-troop-registration/3141949\n\nht
- tps://www.sdicscouting.org/events/foothills-webelos-woods-j9kxc
-URL:https://www.sdicscouting.org/events/foothills-webelos-woods-j9kxc
-LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92070
-END:VEVENT
-BEGIN:VEVENT
-UID:haltt-session-4-nov-water-50613@sdicscouting.org
-DTSTAMP:20261107T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261109
-SUMMARY:HALTT Session IV: Water Trek
-DESCRIPTION:HALTT Session IV: Water Trek\nThis 15-hour course prepares uni
- t leaders to operate on flat and moving water.\nThis 15-hour course prepa
- res unit leaders to operate on flat and moving water. Leaders completing 
- Sessions I\, II\, and IV receive a patch and numbered card.\n\nhttps://ww
- w.sdicscouting.org/events/haltt-session-4-nov-water-50613
-URL:https://www.sdicscouting.org/events/haltt-session-4-nov-water-50613
-LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
- o\, CA 92114
-END:VEVENT
-BEGIN:VEVENT
-UID:msr-work-party-nov@sdicscouting.org
-DTSTAMP:20261107T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261109
-SUMMARY:Mataguay Scout Ranch Work Party
-DESCRIPTION:Mataguay Scout Ranch Work Party\nTrading Post Railing - Carpen
- try\nParticipants:\nScouts (ages 14 and up with parent)\nVenturers\nAdult
-  leaders and volunteers\n(Scouts under 14 will have age appropriate jobs 
- if present)\nProject Focus:\nConstruction and maintenance projects aimed 
- at enhancing camp facilities for Summer Camp & Weekend Programs. Projects
-  will range from small repairs to larger construction tasks.\nProject Obj
- ective:\nComplete the projects listed below to allow for a better experie
- nce for the scouts and families who come to Mataguay Scout Ranch.\nWhy:\n
- Help revitalize Mataguay Scout Camp for the Scouts!\nDetails:\nFor those 
- who wish to spend the night a Casita will be opened\, this is a spot to s
- pend the night and take a hot shower. Food will not be provided by the co
- uncil.\nWhat to Bring:\nFilled out med forms parts A and B\nWater bottle\
- , proper clothing/work clothing\, gloves\nIf spending the night: Food\, c
- amping equipment\, and proper clothing\nTools if you believe they will be
-  helpful for the project\nThis Month's Job Scope:\nAsphalt Work\, Paintin
- g\, and Carpentry\n\nhttps://www.sdicscouting.org/events/msr-work-party-n
- ov
-URL:https://www.sdicscouting.org/events/msr-work-party-nov
-LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
-END:VEVENT
-BEGIN:VEVENT
-UID:lion-tiger-safari@sdicscouting.org
-DTSTAMP:20261108T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:Lion & Tiger Safari
-DESCRIPTION:Lion & Tiger Safari\nJoin us for fun Lion and Tiger Activities
-  - ‘Adventure’ requirements\, games\, Scout skills\, crafts\, and mor
- e!\n‍\n[Program will last about 2 hours - come and go when you like.]\n
- ‍\nEach scout will receive either a Lion or Tiger Patch.\nEach Lion or 
- Tiger Scout should be accompanied by an adult Partner.\nQuestions? Contac
- t Paula Trubitt at ptrubitt@gmail.com.\n\nhttps://www.sdicscouting.org/e
- vents/lion-tiger-safari
-URL:https://www.sdicscouting.org/events/lion-tiger-safari
-END:VEVENT
-BEGIN:VEVENT
-UID:philmont-trek@sdicscouting.org
-DTSTAMP:20261108T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:Philmont Trek
-DESCRIPTION:Philmont Trek\nPlanning a Philmont trek in 2027 or considering
-  one in 2028? Join the San Diego-Imperial Council High Adventure Team for
-  an afternoon of expert advice\, helpful discussions\, and preparation ti
- ps. Topics include gear\, travel\, cooking\, training\, meal planning\, c
- rew dynamics\, and health and safety.\nOpen to 2027 and 2028 Trek Advisor
- s and adult leaders interested in Philmont. To RSVP\, contact Laura Carti
- er.\n‍\n\nhttps://www.sdicscouting.org/events/philmont-trek
-URL:https://www.sdicscouting.org/events/philmont-trek
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-tiwahe-lodge-fellowship@sdicscouting.org
 DTSTAMP:20261113T000000Z
 DTSTART;VALUE=DATE:20261113
@@ -189,17 +102,6 @@ DESCRIPTION:HALTT Recertification\nHalf-Day HALTT Retraining Course\nHalf-
 URL:https://www.sdicscouting.org/events/haltt-recert-2
 LOCATION:Northminster Presbyterian Church\, 4324 Clairemont Mesa Blvd\, Sa
  n Diego\, CA 92122
-END:VEVENT
-BEGIN:VEVENT
-UID:national-day-of-service@sdicscouting.org
-DTSTAMP:20261114T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:National Day of Service
-DESCRIPTION:National Day of Service\nSave the Date\nMore information comin
- g soon about how SDIC will be supporting this national initiative.\n\nht
- tps://www.sdicscouting.org/events/national-day-of-service
-URL:https://www.sdicscouting.org/events/national-day-of-service
 END:VEVENT
 BEGIN:VEVENT
 UID:cub-scout-lock-in@sdicscouting.org
