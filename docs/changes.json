@@ -1,6 +1,31 @@
 {
  "history": [
   {
+   "at": "2026-11-10T20:30:25Z",
+   "added": [
+    {
+     "uid": "kayaking-merit-badge-day-2",
+     "title": "Kayaking Merit Badge Day",
+     "start": "2026-11-21",
+     "end": "2026-11-21",
+     "time": null,
+     "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
+     "url": "https://www.sdicscouting.org/events/kayaking-merit-badge-day-2"
+    },
+    {
+     "uid": "sd-clippers-scout-night",
+     "title": "SD Clippers Scout Night",
+     "start": "2026-12-12",
+     "end": "2026-12-12",
+     "time": null,
+     "location": "",
+     "url": "https://www.sdicscouting.org/events/sd-clippers-scout-night"
+    }
+   ],
+   "removed": [],
+   "changed": []
+  },
+  {
    "at": "2026-11-09T23:02:22Z",
    "added": [],
    "removed": [
