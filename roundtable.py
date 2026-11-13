@@ -60,6 +60,8 @@ def parse_rule(text):
     """Return (rule, found) from the page text. `found` says whether the day and time were read
     from the page; anything unreadable falls back to DEFAULT_RULE."""
     flat = re.sub(r"\s+", " ", text)
+    # same text with line breaks kept as ", ", so an address split over several lines reads naturally
+    lined = re.sub(r"\s*\n\s*", ", ", re.sub(r"[ \t]+", " ", text))
     rule, found = dict(DEFAULT_RULE), False
     for m in re.finditer(r"round\s*table", flat, re.I):
         window = flat[m.start(): m.start() + 600]
@@ -72,6 +74,10 @@ def parse_rule(text):
         rule["start"] = to_24h(t.group(1), t.group(2), t.group(3) or end_ap)
         rule["end"] = to_24h(t.group(4), t.group(5), end_ap)
         after = window[t.end():]
+        lm = re.search(r"round\s*table", lined, re.I)
+        lt = TIME_RE.search(lined[lm.start(): lm.start() + 600]) if lm else None
+        if lm and lt:
+            after = lined[lm.start():][lt.end():][:400]
         loc = re.match(r"\s*(?:at|@|,|-|–)?\s*(.{5,200}?\b\d{5}\b)", after)
         if loc and re.search(r"\d", loc.group(1)):
             rule["location"] = re.sub(r"^(?:at|@)\s+", "", loc.group(1).strip(" ,."), flags=re.I)
