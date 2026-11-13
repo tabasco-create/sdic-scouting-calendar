@@ -1,0 +1,11 @@
+{
+ "checked_at": "2026-11-13T23:59:28Z",
+ "rule": {
+  "nth": 2,
+  "weekday": 3,
+  "start": "18:30",
+  "end": "20:00",
+  "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92117"
+ },
+ "page_text_hash": "c61510a21fcc"
+}
