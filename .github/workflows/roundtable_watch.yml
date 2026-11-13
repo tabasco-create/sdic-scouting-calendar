@@ -1,0 +1,26 @@
+name: Check Roundtable details
+# Weekly check of the Coastal Sage District page. If the Roundtable day, time or place changes,
+# it is recorded here (and in Slack for the -bsa calendar); the daily run then updates the events.
+# The run fails (and GitHub emails you) if the page stops saying when Roundtable meets.
+on:
+  schedule:
+    - cron: "7 14 * * 1"      # Mondays, ~7am Pacific
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4
+      - run: python roundtable.py --check
+      - name: Save the rule if it changed
+        run: |
+          git config user.name "calendar-bot"
+          git config user.email "calendar-bot@users.noreply.github.com"
+          git add docs/roundtable.json
+          git diff --staged --quiet -I '"checked_at"' || (git commit -m "Roundtable details changed" && git pull -q --rebase && git push)

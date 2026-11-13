@@ -446,6 +446,11 @@ def main():
         print(f"  [{i}/{len(listing)}] {start} {title}")
         time.sleep(0.3)
 
+    try:   # Coastal Sage Roundtable isn't on the events page; it comes from the district page
+        import roundtable
+        final += roundtable.roundtable_events(today, args.all)
+    except Exception as ex:
+        print(f"  ! Roundtable skipped: {ex}")
     final.sort(key=lambda e: e["start"])
     with open(args.out, "w", encoding="utf-8", newline="") as f:
         f.write(build_ics(final))
