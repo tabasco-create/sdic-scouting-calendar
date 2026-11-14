@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-11-13T20:32:36Z",
- "updated_at": "2026-11-10T20:30:25Z",
+ "checked_at": "2026-11-14T00:02:50Z",
+ "updated_at": "2026-11-14T00:02:50Z",
  "tracking_since": "2026-10-08T00:46:56Z",
  "events": [
   {
@@ -103,6 +103,15 @@
    "url": "https://www.sdicscouting.org/events/personal-management-merit-badge-workshop"
   },
   {
+   "uid": "roundtable-coastal-sage-20261210",
+   "title": "Coastal Sage Roundtable",
+   "start": "2026-12-10",
+   "end": "2026-12-10",
+   "time": "6:30 PM – 8:00 PM",
+   "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92117",
+   "url": "https://www.sdicscouting.org/leading-scouts/districts/coastal-sage"
+  },
+  {
    "uid": "cope-weekend-2026-9",
    "title": "Project C.O.P.E.",
    "start": "2026-12-11",
@@ -173,6 +182,15 @@
    "time": null,
    "location": "San Diego-Imperial Council, Boy Scouts of America, 1207 Upas St, San Diego, CA 92103, USA",
    "url": "https://www.sdicscouting.org/events/wilderness-and-remote-first-aid-jan-2027"
+  },
+  {
+   "uid": "roundtable-coastal-sage-20270114",
+   "title": "Coastal Sage Roundtable",
+   "start": "2027-01-14",
+   "end": "2027-01-14",
+   "time": "6:30 PM – 8:00 PM",
+   "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92117",
+   "url": "https://www.sdicscouting.org/leading-scouts/districts/coastal-sage"
   },
   {
    "uid": "national-youth-leadership-training---winter-course-weekend-2",
@@ -256,6 +274,15 @@
    "url": "https://www.sdicscouting.org/events/personal-management-merit-badge-workshop"
   },
   {
+   "uid": "roundtable-coastal-sage-20270211",
+   "title": "Coastal Sage Roundtable",
+   "start": "2027-02-11",
+   "end": "2027-02-11",
+   "time": "6:30 PM – 8:00 PM",
+   "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92117",
+   "url": "https://www.sdicscouting.org/leading-scouts/districts/coastal-sage"
+  },
+  {
    "uid": "cope-weekend-2027-2",
    "title": "Project C.O.P.E.",
    "start": "2027-02-12",
@@ -326,6 +353,15 @@
    "time": null,
    "location": "San Diego-Imperial Council, Boy Scouts of America, 1207 Upas St, San Diego, CA 92103, USA",
    "url": "https://www.sdicscouting.org/events/wilderness-and-remote-first-aid-mar-2027"
+  },
+  {
+   "uid": "roundtable-coastal-sage-20270311",
+   "title": "Coastal Sage Roundtable",
+   "start": "2027-03-11",
+   "end": "2027-03-11",
+   "time": "6:30 PM – 8:00 PM",
+   "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92117",
+   "url": "https://www.sdicscouting.org/leading-scouts/districts/coastal-sage"
   },
   {
    "uid": "cope-weekend-2027-3",
@@ -416,6 +452,15 @@
    "time": null,
    "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92076",
    "url": "https://www.sdicscouting.org/events/msr-work-party-apr"
+  },
+  {
+   "uid": "roundtable-coastal-sage-20270408",
+   "title": "Coastal Sage Roundtable",
+   "start": "2027-04-08",
+   "end": "2027-04-08",
+   "time": "6:30 PM – 8:00 PM",
+   "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92117",
+   "url": "https://www.sdicscouting.org/leading-scouts/districts/coastal-sage"
   },
   {
    "uid": "cope-weekend-2027-4",
@@ -535,6 +580,15 @@
    "url": "https://www.sdicscouting.org/events/spring-personal-management-merit-badge-workshop"
   },
   {
+   "uid": "roundtable-coastal-sage-20270513",
+   "title": "Coastal Sage Roundtable",
+   "start": "2027-05-13",
+   "end": "2027-05-13",
+   "time": "6:30 PM – 8:00 PM",
+   "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92117",
+   "url": "https://www.sdicscouting.org/leading-scouts/districts/coastal-sage"
+  },
+  {
    "uid": "international-camporee-2027",
    "title": "International Camporee",
    "start": "2027-05-14",
@@ -616,6 +670,15 @@
    "url": "https://www.sdicscouting.org/events/wilderness-and-remote-first-aid-june-2027"
   },
   {
+   "uid": "roundtable-coastal-sage-20270610",
+   "title": "Coastal Sage Roundtable",
+   "start": "2027-06-10",
+   "end": "2027-06-10",
+   "time": "6:30 PM – 8:00 PM",
+   "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92117",
+   "url": "https://www.sdicscouting.org/leading-scouts/districts/coastal-sage"
+  },
+  {
    "uid": "haltt-recert-1-2027",
    "title": "HALTT Recertification",
    "start": "2027-06-12",
@@ -688,6 +751,15 @@
    "url": "https://www.sdicscouting.org/events/cub-scout-resident-camp"
   },
   {
+   "uid": "roundtable-coastal-sage-20270708",
+   "title": "Coastal Sage Roundtable",
+   "start": "2027-07-08",
+   "end": "2027-07-08",
+   "time": "6:30 PM – 8:00 PM",
+   "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92117",
+   "url": "https://www.sdicscouting.org/leading-scouts/districts/coastal-sage"
+  },
+  {
    "uid": "wilderness-and-remote-first-aid-july-2027",
    "title": "Wilderness and Remote First Aid",
    "start": "2027-07-10",
@@ -751,6 +823,15 @@
    "url": "https://www.sdicscouting.org/events/summer-camp-cfi-webelos-aol-session-2"
   },
   {
+   "uid": "roundtable-coastal-sage-20270812",
+   "title": "Coastal Sage Roundtable",
+   "start": "2027-08-12",
+   "end": "2027-08-12",
+   "time": "6:30 PM – 8:00 PM",
+   "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92117",
+   "url": "https://www.sdicscouting.org/leading-scouts/districts/coastal-sage"
+  },
+  {
    "uid": "sea-scout-weekend",
    "title": "Sea Scout Weekend",
    "start": "2027-08-13",
@@ -767,6 +848,15 @@
    "time": null,
    "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
    "url": "https://www.sdicscouting.org/events/community-adventure-day-5"
+  },
+  {
+   "uid": "roundtable-coastal-sage-20270909",
+   "title": "Coastal Sage Roundtable",
+   "start": "2027-09-09",
+   "end": "2027-09-09",
+   "time": "6:30 PM – 8:00 PM",
+   "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92117",
+   "url": "https://www.sdicscouting.org/leading-scouts/districts/coastal-sage"
   },
   {
    "uid": "oa-induction-weekend-3-2027",
@@ -841,6 +931,15 @@
    "url": "https://www.sdicscouting.org/events/2027-oct-unit-backpacking"
   },
   {
+   "uid": "roundtable-coastal-sage-20271014",
+   "title": "Coastal Sage Roundtable",
+   "start": "2027-10-14",
+   "end": "2027-10-14",
+   "time": "6:30 PM – 8:00 PM",
+   "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92117",
+   "url": "https://www.sdicscouting.org/leading-scouts/districts/coastal-sage"
+  },
+  {
    "uid": "community-adventure-day-7",
    "title": "Community Adventure Day",
    "start": "2027-10-16",
@@ -884,6 +983,15 @@
    "time": null,
    "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92114",
    "url": "https://www.sdicscouting.org/events/haltt-session-4-nov-water-2027"
+  },
+  {
+   "uid": "roundtable-coastal-sage-20271111",
+   "title": "Coastal Sage Roundtable",
+   "start": "2027-11-11",
+   "end": "2027-11-11",
+   "time": "6:30 PM – 8:00 PM",
+   "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92117",
+   "url": "https://www.sdicscouting.org/leading-scouts/districts/coastal-sage"
   },
   {
    "uid": "2027-tiwahe-lodge-fellowship",

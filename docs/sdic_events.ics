@@ -229,6 +229,20 @@ URL:https://www.sdicscouting.org/events/personal-management-merit-badge-wo
  rkshop
 END:VEVENT
 BEGIN:VEVENT
+UID:roundtable-coastal-sage-20261210@sdicscouting.org
+DTSTAMP:20261210T000000Z
+DTSTART;TZID=America/Los_Angeles:20261210T183000
+DTEND;TZID=America/Los_Angeles:20261210T200000
+SUMMARY:Coastal Sage Roundtable
+DESCRIPTION:Monthly district meeting for Scouters. Added from the Coastal 
+ Sage District page (not listed on the council events page)\; check with y
+ our unit leaders if a month is skipped.\n\nhttps://www.sdicscouting.org/l
+ eading-scouts/districts/coastal-sage
+URL:https://www.sdicscouting.org/leading-scouts/districts/coastal-sage
+LOCATION:Northminster Presbyterian Church\, 4324 Clairemont Mesa Blvd\, Sa
+ n Diego\, CA 92117
+END:VEVENT
+BEGIN:VEVENT
 UID:cope-weekend-2026-9@sdicscouting.org
 DTSTAMP:20261211T000000Z
 DTSTART;VALUE=DATE:20261211
@@ -364,6 +378,20 @@ URL:https://www.sdicscouting.org/events/wilderness-and-remote-first-aid-ja
  n-2027
 LOCATION:San Diego-Imperial Council\, Boy Scouts of America\, 1207 Upas St
  \, San Diego\, CA 92103\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:roundtable-coastal-sage-20270114@sdicscouting.org
+DTSTAMP:20270114T000000Z
+DTSTART;TZID=America/Los_Angeles:20270114T183000
+DTEND;TZID=America/Los_Angeles:20270114T200000
+SUMMARY:Coastal Sage Roundtable
+DESCRIPTION:Monthly district meeting for Scouters. Added from the Coastal 
+ Sage District page (not listed on the council events page)\; check with y
+ our unit leaders if a month is skipped.\n\nhttps://www.sdicscouting.org/l
+ eading-scouts/districts/coastal-sage
+URL:https://www.sdicscouting.org/leading-scouts/districts/coastal-sage
+LOCATION:Northminster Presbyterian Church\, 4324 Clairemont Mesa Blvd\, Sa
+ n Diego\, CA 92117
 END:VEVENT
 BEGIN:VEVENT
 UID:national-youth-leadership-training---winter-course-weekend-2@sdicscout
@@ -554,6 +582,20 @@ URL:https://www.sdicscouting.org/events/personal-management-merit-badge-wo
  rkshop
 END:VEVENT
 BEGIN:VEVENT
+UID:roundtable-coastal-sage-20270211@sdicscouting.org
+DTSTAMP:20270211T000000Z
+DTSTART;TZID=America/Los_Angeles:20270211T183000
+DTEND;TZID=America/Los_Angeles:20270211T200000
+SUMMARY:Coastal Sage Roundtable
+DESCRIPTION:Monthly district meeting for Scouters. Added from the Coastal 
+ Sage District page (not listed on the council events page)\; check with y
+ our unit leaders if a month is skipped.\n\nhttps://www.sdicscouting.org/l
+ eading-scouts/districts/coastal-sage
+URL:https://www.sdicscouting.org/leading-scouts/districts/coastal-sage
+LOCATION:Northminster Presbyterian Church\, 4324 Clairemont Mesa Blvd\, Sa
+ n Diego\, CA 92117
+END:VEVENT
+BEGIN:VEVENT
 UID:cope-weekend-2027-2@sdicscouting.org
 DTSTAMP:20270212T000000Z
 DTSTART;VALUE=DATE:20270212
@@ -709,6 +751,20 @@ URL:https://www.sdicscouting.org/events/wilderness-and-remote-first-aid-ma
  r-2027
 LOCATION:San Diego-Imperial Council\, Boy Scouts of America\, 1207 Upas St
  \, San Diego\, CA 92103\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:roundtable-coastal-sage-20270311@sdicscouting.org
+DTSTAMP:20270311T000000Z
+DTSTART;TZID=America/Los_Angeles:20270311T183000
+DTEND;TZID=America/Los_Angeles:20270311T200000
+SUMMARY:Coastal Sage Roundtable
+DESCRIPTION:Monthly district meeting for Scouters. Added from the Coastal 
+ Sage District page (not listed on the council events page)\; check with y
+ our unit leaders if a month is skipped.\n\nhttps://www.sdicscouting.org/l
+ eading-scouts/districts/coastal-sage
+URL:https://www.sdicscouting.org/leading-scouts/districts/coastal-sage
+LOCATION:Northminster Presbyterian Church\, 4324 Clairemont Mesa Blvd\, Sa
+ n Diego\, CA 92117
 END:VEVENT
 BEGIN:VEVENT
 UID:cope-weekend-2027-3@sdicscouting.org
@@ -923,6 +979,20 @@ DESCRIPTION:Mataguay Scout Ranch Work Party\nParker Pool House - Electrica
  y-apr
 URL:https://www.sdicscouting.org/events/msr-work-party-apr
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
+END:VEVENT
+BEGIN:VEVENT
+UID:roundtable-coastal-sage-20270408@sdicscouting.org
+DTSTAMP:20270408T000000Z
+DTSTART;TZID=America/Los_Angeles:20270408T183000
+DTEND;TZID=America/Los_Angeles:20270408T200000
+SUMMARY:Coastal Sage Roundtable
+DESCRIPTION:Monthly district meeting for Scouters. Added from the Coastal 
+ Sage District page (not listed on the council events page)\; check with y
+ our unit leaders if a month is skipped.\n\nhttps://www.sdicscouting.org/l
+ eading-scouts/districts/coastal-sage
+URL:https://www.sdicscouting.org/leading-scouts/districts/coastal-sage
+LOCATION:Northminster Presbyterian Church\, 4324 Clairemont Mesa Blvd\, Sa
+ n Diego\, CA 92117
 END:VEVENT
 BEGIN:VEVENT
 UID:cope-weekend-2027-4@sdicscouting.org
@@ -1196,6 +1266,20 @@ URL:https://www.sdicscouting.org/events/spring-personal-management-merit-b
  adge-workshop
 END:VEVENT
 BEGIN:VEVENT
+UID:roundtable-coastal-sage-20270513@sdicscouting.org
+DTSTAMP:20270513T000000Z
+DTSTART;TZID=America/Los_Angeles:20270513T183000
+DTEND;TZID=America/Los_Angeles:20270513T200000
+SUMMARY:Coastal Sage Roundtable
+DESCRIPTION:Monthly district meeting for Scouters. Added from the Coastal 
+ Sage District page (not listed on the council events page)\; check with y
+ our unit leaders if a month is skipped.\n\nhttps://www.sdicscouting.org/l
+ eading-scouts/districts/coastal-sage
+URL:https://www.sdicscouting.org/leading-scouts/districts/coastal-sage
+LOCATION:Northminster Presbyterian Church\, 4324 Clairemont Mesa Blvd\, Sa
+ n Diego\, CA 92117
+END:VEVENT
+BEGIN:VEVENT
 UID:international-camporee-2027@sdicscouting.org
 DTSTAMP:20270514T000000Z
 DTSTART;VALUE=DATE:20270514
@@ -1350,6 +1434,20 @@ LOCATION:San Diego-Imperial Council\, Boy Scouts of America\, 1207 Upas St
  \, San Diego\, CA 92103\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:roundtable-coastal-sage-20270610@sdicscouting.org
+DTSTAMP:20270610T000000Z
+DTSTART;TZID=America/Los_Angeles:20270610T183000
+DTEND;TZID=America/Los_Angeles:20270610T200000
+SUMMARY:Coastal Sage Roundtable
+DESCRIPTION:Monthly district meeting for Scouters. Added from the Coastal 
+ Sage District page (not listed on the council events page)\; check with y
+ our unit leaders if a month is skipped.\n\nhttps://www.sdicscouting.org/l
+ eading-scouts/districts/coastal-sage
+URL:https://www.sdicscouting.org/leading-scouts/districts/coastal-sage
+LOCATION:Northminster Presbyterian Church\, 4324 Clairemont Mesa Blvd\, Sa
+ n Diego\, CA 92117
+END:VEVENT
+BEGIN:VEVENT
 UID:haltt-recert-1-2027@sdicscouting.org
 DTSTAMP:20270612T000000Z
 DTSTART;VALUE=DATE:20270612
@@ -1474,6 +1572,20 @@ URL:https://www.sdicscouting.org/events/cub-scout-resident-camp
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
 END:VEVENT
 BEGIN:VEVENT
+UID:roundtable-coastal-sage-20270708@sdicscouting.org
+DTSTAMP:20270708T000000Z
+DTSTART;TZID=America/Los_Angeles:20270708T183000
+DTEND;TZID=America/Los_Angeles:20270708T200000
+SUMMARY:Coastal Sage Roundtable
+DESCRIPTION:Monthly district meeting for Scouters. Added from the Coastal 
+ Sage District page (not listed on the council events page)\; check with y
+ our unit leaders if a month is skipped.\n\nhttps://www.sdicscouting.org/l
+ eading-scouts/districts/coastal-sage
+URL:https://www.sdicscouting.org/leading-scouts/districts/coastal-sage
+LOCATION:Northminster Presbyterian Church\, 4324 Clairemont Mesa Blvd\, Sa
+ n Diego\, CA 92117
+END:VEVENT
+BEGIN:VEVENT
 UID:wilderness-and-remote-first-aid-july-2027@sdicscouting.org
 DTSTAMP:20270710T000000Z
 DTSTART;VALUE=DATE:20270710
@@ -1579,6 +1691,20 @@ LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
  o\, CA 92109
 END:VEVENT
 BEGIN:VEVENT
+UID:roundtable-coastal-sage-20270812@sdicscouting.org
+DTSTAMP:20270812T000000Z
+DTSTART;TZID=America/Los_Angeles:20270812T183000
+DTEND;TZID=America/Los_Angeles:20270812T200000
+SUMMARY:Coastal Sage Roundtable
+DESCRIPTION:Monthly district meeting for Scouters. Added from the Coastal 
+ Sage District page (not listed on the council events page)\; check with y
+ our unit leaders if a month is skipped.\n\nhttps://www.sdicscouting.org/l
+ eading-scouts/districts/coastal-sage
+URL:https://www.sdicscouting.org/leading-scouts/districts/coastal-sage
+LOCATION:Northminster Presbyterian Church\, 4324 Clairemont Mesa Blvd\, Sa
+ n Diego\, CA 92117
+END:VEVENT
+BEGIN:VEVENT
 UID:sea-scout-weekend@sdicscouting.org
 DTSTAMP:20270813T000000Z
 DTSTART;VALUE=DATE:20270813
@@ -1607,6 +1733,20 @@ DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
 URL:https://www.sdicscouting.org/events/community-adventure-day-5
 LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
  o\, CA 92109
+END:VEVENT
+BEGIN:VEVENT
+UID:roundtable-coastal-sage-20270909@sdicscouting.org
+DTSTAMP:20270909T000000Z
+DTSTART;TZID=America/Los_Angeles:20270909T183000
+DTEND;TZID=America/Los_Angeles:20270909T200000
+SUMMARY:Coastal Sage Roundtable
+DESCRIPTION:Monthly district meeting for Scouters. Added from the Coastal 
+ Sage District page (not listed on the council events page)\; check with y
+ our unit leaders if a month is skipped.\n\nhttps://www.sdicscouting.org/l
+ eading-scouts/districts/coastal-sage
+URL:https://www.sdicscouting.org/leading-scouts/districts/coastal-sage
+LOCATION:Northminster Presbyterian Church\, 4324 Clairemont Mesa Blvd\, Sa
+ n Diego\, CA 92117
 END:VEVENT
 BEGIN:VEVENT
 UID:oa-induction-weekend-3-2027@sdicscouting.org
@@ -1750,6 +1890,20 @@ URL:https://www.sdicscouting.org/events/2027-oct-unit-backpacking
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92081
 END:VEVENT
 BEGIN:VEVENT
+UID:roundtable-coastal-sage-20271014@sdicscouting.org
+DTSTAMP:20271014T000000Z
+DTSTART;TZID=America/Los_Angeles:20271014T183000
+DTEND;TZID=America/Los_Angeles:20271014T200000
+SUMMARY:Coastal Sage Roundtable
+DESCRIPTION:Monthly district meeting for Scouters. Added from the Coastal 
+ Sage District page (not listed on the council events page)\; check with y
+ our unit leaders if a month is skipped.\n\nhttps://www.sdicscouting.org/l
+ eading-scouts/districts/coastal-sage
+URL:https://www.sdicscouting.org/leading-scouts/districts/coastal-sage
+LOCATION:Northminster Presbyterian Church\, 4324 Clairemont Mesa Blvd\, Sa
+ n Diego\, CA 92117
+END:VEVENT
+BEGIN:VEVENT
 UID:community-adventure-day-7@sdicscouting.org
 DTSTAMP:20271016T000000Z
 DTSTART;VALUE=DATE:20271016
@@ -1836,6 +1990,20 @@ DESCRIPTION:HALTT Session IV: Water Trek\nThis 15-hour course prepares uni
 URL:https://www.sdicscouting.org/events/haltt-session-4-nov-water-2027
 LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
  o\, CA 92114
+END:VEVENT
+BEGIN:VEVENT
+UID:roundtable-coastal-sage-20271111@sdicscouting.org
+DTSTAMP:20271111T000000Z
+DTSTART;TZID=America/Los_Angeles:20271111T183000
+DTEND;TZID=America/Los_Angeles:20271111T200000
+SUMMARY:Coastal Sage Roundtable
+DESCRIPTION:Monthly district meeting for Scouters. Added from the Coastal 
+ Sage District page (not listed on the council events page)\; check with y
+ our unit leaders if a month is skipped.\n\nhttps://www.sdicscouting.org/l
+ eading-scouts/districts/coastal-sage
+URL:https://www.sdicscouting.org/leading-scouts/districts/coastal-sage
+LOCATION:Northminster Presbyterian Church\, 4324 Clairemont Mesa Blvd\, Sa
+ n Diego\, CA 92117
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-tiwahe-lodge-fellowship@sdicscouting.org

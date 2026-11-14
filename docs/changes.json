@@ -1,6 +1,121 @@
 {
  "history": [
   {
+   "at": "2026-11-14T00:02:50Z",
+   "added": [
+    {
+     "uid": "roundtable-coastal-sage-20261210",
+     "title": "Coastal Sage Roundtable",
+     "start": "2026-12-10",
+     "end": "2026-12-10",
+     "time": "6:30 PM – 8:00 PM",
+     "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92117",
+     "url": "https://www.sdicscouting.org/leading-scouts/districts/coastal-sage"
+    },
+    {
+     "uid": "roundtable-coastal-sage-20270114",
+     "title": "Coastal Sage Roundtable",
+     "start": "2027-01-14",
+     "end": "2027-01-14",
+     "time": "6:30 PM – 8:00 PM",
+     "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92117",
+     "url": "https://www.sdicscouting.org/leading-scouts/districts/coastal-sage"
+    },
+    {
+     "uid": "roundtable-coastal-sage-20270211",
+     "title": "Coastal Sage Roundtable",
+     "start": "2027-02-11",
+     "end": "2027-02-11",
+     "time": "6:30 PM – 8:00 PM",
+     "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92117",
+     "url": "https://www.sdicscouting.org/leading-scouts/districts/coastal-sage"
+    },
+    {
+     "uid": "roundtable-coastal-sage-20270311",
+     "title": "Coastal Sage Roundtable",
+     "start": "2027-03-11",
+     "end": "2027-03-11",
+     "time": "6:30 PM – 8:00 PM",
+     "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92117",
+     "url": "https://www.sdicscouting.org/leading-scouts/districts/coastal-sage"
+    },
+    {
+     "uid": "roundtable-coastal-sage-20270408",
+     "title": "Coastal Sage Roundtable",
+     "start": "2027-04-08",
+     "end": "2027-04-08",
+     "time": "6:30 PM – 8:00 PM",
+     "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92117",
+     "url": "https://www.sdicscouting.org/leading-scouts/districts/coastal-sage"
+    },
+    {
+     "uid": "roundtable-coastal-sage-20270513",
+     "title": "Coastal Sage Roundtable",
+     "start": "2027-05-13",
+     "end": "2027-05-13",
+     "time": "6:30 PM – 8:00 PM",
+     "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92117",
+     "url": "https://www.sdicscouting.org/leading-scouts/districts/coastal-sage"
+    },
+    {
+     "uid": "roundtable-coastal-sage-20270610",
+     "title": "Coastal Sage Roundtable",
+     "start": "2027-06-10",
+     "end": "2027-06-10",
+     "time": "6:30 PM – 8:00 PM",
+     "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92117",
+     "url": "https://www.sdicscouting.org/leading-scouts/districts/coastal-sage"
+    },
+    {
+     "uid": "roundtable-coastal-sage-20270708",
+     "title": "Coastal Sage Roundtable",
+     "start": "2027-07-08",
+     "end": "2027-07-08",
+     "time": "6:30 PM – 8:00 PM",
+     "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92117",
+     "url": "https://www.sdicscouting.org/leading-scouts/districts/coastal-sage"
+    },
+    {
+     "uid": "roundtable-coastal-sage-20270812",
+     "title": "Coastal Sage Roundtable",
+     "start": "2027-08-12",
+     "end": "2027-08-12",
+     "time": "6:30 PM – 8:00 PM",
+     "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92117",
+     "url": "https://www.sdicscouting.org/leading-scouts/districts/coastal-sage"
+    },
+    {
+     "uid": "roundtable-coastal-sage-20270909",
+     "title": "Coastal Sage Roundtable",
+     "start": "2027-09-09",
+     "end": "2027-09-09",
+     "time": "6:30 PM – 8:00 PM",
+     "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92117",
+     "url": "https://www.sdicscouting.org/leading-scouts/districts/coastal-sage"
+    },
+    {
+     "uid": "roundtable-coastal-sage-20271014",
+     "title": "Coastal Sage Roundtable",
+     "start": "2027-10-14",
+     "end": "2027-10-14",
+     "time": "6:30 PM – 8:00 PM",
+     "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92117",
+     "url": "https://www.sdicscouting.org/leading-scouts/districts/coastal-sage"
+    },
+    {
+     "uid": "roundtable-coastal-sage-20271111",
+     "title": "Coastal Sage Roundtable",
+     "start": "2027-11-11",
+     "end": "2027-11-11",
+     "time": "6:30 PM – 8:00 PM",
+     "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92117",
+     "url": "https://www.sdicscouting.org/leading-scouts/districts/coastal-sage"
+    }
+   ],
+   "removed": [],
+   "changed": []
+  },
+  {
    "at": "2026-11-10T20:30:25Z",
    "added": [
     {
