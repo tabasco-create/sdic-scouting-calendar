@@ -1,53 +1,8 @@
 {
- "checked_at": "2026-11-14T18:46:57Z",
- "updated_at": "2026-11-14T00:02:50Z",
+ "checked_at": "2026-11-15T19:24:27Z",
+ "updated_at": "2026-11-15T19:24:27Z",
  "tracking_since": "2026-10-08T00:46:56Z",
  "events": [
-  {
-   "uid": "2026-tiwahe-lodge-fellowship",
-   "title": "2026 Tiwahe Lodge Fellowship",
-   "start": "2026-11-13",
-   "end": "2026-11-15",
-   "time": null,
-   "location": "Camp Balboa, 1207 Upas Street, San Diego, CA 92103",
-   "url": "https://www.sdicscouting.org/events/2026-tiwahe-lodge-fellowship"
-  },
-  {
-   "uid": "cope-weekend-2026-8",
-   "title": "Project C.O.P.E.",
-   "start": "2026-11-13",
-   "end": "2026-11-15",
-   "time": null,
-   "location": "Mataguay Scout Ranch, Mataguay Rd, Santa Ysabel, CA 92076",
-   "url": "https://www.sdicscouting.org/events/cope-weekend-2026-8"
-  },
-  {
-   "uid": "canoeing-merit-badge-day",
-   "title": "Canoeing Merit Badge Day",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "time": null,
-   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
-   "url": "https://www.sdicscouting.org/events/canoeing-merit-badge-day"
-  },
-  {
-   "uid": "haltt-recert-2",
-   "title": "HALTT Recertification",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "time": null,
-   "location": "Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego, CA 92122",
-   "url": "https://www.sdicscouting.org/events/haltt-recert-2"
-  },
-  {
-   "uid": "2026-november-unit-backpacking",
-   "title": "Unit Backpack Training",
-   "start": "2026-11-14",
-   "end": "2026-11-15",
-   "time": null,
-   "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92077",
-   "url": "https://www.sdicscouting.org/events/2026-november-unit-backpacking"
-  },
   {
    "uid": "cub-scout-lock-in",
    "title": "Cub Scout Lock-in",
@@ -94,6 +49,15 @@
    "url": "https://www.sdicscouting.org/events/msr-work-party-dec"
   },
   {
+   "uid": "swamp-base-information-meeting",
+   "title": "Swamp Base Information Meeting",
+   "start": "2026-12-06",
+   "end": "2026-12-06",
+   "time": null,
+   "location": "Atherton Hall, 1207 Upas Street, San Diego, CA 92103",
+   "url": "https://www.sdicscouting.org/events/swamp-base-information-meeting"
+  },
+  {
    "uid": "personal-management-merit-badge-workshop-20261209",
    "title": "Personal Management MB (1/3)",
    "start": "2026-12-09",
@@ -128,6 +92,15 @@
    "time": null,
    "location": "",
    "url": "https://www.sdicscouting.org/events/sd-clippers-scout-night"
+  },
+  {
+   "uid": "high-adventure-permit-seminar",
+   "title": "High Adventure Permit Seminar",
+   "start": "2026-12-13",
+   "end": "2026-12-13",
+   "time": null,
+   "location": "Atherton Hall, 1207 Upas Street, San Diego, CA 92103",
+   "url": "https://www.sdicscouting.org/events/high-adventure-permit-seminar"
   },
   {
    "uid": "scout-night-with-gulls-hockey",

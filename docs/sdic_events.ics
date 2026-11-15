@@ -5,90 +5,6 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:SDIC Scouting Events
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-UID:2026-tiwahe-lodge-fellowship@sdicscouting.org
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261116
-SUMMARY:2026 Tiwahe Lodge Fellowship
-DESCRIPTION:2026 Tiwahe Lodge Fellowship\nLodge Fellowship is an annual ev
- ent for all Arrowmen of Tiwahe Lodge. We hold an annual Fall Fellowship\,
-  this year’s agenda is packed with fun activities and training.\n2026 T
- iwahe Lodge Fellowship will be held November 13-15 at Camp Balboa. Join u
- s for Training\, Activities\, and Fellowship!\n\nhttps://www.sdicscouting
- .org/events/2026-tiwahe-lodge-fellowship
-URL:https://www.sdicscouting.org/events/2026-tiwahe-lodge-fellowship
-LOCATION:Camp Balboa\, 1207 Upas Street\, San Diego\, CA 92103
-END:VEVENT
-BEGIN:VEVENT
-UID:cope-weekend-2026-8@sdicscouting.org
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261116
-SUMMARY:Project C.O.P.E.
-DESCRIPTION:Project C.O.P.E.\nChallenging Outdoor Personal Experience\nC.O
- .P.E. is an acronym for Challenging Outdoor Personal Experience and at Ma
- taguay Scout Ranch\, we have a weekend that will do just that!\nWhether y
- our unit needs help learning how to Communicate\, Plan\, Trust each other
- \, Team-work\, build Leadership\, learn to Make Decisions\, Problem Solve
- \, or just build Self-esteem\, we have a program that will fill your unit
- s needs.\n\nhttps://www.sdicscouting.org/events/cope-weekend-2026-8
-URL:https://www.sdicscouting.org/events/cope-weekend-2026-8
-LOCATION:Mataguay Scout Ranch\, Mataguay Rd\, Santa Ysabel\, CA 92076
-END:VEVENT
-BEGIN:VEVENT
-UID:canoeing-merit-badge-day@sdicscouting.org
-DTSTAMP:20261114T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Canoeing Merit Badge Day
-DESCRIPTION:Canoeing Merit Badge Day\nUnfortunately\, this event has been 
- cancelled due to storm-related rain and runoff entering San Diego Bay. We
-  sincerely apologize for the inconvenience and appreciate your understand
- ing. Thank you for your patience\, and we are very sorry for the change i
- n plans.\n\nhttps://www.sdicscouting.org/events/canoeing-merit-badge-day
-URL:https://www.sdicscouting.org/events/canoeing-merit-badge-day
-LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
- o\, CA 92109
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-november-unit-backpacking@sdicscouting.org
-DTSTAMP:20261114T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261116
-SUMMARY:Unit Backpack Training
-DESCRIPTION:Unit Backpack Training\nUNIT BACKPACK TRAINING for Troops (NOT
-  for Cub Packs) is a weekend training program designed for youth so they 
- can learn basic backpacking and trail camping under their own adult leade
- rship. Backpacks\, tube tents\, and propane stoves may be provided by the
-  Council for those who do not have them. This program is especially appli
- cable to those units with little or no experience or equipment. The MSR "
- T" Patch will be awarded to all participants\, youth and adult\, who succ
- essfully complete this training.\nThis weekend Backpack Training starts a
- t 8:00 Saturday morning. Backpacks\, propane fuel stoves and tube tents a
- re issued at this time. A six-mile loop trail is backpack-hiked\, ending 
- at a trail camp in MSR. High Sierra Trek-experienced instructors from the
-  H.A.T. provide guidance\, instruction and help along the trail and in ca
- mp. Sunday morning will have a second short hike\, review of the trip\, a
- nd handout of patches. Scouts should be free to leave Mataguay by around 
- 10:00 AM.\n\nhttps://www.sdicscouting.org/events/2026-november-unit-backp
- acking
-URL:https://www.sdicscouting.org/events/2026-november-unit-backpacking
-LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92077
-END:VEVENT
-BEGIN:VEVENT
-UID:haltt-recert-2@sdicscouting.org
-DTSTAMP:20261114T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:HALTT Recertification
-DESCRIPTION:HALTT Recertification\nHalf-Day HALTT Retraining Course\nHalf-
- Day HALTT Retraining Course\n\nhttps://www.sdicscouting.org/events/haltt-
- recert-2
-URL:https://www.sdicscouting.org/events/haltt-recert-2
-LOCATION:Northminster Presbyterian Church\, 4324 Clairemont Mesa Blvd\, Sa
- n Diego\, CA 92122
-END:VEVENT
-BEGIN:VEVENT
 UID:kayaking-merit-badge-day-2@sdicscouting.org
 DTSTAMP:20261121T000000Z
 DTSTART;VALUE=DATE:20261121
@@ -204,6 +120,20 @@ LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
  o\, CA 92109
 END:VEVENT
 BEGIN:VEVENT
+UID:swamp-base-information-meeting@sdicscouting.org
+DTSTAMP:20261206T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Swamp Base Information Meeting
+DESCRIPTION:Swamp Base Information Meeting\nFor Scouts and Adult Leaders r
+ egistered or interested in the Swamp Base High Adventure Trek\n4:00 PM - 
+ 5:30 PM\nMeeting Topics:\nTravel Plan\nPreparation Sessions\nCost\nMerit 
+ Badges\nAwards\n\nhttps://www.sdicscouting.org/events/swamp-base-informat
+ ion-meeting
+URL:https://www.sdicscouting.org/events/swamp-base-information-meeting
+LOCATION:Atherton Hall\, 1207 Upas Street\, San Diego\, CA 92103
+END:VEVENT
+BEGIN:VEVENT
 UID:personal-management-merit-badge-workshop-20261209@sdicscouting.org
 DTSTAMP:20261209T000000Z
 DTSTART;TZID=America/Los_Angeles:20261209T160000
@@ -274,6 +204,22 @@ DESCRIPTION:SD Clippers Scout Night\nBring your friends and family out for
  uring the Scouting America logo. Get your tickets!\n\nhttps://www.sdicsco
  uting.org/events/sd-clippers-scout-night
 URL:https://www.sdicscouting.org/events/sd-clippers-scout-night
+END:VEVENT
+BEGIN:VEVENT
+UID:high-adventure-permit-seminar@sdicscouting.org
+DTSTAMP:20261213T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:High Adventure Permit Seminar
+DESCRIPTION:High Adventure Permit Seminar\nLearn how to get the permit you
+  need for regional High Adventure.\nIn this seminar you'll learn:\nWhen a
+ nd where a permit is required\nHow to apply (online and in person)\nKey r
+ ules and trip planning tips\nOpen to Adult Leaders\, Senior Scouts\, and 
+ Venture Scouts!\nThis seminar will not cover the Scouting America High Ad
+ venture Bases: Philmont\, Sea Base\, Northern Tier\, or the Summit!\n\nh
+ ttps://www.sdicscouting.org/events/high-adventure-permit-seminar
+URL:https://www.sdicscouting.org/events/high-adventure-permit-seminar
+LOCATION:Atherton Hall\, 1207 Upas Street\, San Diego\, CA 92103
 END:VEVENT
 BEGIN:VEVENT
 UID:scout-night-with-gulls-hockey@sdicscouting.org
@@ -1650,8 +1596,8 @@ DESCRIPTION:NOAC 2027\nThe National Order of the Arrow Conference (NOAC) i
  e in size and scope. Our largest conference was in 2015\, attended by mor
  e than 15\,000 Arrowmen to commemorate the 100th anniversary of the Order
   of the Arrow.\nNOAC 2027 will take place\nJuly 26th - 31st\nat the\nUniv
- ersity of Illinois Urbana-Champaign\n\nhttps://www.sdicscouting.org/event
- s/noac-2027
+ ersity of Illinois Urbana-Champaign\n2027 NOAC Interest Form\n\nhttps://
+ www.sdicscouting.org/events/noac-2027
 URL:https://www.sdicscouting.org/events/noac-2027
 END:VEVENT
 BEGIN:VEVENT
