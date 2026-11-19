@@ -1,6 +1,22 @@
 {
  "history": [
   {
+   "at": "2026-11-19T21:39:37Z",
+   "added": [
+    {
+     "uid": "knife-skills-training",
+     "title": "Knife Safety Training",
+     "start": "2026-12-12",
+     "end": "2026-12-12",
+     "time": null,
+     "location": "Camp Balboa, 1207 Upas St, San Diego CA 92123",
+     "url": "https://www.sdicscouting.org/events/knife-skills-training"
+    }
+   ],
+   "removed": [],
+   "changed": []
+  },
+  {
    "at": "2026-11-15T19:24:27Z",
    "added": [
     {

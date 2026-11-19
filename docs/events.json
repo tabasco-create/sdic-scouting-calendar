@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-11-18T21:28:21Z",
- "updated_at": "2026-11-15T19:24:27Z",
+ "checked_at": "2026-11-19T21:39:37Z",
+ "updated_at": "2026-11-19T21:39:37Z",
  "tracking_since": "2026-10-08T00:46:56Z",
  "events": [
   {
@@ -83,6 +83,15 @@
    "time": null,
    "location": "Mataguay Scout Ranch, Mataguay Rd, Santa Ysabel, CA 92076",
    "url": "https://www.sdicscouting.org/events/cope-weekend-2026-9"
+  },
+  {
+   "uid": "knife-skills-training",
+   "title": "Knife Safety Training",
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "time": null,
+   "location": "Camp Balboa, 1207 Upas St, San Diego CA 92123",
+   "url": "https://www.sdicscouting.org/events/knife-skills-training"
   },
   {
    "uid": "sd-clippers-scout-night",

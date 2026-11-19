@@ -189,6 +189,21 @@ URL:https://www.sdicscouting.org/events/cope-weekend-2026-9
 LOCATION:Mataguay Scout Ranch\, Mataguay Rd\, Santa Ysabel\, CA 92076
 END:VEVENT
 BEGIN:VEVENT
+UID:knife-skills-training@sdicscouting.org
+DTSTAMP:20261212T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Knife Safety Training
+DESCRIPTION:Knife Safety Training\nLearn essential knife safety skills and
+  responsible knife handling at Camp Balboa! This training provides Scouts
+  with an opportunity to build confidence\, practice safe techniques\, and
+  develop important outdoor skills. Explore available sessions and find th
+ e right opportunity to get started.\n\nhttps://www.sdicscouting.org/event
+ s/knife-skills-training
+URL:https://www.sdicscouting.org/events/knife-skills-training
+LOCATION:Camp Balboa\, 1207 Upas St\, San Diego CA 92123
+END:VEVENT
+BEGIN:VEVENT
 UID:sd-clippers-scout-night@sdicscouting.org
 DTSTAMP:20261212T000000Z
 DTSTART;VALUE=DATE:20261212
