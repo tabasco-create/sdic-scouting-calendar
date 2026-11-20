@@ -542,6 +542,37 @@ URL:https://www.sdicscouting.org/events/personal-management-merit-badge-wo
  rkshop
 END:VEVENT
 BEGIN:VEVENT
+UID:campmaster-training@sdicscouting.org
+DTSTAMP:20270210T000000Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:Campmaster Training
+DESCRIPTION:Campmaster Training\nCampmasters serve as the council / camp r
+ epresentative to the units for the weekend camping & waterfront reservati
+ ons. Their presence will ensure a safe and quality camping experience\, m
+ aking a significant impact on how the Scouts and leaders perceive our loc
+ al scout camps and the San Diego-Imperial Council.\nThe Campmaster Corps 
+ is a group of selected\, trained\, and registered Scouters who serve at c
+ amp whenever Scouting units/Families are using any part of the camp prope
+ rty. All registered Scouters are eligible for consideration as a Campmast
+ er.\nCampmaster Characteristics:\nYou have the ability to get along with 
+ people (very important)\nYou live and demonstrate the traits of the Scout
+  Oath and Law\nYou have a working knowledge of Scouting and the Outdoor p
+ rograms of Scouting America\nYou can quickly size up a situation and prov
+ ide necessary support or leadership\, especially in an emergency\nYou are
+  dependable\nYou have completed CA506 requirements and Safeguarding Youth
+  Protection Training (SYT)\nThis class is Part 1 of the training\, coveri
+ ng basic knowledge needed to serve at all San Diego-Imperial Council Camp
+ s. Part 2 is conducted on-site at each camp to go over the specific areas
+  and locations that a Campmaster would need to know to help units at that
+  property.\n‍\nWhere:\nAtherton Hall • 1207 Upas Street • San Diego
+  CA 92103\n‍\n‍\nWhen:\nFebruary 10\, 2027 — 6:30pm to 9pm\n\nhttps
+ ://www.sdicscouting.org/events/campmaster-training
+URL:https://www.sdicscouting.org/events/campmaster-training
+LOCATION:Atherton Hall\, Scouting America\, 1207 Upas St\, San Diego\, CA 
+ 92103\, USA
+END:VEVENT
+BEGIN:VEVENT
 UID:roundtable-coastal-sage-20270211@sdicscouting.org
 DTSTAMP:20270211T000000Z
 DTSTART;TZID=America/Los_Angeles:20270211T183000
@@ -803,6 +834,26 @@ DESCRIPTION:Personal Management MB\nJA Merit Badge\nScouts map their futur
  g/events/spring-personal-management-merit-badge-workshop
 URL:https://www.sdicscouting.org/events/spring-personal-management-merit-b
  adge-workshop
+END:VEVENT
+BEGIN:VEVENT
+UID:rancho-mesa-range-day@sdicscouting.org
+DTSTAMP:20270320T000000Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+SUMMARY:Rancho Mesa Range Day
+DESCRIPTION:Rancho Mesa Range Day\nRM Range Day\nRancho Mesa Range Day\nSa
+ turday\, March 20\, 8:30 am- 2 pm\n‍\nCamp Balboa\n1207 Upas St.\, San 
+ Diego\, CA 92103\nSession 1 @ 8:30 am-11 am\nSession 2 @ 11:30 am-2 pm\n
+ ‍\nActivities include Archery\, BB and other fun activities.  Scouts w
+ ill have the opportunity to earn the Archery Adventure and BB Gun Adventu
+ re.\nAll activities are designed for Lions - Webelos (ages 5-10)\n‍\nRe
+ gistration is limited to\n48\nscouts\n‍\nCost:\n$15 for 1 youth\, no fe
+ e for adults\n‍\nScouts wishing to participate in Archery and/or BBs\nM
+ UST\nattend the safety training at the beginning of each session\nLunch i
+ s NOT included. You may bring a sack lunch\nFamilies must pre-register. N
+ O WALK-IN'S.\n\nhttps://www.sdicscouting.org/events/rancho-mesa-range-day
+URL:https://www.sdicscouting.org/events/rancho-mesa-range-day
+LOCATION:Camp Balboa\, 1207 Upas St.\, San Diego\, CA 92103
 END:VEVENT
 BEGIN:VEVENT
 UID:eagle-camp-week-1@sdicscouting.org

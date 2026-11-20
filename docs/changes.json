@@ -1,6 +1,31 @@
 {
  "history": [
   {
+   "at": "2026-11-20T21:16:40Z",
+   "added": [
+    {
+     "uid": "campmaster-training",
+     "title": "Campmaster Training",
+     "start": "2027-02-10",
+     "end": "2027-02-10",
+     "time": null,
+     "location": "Atherton Hall, Scouting America, 1207 Upas St, San Diego, CA 92103, USA",
+     "url": "https://www.sdicscouting.org/events/campmaster-training"
+    },
+    {
+     "uid": "rancho-mesa-range-day",
+     "title": "Rancho Mesa Range Day",
+     "start": "2027-03-20",
+     "end": "2027-03-20",
+     "time": null,
+     "location": "Camp Balboa, 1207 Upas St., San Diego, CA 92103",
+     "url": "https://www.sdicscouting.org/events/rancho-mesa-range-day"
+    }
+   ],
+   "removed": [],
+   "changed": []
+  },
+  {
    "at": "2026-11-19T21:39:37Z",
    "added": [
     {

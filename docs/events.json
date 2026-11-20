@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-11-19T21:39:37Z",
- "updated_at": "2026-11-19T21:39:37Z",
+ "checked_at": "2026-11-20T21:16:40Z",
+ "updated_at": "2026-11-20T21:16:40Z",
  "tracking_since": "2026-10-08T00:46:56Z",
  "events": [
   {
@@ -247,6 +247,15 @@
    "url": "https://www.sdicscouting.org/events/personal-management-merit-badge-workshop"
   },
   {
+   "uid": "campmaster-training",
+   "title": "Campmaster Training",
+   "start": "2027-02-10",
+   "end": "2027-02-10",
+   "time": null,
+   "location": "Atherton Hall, Scouting America, 1207 Upas St, San Diego, CA 92103, USA",
+   "url": "https://www.sdicscouting.org/events/campmaster-training"
+  },
+  {
    "uid": "personal-management-merit-badge-workshop-20270210",
    "title": "Personal Management MB (3/3)",
    "start": "2027-02-10",
@@ -380,6 +389,15 @@
    "time": "4:00 PM – 7:30 PM",
    "location": "",
    "url": "https://www.sdicscouting.org/events/spring-personal-management-merit-badge-workshop"
+  },
+  {
+   "uid": "rancho-mesa-range-day",
+   "title": "Rancho Mesa Range Day",
+   "start": "2027-03-20",
+   "end": "2027-03-20",
+   "time": null,
+   "location": "Camp Balboa, 1207 Upas St., San Diego, CA 92103",
+   "url": "https://www.sdicscouting.org/events/rancho-mesa-range-day"
   },
   {
    "uid": "eagle-camp-week-1",
