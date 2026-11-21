@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-11-20T21:16:40Z",
- "updated_at": "2026-11-20T21:16:40Z",
+ "checked_at": "2026-11-21T20:09:27Z",
+ "updated_at": "2026-11-21T20:09:27Z",
  "tracking_since": "2026-10-08T00:46:56Z",
  "events": [
   {
@@ -137,6 +137,15 @@
    "time": null,
    "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
    "url": "https://www.sdicscouting.org/events/nylt-save-the-date-winter-course"
+  },
+  {
+   "uid": "first-aid-adult-cpr-and-aed-jan-2027",
+   "title": "First Aid, Adult CPR, and AED",
+   "start": "2027-01-02",
+   "end": "2027-01-02",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/first-aid-adult-cpr-and-aed-jan-2027"
   },
   {
    "uid": "msr-work-party-jan",

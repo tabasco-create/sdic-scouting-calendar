@@ -1,6 +1,22 @@
 {
  "history": [
   {
+   "at": "2026-11-21T20:09:27Z",
+   "added": [
+    {
+     "uid": "first-aid-adult-cpr-and-aed-jan-2027",
+     "title": "First Aid, Adult CPR, and AED",
+     "start": "2027-01-02",
+     "end": "2027-01-02",
+     "time": null,
+     "location": "",
+     "url": "https://www.sdicscouting.org/events/first-aid-adult-cpr-and-aed-jan-2027"
+    }
+   ],
+   "removed": [],
+   "changed": []
+  },
+  {
    "at": "2026-11-20T21:16:40Z",
    "added": [
     {
