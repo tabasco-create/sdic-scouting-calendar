@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-21T20:09:27Z",
+ "checked_at": "2026-11-22T20:24:31Z",
  "updated_at": "2026-11-21T20:09:27Z",
  "tracking_since": "2026-10-08T00:46:56Z",
  "events": [
@@ -11,15 +11,6 @@
    "time": null,
    "location": "Sea World San Diego, 500 Sea World Dr., San Diego, CA 92109",
    "url": "https://www.sdicscouting.org/events/cub-scout-lock-in"
-  },
-  {
-   "uid": "kayaking-merit-badge-day-2",
-   "title": "Kayaking Merit Badge Day",
-   "start": "2026-11-21",
-   "end": "2026-11-21",
-   "time": null,
-   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
-   "url": "https://www.sdicscouting.org/events/kayaking-merit-badge-day-2"
   },
   {
    "uid": "coastal-sage-scouting-for-clean-waterways",

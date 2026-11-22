@@ -5,22 +5,6 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:SDIC Scouting Events
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-UID:kayaking-merit-badge-day-2@sdicscouting.org
-DTSTAMP:20261121T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Kayaking Merit Badge Day
-DESCRIPTION:Kayaking Merit Badge Day\nUnfortunately\, this event has been 
- cancelled due to storm-related rain and runoff entering San Diego Bay. We
-  sincerely apologize for the inconvenience and appreciate your understand
- ing. Thank you for your patience\, and we are very sorry for the change i
- n plans.\n\nhttps://www.sdicscouting.org/events/kayaking-merit-badge-day-
- 2
-URL:https://www.sdicscouting.org/events/kayaking-merit-badge-day-2
-LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
- o\, CA 92109
-END:VEVENT
-BEGIN:VEVENT
 UID:cub-scout-lock-in@sdicscouting.org
 DTSTAMP:20261121T000000Z
 DTSTART;VALUE=DATE:20261121
