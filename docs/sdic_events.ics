@@ -52,28 +52,6 @@ URL:https://www.sdicscouting.org/events/msr-work-party-dec
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
 END:VEVENT
 BEGIN:VEVENT
-UID:holiday-at-the-bay-2026@sdicscouting.org
-DTSTAMP:20261205T000000Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:Holiday at the Bay
-DESCRIPTION:Holiday at the Bay\nThis event is open house style for you and
-  your family to enjoy on your schedule. You may arrive anytime before noo
- n and leave when you wish.\nAll activities designed for ages 5-17 (and th
- eir adults). Activities include holiday themed crafts\, canoeing\, kayaki
- ng\, cookie decorating and more.\nYouth Aquatic Center (1750 Fiesta Islan
- d Road)\nCost:\n$30 for Youth\n$15 for Adults\nLunch is NOT included. You
-  may bring a sack lunch.\n‍\nCheck-in opens at 9:45 am\nExperience the 
- great outdoors and enjoy the day at the Youth Aquatic Center.  We will h
- ave staff to assist you with all activities and oversee the waterfront.\n
- ‍\nFamilies must pre-register. NO WALK-IN'S.\nPlease no dogs allowed at
-  the Youth Aquatic Center\, per city regulations.\n\nhttps://www.sdicscou
- ting.org/events/holiday-at-the-bay-2026
-URL:https://www.sdicscouting.org/events/holiday-at-the-bay-2026
-LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
- o\, CA 92109
-END:VEVENT
-BEGIN:VEVENT
 UID:swamp-base-information-meeting@sdicscouting.org
 DTSTAMP:20261206T000000Z
 DTSTART;VALUE=DATE:20261206
@@ -173,6 +151,21 @@ DESCRIPTION:SD Clippers Scout Night\nBring your friends and family out for
  uring the Scouting America logo. Get your tickets!\n\nhttps://www.sdicsco
  uting.org/events/sd-clippers-scout-night
 URL:https://www.sdicscouting.org/events/sd-clippers-scout-night
+END:VEVENT
+BEGIN:VEVENT
+UID:bb-and-archery-training@sdicscouting.org
+DTSTAMP:20261212T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:BB and Archery training
+DESCRIPTION:BB and Archery training\nInterested in helping Scouts develop 
+ their BB and archery skills? Join us for SDIC BB & Archery Rangemaster Tr
+ aining on Saturday\, December 12\, from 9 a.m. to 12 p.m. at Camp Balboa 
+ (SDIC Headquarters).\nThis training is an opportunity to get involved as 
+ a volunteer and support Scouting America’s shooting sports programs. No
+ t yet signed up as a volunteer? Scan the QR code on the flyer to register
+ !\n\nhttps://www.sdicscouting.org/events/bb-and-archery-training
+URL:https://www.sdicscouting.org/events/bb-and-archery-training
 END:VEVENT
 BEGIN:VEVENT
 UID:high-adventure-permit-seminar@sdicscouting.org
@@ -818,17 +811,18 @@ DTSTAMP:20270320T000000Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:Rancho Mesa Range Day
-DESCRIPTION:Rancho Mesa Range Day\nRM Range Day\nRancho Mesa Range Day\nSa
- turday\, March 20\, 8:30 am- 2 pm\n‍\nCamp Balboa\n1207 Upas St.\, San 
- Diego\, CA 92103\nSession 1 @ 8:30 am-11 am\nSession 2 @ 11:30 am-2 pm\n
- ‍\nActivities include Archery\, BB and other fun activities.  Scouts w
- ill have the opportunity to earn the Archery Adventure and BB Gun Adventu
- re.\nAll activities are designed for Lions - Webelos (ages 5-10)\n‍\nRe
- gistration is limited to\n48\nscouts\n‍\nCost:\n$15 for 1 youth\, no fe
- e for adults\n‍\nScouts wishing to participate in Archery and/or BBs\nM
- UST\nattend the safety training at the beginning of each session\nLunch i
- s NOT included. You may bring a sack lunch\nFamilies must pre-register. N
- O WALK-IN'S.\n\nhttps://www.sdicscouting.org/events/rancho-mesa-range-day
+DESCRIPTION:Rancho Mesa Range Day\nRM Range Day\n‍\nSave the Date - Regi
+ stration Coming Soon!\nRancho Mesa Range Day\nSaturday\, March 20\, 8:30 
+ am- 2 pm\n‍\nCamp Balboa\n1207 Upas St.\, San Diego\, CA 92103\nSession
+  1 @ 8:30 am-11 am\nSession 2 @ 11:30 am-2 pm\n‍\nActivities include Ar
+ chery\, BB and other fun activities.  Scouts will have the opportunity t
+ o earn the Archery Adventure and BB Gun Adventure.\nAll activities are de
+ signed for Lions - Webelos (ages 5-10)\n‍\nRegistration is limited to\n
+ 48\nscouts\n‍\nCost:\n$15 for 1 youth\, no fee for adults\n‍\nScouts 
+ wishing to participate in Archery and/or BBs\nMUST\nattend the safety tra
+ ining at the beginning of each session\nLunch is NOT included. You may br
+ ing a sack lunch\nFamilies must pre-register. NO WALK-IN'S.\n\nhttps://ww
+ w.sdicscouting.org/events/rancho-mesa-range-day
 URL:https://www.sdicscouting.org/events/rancho-mesa-range-day
 LOCATION:Camp Balboa\, 1207 Upas St.\, San Diego\, CA 92103
 END:VEVENT

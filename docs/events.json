@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-11-24T01:00:01Z",
- "updated_at": "2026-11-21T20:09:27Z",
+ "checked_at": "2026-11-24T23:04:38Z",
+ "updated_at": "2026-11-24T23:04:38Z",
  "tracking_since": "2026-10-08T00:46:56Z",
  "events": [
   {
@@ -11,15 +11,6 @@
    "time": null,
    "location": "",
    "url": "https://www.sdicscouting.org/events/coastal-sage-scouting-for-clean-waterways"
-  },
-  {
-   "uid": "holiday-at-the-bay-2026",
-   "title": "Holiday at the Bay",
-   "start": "2026-12-05",
-   "end": "2026-12-05",
-   "time": null,
-   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
-   "url": "https://www.sdicscouting.org/events/holiday-at-the-bay-2026"
   },
   {
    "uid": "msr-work-party-dec",
@@ -65,6 +56,15 @@
    "time": null,
    "location": "Mataguay Scout Ranch, Mataguay Rd, Santa Ysabel, CA 92076",
    "url": "https://www.sdicscouting.org/events/cope-weekend-2026-9"
+  },
+  {
+   "uid": "bb-and-archery-training",
+   "title": "BB and Archery training",
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/bb-and-archery-training"
   },
   {
    "uid": "knife-skills-training",

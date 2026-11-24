@@ -1,6 +1,32 @@
 {
  "history": [
   {
+   "at": "2026-11-24T23:04:38Z",
+   "added": [
+    {
+     "uid": "bb-and-archery-training",
+     "title": "BB and Archery training",
+     "start": "2026-12-12",
+     "end": "2026-12-12",
+     "time": null,
+     "location": "",
+     "url": "https://www.sdicscouting.org/events/bb-and-archery-training"
+    }
+   ],
+   "removed": [
+    {
+     "uid": "holiday-at-the-bay-2026",
+     "title": "Holiday at the Bay",
+     "start": "2026-12-05",
+     "end": "2026-12-05",
+     "time": null,
+     "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
+     "url": "https://www.sdicscouting.org/events/holiday-at-the-bay-2026"
+    }
+   ],
+   "changed": []
+  },
+  {
    "at": "2026-11-21T20:09:27Z",
    "added": [
     {
