@@ -5,36 +5,6 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:SDIC Scouting Events
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-UID:cub-scout-lock-in@sdicscouting.org
-DTSTAMP:20261121T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261123
-SUMMARY:Cub Scout Lock-in
-DESCRIPTION:Cub Scout Lock-in\nSave the Date\nCub Scout Sea World Lock-In\
- nScouting for adventure? A SeaWorld overnight outing provides fun and adv
- enture while exploring nature up close. Plus\, you get to sleep next to a
- mazing ocean animals. Sleepovers for Scouts are available throughout the 
- year\, and includes a full day of SeaWorld shows\, rides and animal attra
- ctions the day after your sleepover.\nDATE\n: November 21\, 2026\n‍\nAR
- RIVAL\n: 5:45 PM\nPlease arrive on time\, entrance doors will close as so
- on as check-in is completed\, and no one will be admitted after 6:00 PM.\
- nCOST\n:\n$200 per Person\n(Scout or Adult)\n$165 per pass member\n(Pass 
- Holder status will be checked upon entrance to the event. Must hold curre
- nt Member Pass to receive this price.)\nMINIMUM AGE:\n7 years old\nA mini
- mum of 2 adult leaders must accompany a unit/den to the Lock-In\, and uni
- ts must maintain a 4:1 ratio of youth to adults.\nIndividual scouts(s) wi
- th parent/guardian registration must still meet the 4:1 ratio.\nAll youth
-  attendees must be registered members of Cub Scouts.\nLOCK-IN INCLUDES\n:
- \nPasta dinner\nFun and educational activities\nBreakfast\nSeaWorld Sleep
- over T-shirt\nSeaWorld patch\nSeaWorld admission the day after your Sleep
- over\nMEALS\nPre-planned dinner and breakfast are included in the event p
- rice. Please document any special dietary needs or allergies to be sent t
- o SeaWorld staff so they can make accommodations as needed.\n\nhttps://ww
- w.sdicscouting.org/events/cub-scout-lock-in
-URL:https://www.sdicscouting.org/events/cub-scout-lock-in
-LOCATION:Sea World San Diego\, 500 Sea World Dr.\, San Diego\, CA 92109
-END:VEVENT
-BEGIN:VEVENT
 UID:coastal-sage-scouting-for-clean-waterways@sdicscouting.org
 DTSTAMP:20261128T000000Z
 DTSTART;VALUE=DATE:20261128

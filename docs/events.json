@@ -1,17 +1,8 @@
 {
- "checked_at": "2026-11-22T20:24:31Z",
+ "checked_at": "2026-11-24T01:00:01Z",
  "updated_at": "2026-11-21T20:09:27Z",
  "tracking_since": "2026-10-08T00:46:56Z",
  "events": [
-  {
-   "uid": "cub-scout-lock-in",
-   "title": "Cub Scout Lock-in",
-   "start": "2026-11-21",
-   "end": "2026-11-22",
-   "time": null,
-   "location": "Sea World San Diego, 500 Sea World Dr., San Diego, CA 92109",
-   "url": "https://www.sdicscouting.org/events/cub-scout-lock-in"
-  },
   {
    "uid": "coastal-sage-scouting-for-clean-waterways",
    "title": "Scouting for Clean Waterways",
